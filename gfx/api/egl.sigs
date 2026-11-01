@@ -1,0 +1,159 @@
+# EGL: name, result, parameters (tools/gen_gfxapi.py, from Khronos' egl.xml, Apache-2.0)
+eglBindAPI u32 u32
+eglBindTexImage u32 p p i32
+eglChooseConfig u32 p p p i32 p
+eglClientSignalSyncEXT u32 p p p
+eglClientWaitSync i32 p p i32 u64
+eglClientWaitSyncKHR i32 p p i32 u64
+eglClientWaitSyncNV i32 p i32 u64
+eglCopyBuffers u32 p p p
+eglCreateContext p p p p p
+eglCreateDRMImageMESA p p p
+eglCreateFenceSyncNV p p u32 p
+eglCreateImage p p p u32 p p
+eglCreateImageKHR p p p u32 p p
+eglCreateNativeClientBufferANDROID p p
+eglCreatePbufferFromClientBuffer p p u32 p p p
+eglCreatePbufferSurface p p p p
+eglCreatePixmapSurface p p p p p
+eglCreatePixmapSurfaceHI p p p p
+eglCreatePlatformPixmapSurface p p p p p
+eglCreatePlatformPixmapSurfaceEXT p p p p p
+eglCreatePlatformWindowSurface p p p p p
+eglCreatePlatformWindowSurfaceEXT p p p p p
+eglCreateStreamFromFileDescriptorKHR p p i32
+eglCreateStreamKHR p p p
+eglCreateStreamAttribKHR p p p
+eglCreateStreamProducerSurfaceKHR p p p p p
+eglCreateStreamSyncNV p p p u32 p
+eglCreateSync p p u32 p
+eglCreateSyncKHR p p u32 p
+eglCreateSync64KHR p p u32 p
+eglCreateWindowSurface p p p p p
+eglDebugMessageControlKHR i32 p p
+eglDestroyContext u32 p p
+eglDestroyImage u32 p p
+eglDestroyImageKHR u32 p p
+eglDestroyStreamKHR u32 p p
+eglDestroySurface u32 p p
+eglDestroySync u32 p p
+eglDestroySyncKHR u32 p p
+eglDestroySyncNV u32 p
+eglDupNativeFenceFDANDROID i32 p p
+eglExportDMABUFImageMESA u32 p p p p p
+eglExportDMABUFImageQueryMESA u32 p p p p p
+eglExportDRMImageMESA u32 p p p p p
+eglFenceNV u32 p
+eglGetConfigAttrib u32 p p i32 p
+eglGetConfigs u32 p p i32 p
+eglGetCurrentContext p
+eglGetCurrentDisplay p
+eglGetCurrentSurface p i32
+eglGetDisplay p p
+eglGetDisplayDriverConfig p p
+eglGetDisplayDriverName p p
+eglGetError i32
+eglGetMscRateANGLE u32 p p p p
+eglGetNativeClientBufferANDROID p p
+eglGetOutputLayersEXT u32 p p p i32 p
+eglGetOutputPortsEXT u32 p p p i32 p
+eglGetPlatformDisplay p u32 p p
+eglGetPlatformDisplayEXT p u32 p p
+eglGetProcAddress p p
+eglGetStreamFileDescriptorKHR i32 p p
+eglGetSyncAttrib u32 p p i32 p
+eglGetSyncAttribKHR u32 p p i32 p
+eglGetSyncAttribNV u32 p i32 p
+eglGetSystemTimeFrequencyNV u64
+eglGetSystemTimeNV u64
+eglInitialize u32 p p p
+eglLabelObjectKHR i32 p u32 p p
+eglLockSurfaceKHR u32 p p p
+eglMakeCurrent u32 p p p p
+eglOutputLayerAttribEXT u32 p p i32 i64
+eglOutputPortAttribEXT u32 p p i32 i64
+eglPostSubBufferNV u32 p p i32 i32 i32 i32
+eglPresentationTimeANDROID u32 p p i64
+eglGetCompositorTimingSupportedANDROID u32 p p i32
+eglGetCompositorTimingANDROID u32 p p i32 p p
+eglGetNextFrameIdANDROID u32 p p p
+eglGetFrameTimestampSupportedANDROID u32 p p i32
+eglGetFrameTimestampsANDROID u32 p p u64 i32 p p
+eglQueryAPI u32
+eglQueryContext u32 p p i32 p
+eglQueryDebugKHR u32 i32 p
+eglQueryDeviceAttribEXT u32 p i32 p
+eglQueryDeviceStringEXT p p i32
+eglQueryDevicesEXT u32 i32 p p
+eglQueryDisplayAttribEXT u32 p i32 p
+eglQueryDisplayAttribKHR u32 p i32 p
+eglQueryDisplayAttribNV u32 p i32 p
+eglQueryDmaBufFormatsEXT u32 p i32 p p
+eglQueryDmaBufModifiersEXT u32 p i32 i32 p p p
+eglQueryNativeDisplayNV u32 p p
+eglQueryNativePixmapNV u32 p p p
+eglQueryNativeWindowNV u32 p p p
+eglQueryOutputLayerAttribEXT u32 p p i32 p
+eglQueryOutputLayerStringEXT p p p i32
+eglQueryOutputPortAttribEXT u32 p p i32 p
+eglQueryOutputPortStringEXT p p p i32
+eglQueryStreamKHR u32 p p u32 p
+eglQueryStreamAttribKHR u32 p p u32 p
+eglQueryStreamMetadataNV u32 p p u32 i32 i32 i32 p
+eglQueryStreamTimeKHR u32 p p u32 p
+eglQueryStreamu64KHR u32 p p u32 p
+eglQueryString p p i32
+eglQuerySupportedCompressionRatesEXT u32 p p p p i32 p
+eglQuerySurface u32 p p i32 p
+eglQuerySurface64KHR u32 p p i32 p
+eglQuerySurfacePointerANGLE u32 p p i32 p
+eglReleaseTexImage u32 p p i32
+eglReleaseThread u32
+eglResetStreamNV u32 p p
+eglSetBlobCacheFuncsANDROID v p p p
+eglSetDamageRegionKHR u32 p p p i32
+eglSetStreamAttribKHR u32 p p u32 i64
+eglSetStreamMetadataNV u32 p p i32 i32 i32 p
+eglSignalSyncKHR u32 p p u32
+eglSignalSyncNV u32 p u32
+eglStreamAttribKHR u32 p p u32 i32
+eglStreamConsumerAcquireKHR u32 p p
+eglStreamConsumerAcquireAttribKHR u32 p p p
+eglStreamConsumerGLTextureExternalKHR u32 p p
+eglStreamConsumerGLTextureExternalAttribsNV u32 p p p
+eglStreamConsumerOutputEXT u32 p p p
+eglStreamConsumerReleaseKHR u32 p p
+eglStreamConsumerReleaseAttribKHR u32 p p p
+eglStreamFlushNV u32 p p
+eglSurfaceAttrib u32 p p i32 i32
+eglSwapBuffers u32 p p
+eglSwapBuffersWithDamageEXT u32 p p p i32
+eglSwapBuffersWithDamageKHR u32 p p p i32
+eglSwapBuffersRegionNOK u32 p p i32 p
+eglSwapBuffersRegion2NOK u32 p p i32 p
+eglSwapInterval u32 p i32
+eglTerminate u32 p
+eglUnlockSurfaceKHR u32 p p
+eglUnsignalSyncEXT u32 p p p
+eglWaitClient u32
+eglWaitGL u32
+eglWaitNative u32 i32
+eglWaitSync u32 p p i32
+eglWaitSyncKHR i32 p p i32
+eglCompositorSetContextListEXT u32 p i32
+eglCompositorSetContextAttributesEXT u32 i32 p i32
+eglCompositorSetWindowListEXT u32 i32 p i32
+eglCompositorSetWindowAttributesEXT u32 i32 p i32
+eglCompositorBindTexWindowEXT u32 i32
+eglCompositorSetSizeEXT u32 i32 i32 i32
+eglCompositorSwapPolicyEXT u32 i32 i32
+eglBindWaylandDisplayWL u32 p p
+eglUnbindWaylandDisplayWL u32 p p
+eglQueryWaylandBufferWL u32 p p i32 p
+eglCreateWaylandBufferFromImageWL p p p
+eglStreamImageConsumerConnectNV u32 p p i32 p p
+eglQueryStreamConsumerEventNV i32 p p u64 p p
+eglStreamAcquireImageNV u32 p p p p
+eglStreamReleaseImageNV u32 p p p p
+eglQueryDeviceBinaryEXT u32 p i32 i32 p p
+eglDestroyDisplayEXT u32 p

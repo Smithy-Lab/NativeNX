@@ -1,0 +1,3 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// The manifest alone (packaging/windows/nxlinux.manifest), for the test programs
+1 24 "nxlinux.manifest"

@@ -1,0 +1,3298 @@
+# OpenGL and OpenGL ES: name, result, parameters (tools/gen_gfxapi.py, from Khronos' gl.xml, Apache-2.0)
+glAccum v u32 f
+glAccumxOES v u32 i32
+glActiveProgramEXT v u32
+glActiveShaderProgram v u32 u32
+glActiveShaderProgramEXT v u32 u32
+glActiveStencilFaceEXT v u32
+glActiveTexture v u32
+glActiveTextureARB v u32
+glActiveVaryingNV v u32 p
+glAddClientPointerRangeMESA v p i64
+glAlphaFragmentOp1ATI v u32 u32 u32 u32 u32 u32
+glAlphaFragmentOp2ATI v u32 u32 u32 u32 u32 u32 u32 u32 u32
+glAlphaFragmentOp3ATI v u32 u32 u32 u32 u32 u32 u32 u32 u32 u32 u32 u32
+glAlphaFunc v u32 f
+glAlphaFuncQCOM v u32 f
+glAlphaFuncx v u32 i32
+glAlphaFuncxOES v u32 i32
+glAlphaToCoverageDitherControlNV v u32
+glApplyFramebufferAttachmentCMAAINTEL v
+glApplyTextureEXT v u32
+glAcquireKeyedMutexWin32EXT u8 u32 u64 u32
+glAreProgramsResidentNV u8 i32 p p
+glAreTexturesResident u8 i32 p p
+glAreTexturesResidentEXT u8 i32 p p
+glArrayElement v i32
+glArrayElementEXT v i32
+glArrayObjectATI v u32 i32 u32 i32 u32 u32
+glAsyncCopyBufferSubDataNVX u32 i32 p p u32 u32 u32 u32 i64 i64 i64 i32 p p
+glAsyncCopyImageSubDataNVX u32 i32 p p u32 u32 u32 u32 i32 i32 i32 i32 u32 u32 i32 i32 i32 i32 i32 i32 i32 i32 p p
+glAsyncMarkerSGIX v u32
+glAttachObjectARB v u32 u32
+glAttachShader v u32 u32
+glBegin v u32
+glBeginConditionalRender v u32 u32
+glBeginConditionalRenderNV v u32 u32
+glBeginConditionalRenderNVX v u32
+glBeginFragmentShaderATI v
+glBeginOcclusionQueryNV v u32
+glBeginPerfMonitorAMD v u32
+glBeginPerfQueryINTEL v u32
+glBeginQuery v u32 u32
+glBeginQueryARB v u32 u32
+glBeginQueryEXT v u32 u32
+glBeginQueryIndexed v u32 u32 u32
+glBeginTransformFeedback v u32
+glBeginTransformFeedbackEXT v u32
+glBeginTransformFeedbackNV v u32
+glBeginVertexShaderEXT v
+glBeginVideoCaptureNV v u32
+glBindAttribLocation v u32 u32 p
+glBindAttribLocationARB v u32 u32 p
+glBindBuffer v u32 u32
+glBindBufferARB v u32 u32
+glBindBufferBase v u32 u32 u32
+glBindBufferBaseEXT v u32 u32 u32
+glBindBufferBaseNV v u32 u32 u32
+glBindBufferOffsetEXT v u32 u32 u32 i64
+glBindBufferOffsetNV v u32 u32 u32 i64
+glBindBufferRange v u32 u32 u32 i64 i64
+glBindBufferRangeEXT v u32 u32 u32 i64 i64
+glBindBufferRangeNV v u32 u32 u32 i64 i64
+glBindBuffersBase v u32 u32 i32 p
+glBindBuffersRange v u32 u32 i32 p p p
+glBindFragDataLocation v u32 u32 p
+glBindFragDataLocationEXT v u32 u32 p
+glBindFragDataLocationIndexed v u32 u32 u32 p
+glBindFragDataLocationIndexedEXT v u32 u32 u32 p
+glBindFragmentShaderATI v u32
+glBindFramebuffer v u32 u32
+glBindFramebufferEXT v u32 u32
+glBindFramebufferOES v u32 u32
+glBindImageTexture v u32 u32 i32 u8 i32 u32 u32
+glBindImageTextureEXT v u32 u32 i32 u8 i32 u32 i32
+glBindImageTextures v u32 i32 p
+glBindLightParameterEXT u32 u32 u32
+glBindMaterialParameterEXT u32 u32 u32
+glBindMultiTextureEXT v u32 u32 u32
+glBindParameterEXT u32 u32
+glBindProgramARB v u32 u32
+glBindProgramNV v u32 u32
+glBindProgramPipeline v u32
+glBindProgramPipelineEXT v u32
+glBindRenderbuffer v u32 u32
+glBindRenderbufferEXT v u32 u32
+glBindRenderbufferOES v u32 u32
+glBindSampler v u32 u32
+glBindSamplers v u32 i32 p
+glBindShadingRateImageNV v u32
+glBindTexGenParameterEXT u32 u32 u32 u32
+glBindTexture v u32 u32
+glBindTextureEXT v u32 u32
+glBindTextureUnit v u32 u32
+glBindTextureUnitParameterEXT u32 u32 u32
+glBindTextures v u32 i32 p
+glBindTransformFeedback v u32 u32
+glBindTransformFeedbackNV v u32 u32
+glBindVertexArray v u32
+glBindVertexArrayAPPLE v u32
+glBindVertexArrayOES v u32
+glBindVertexBuffer v u32 u32 i64 i32
+glBindVertexBuffers v u32 i32 p p p
+glBindVertexShaderEXT v u32
+glBindVideoCaptureStreamBufferNV v u32 u32 u32 i64
+glBindVideoCaptureStreamTextureNV v u32 u32 u32 u32 u32
+glBinormal3bEXT v i8 i8 i8
+glBinormal3bvEXT v p
+glBinormal3dEXT v d d d
+glBinormal3dvEXT v p
+glBinormal3fEXT v f f f
+glBinormal3fvEXT v p
+glBinormal3iEXT v i32 i32 i32
+glBinormal3ivEXT v p
+glBinormal3sEXT v i16 i16 i16
+glBinormal3svEXT v p
+glBinormalPointerEXT v u32 i32 p
+glBitmap v i32 i32 f f f f p
+glBitmapxOES v i32 i32 i32 i32 i32 i32 p
+glBlendBarrier v
+glBlendBarrierKHR v
+glBlendBarrierNV v
+glBlendColor v f f f f
+glBlendColorEXT v f f f f
+glBlendColorxOES v i32 i32 i32 i32
+glBlendEquation v u32
+glBlendEquationEXT v u32
+glBlendEquationIndexedAMD v u32 u32
+glBlendEquationOES v u32
+glBlendEquationSeparate v u32 u32
+glBlendEquationSeparateEXT v u32 u32
+glBlendEquationSeparateIndexedAMD v u32 u32 u32
+glBlendEquationSeparateOES v u32 u32
+glBlendEquationSeparatei v u32 u32 u32
+glBlendEquationSeparateiARB v u32 u32 u32
+glBlendEquationSeparateiEXT v u32 u32 u32
+glBlendEquationSeparateiOES v u32 u32 u32
+glBlendEquationi v u32 u32
+glBlendEquationiARB v u32 u32
+glBlendEquationiEXT v u32 u32
+glBlendEquationiOES v u32 u32
+glBlendFunc v u32 u32
+glBlendFuncIndexedAMD v u32 u32 u32
+glBlendFuncSeparate v u32 u32 u32 u32
+glBlendFuncSeparateEXT v u32 u32 u32 u32
+glBlendFuncSeparateINGR v u32 u32 u32 u32
+glBlendFuncSeparateIndexedAMD v u32 u32 u32 u32 u32
+glBlendFuncSeparateOES v u32 u32 u32 u32
+glBlendFuncSeparatei v u32 u32 u32 u32 u32
+glBlendFuncSeparateiARB v u32 u32 u32 u32 u32
+glBlendFuncSeparateiEXT v u32 u32 u32 u32 u32
+glBlendFuncSeparateiOES v u32 u32 u32 u32 u32
+glBlendFunci v u32 u32 u32
+glBlendFunciARB v u32 u32 u32
+glBlendFunciEXT v u32 u32 u32
+glBlendFunciOES v u32 u32 u32
+glBlendParameteriNV v u32 i32
+glBlitFramebuffer v i32 i32 i32 i32 i32 i32 i32 i32 u32 u32
+glBlitFramebufferANGLE v i32 i32 i32 i32 i32 i32 i32 i32 u32 u32
+glBlitFramebufferEXT v i32 i32 i32 i32 i32 i32 i32 i32 u32 u32
+glBlitFramebufferLayerEXT v i32 i32 i32 i32 i32 i32 i32 i32 i32 i32 u32 u32
+glBlitFramebufferLayersEXT v i32 i32 i32 i32 i32 i32 i32 i32 u32 u32
+glBlitFramebufferNV v i32 i32 i32 i32 i32 i32 i32 i32 u32 u32
+glBlitNamedFramebuffer v u32 u32 i32 i32 i32 i32 i32 i32 i32 i32 u32 u32
+glBufferAddressRangeNV v u32 u32 u64 i64
+glBufferAttachMemoryNV v u32 u32 u64
+glBufferData v u32 i64 p u32
+glBufferDataARB v u32 i64 p u32
+glBufferPageCommitmentARB v u32 i64 i64 u8
+glBufferPageCommitmentMemNV v u32 i64 i64 u32 u64 u8
+glBufferParameteriAPPLE v u32 u32 i32
+glBufferStorage v u32 i64 p u32
+glBufferStorageEXT v u32 i64 p u32
+glBufferStorageExternalEXT v u32 i64 i64 p u32
+glBufferStorageMemEXT v u32 i64 u32 u64
+glBufferSubData v u32 i64 i64 p
+glBufferSubDataARB v u32 i64 i64 p
+glCallCommandListNV v u32
+glCallList v u32
+glCallLists v i32 u32 p
+glCheckFramebufferStatus u32 u32
+glCheckFramebufferStatusEXT u32 u32
+glCheckFramebufferStatusOES u32 u32
+glCheckNamedFramebufferStatus u32 u32 u32
+glCheckNamedFramebufferStatusEXT u32 u32 u32
+glClampColor v u32 u32
+glClampColorARB v u32 u32
+glClear v u32
+glClearAccum v f f f f
+glClearAccumxOES v i32 i32 i32 i32
+glClearBufferData v u32 u32 u32 u32 p
+glClearBufferSubData v u32 u32 i64 i64 u32 u32 p
+glClearBufferfi v u32 i32 f i32
+glClearBufferfv v u32 i32 p
+glClearBufferiv v u32 i32 p
+glClearBufferuiv v u32 i32 p
+glClearColor v f f f f
+glClearColorIiEXT v i32 i32 i32 i32
+glClearColorIuiEXT v u32 u32 u32 u32
+glClearColorx v i32 i32 i32 i32
+glClearColorxOES v i32 i32 i32 i32
+glClearDepth v d
+glClearDepthdNV v d
+glClearDepthf v f
+glClearDepthfOES v f
+glClearDepthx v i32
+glClearDepthxOES v i32
+glClearIndex v f
+glClearNamedBufferData v u32 u32 u32 u32 p
+glClearNamedBufferDataEXT v u32 u32 u32 u32 p
+glClearNamedBufferSubData v u32 u32 i64 i64 u32 u32 p
+glClearNamedBufferSubDataEXT v u32 u32 i64 i64 u32 u32 p
+glClearNamedFramebufferfi v u32 u32 i32 f i32
+glClearNamedFramebufferfv v u32 u32 i32 p
+glClearNamedFramebufferiv v u32 u32 i32 p
+glClearNamedFramebufferuiv v u32 u32 i32 p
+glClearPixelLocalStorageuiEXT v i32 i32 p
+glClearStencil v i32
+glClearTexImage v u32 i32 u32 u32 p
+glClearTexImageEXT v u32 i32 u32 u32 p
+glClearTexSubImage v u32 i32 i32 i32 i32 i32 i32 i32 u32 u32 p
+glClearTexSubImageEXT v u32 i32 i32 i32 i32 i32 i32 i32 u32 u32 p
+glClientActiveTexture v u32
+glClientActiveTextureARB v u32
+glClientActiveVertexStreamATI v u32
+glClientAttribDefaultEXT v u32
+glClientWaitSemaphoreui64NVX v i32 p p
+glClientWaitSync u32 p u32 u64
+glClientWaitSyncAPPLE u32 p u32 u64
+glClipControl v u32 u32
+glClipControlEXT v u32 u32
+glClipPlane v u32 p
+glClipPlanef v u32 p
+glClipPlanefIMG v u32 p
+glClipPlanefOES v u32 p
+glClipPlanex v u32 p
+glClipPlanexIMG v u32 p
+glClipPlanexOES v u32 p
+glColor3b v i8 i8 i8
+glColor3bv v p
+glColor3d v d d d
+glColor3dv v p
+glColor3f v f f f
+glColor3fVertex3fSUN v f f f f f f
+glColor3fVertex3fvSUN v p p
+glColor3fv v p
+glColor3hNV v u16 u16 u16
+glColor3hvNV v p
+glColor3i v i32 i32 i32
+glColor3iv v p
+glColor3s v i16 i16 i16
+glColor3sv v p
+glColor3ub v u8 u8 u8
+glColor3ubv v p
+glColor3ui v u32 u32 u32
+glColor3uiv v p
+glColor3us v u16 u16 u16
+glColor3usv v p
+glColor3xOES v i32 i32 i32
+glColor3xvOES v p
+glColor4b v i8 i8 i8 i8
+glColor4bv v p
+glColor4d v d d d d
+glColor4dv v p
+glColor4f v f f f f
+glColor4fNormal3fVertex3fSUN v f f f f f f f f f f
+glColor4fNormal3fVertex3fvSUN v p p p
+glColor4fv v p
+glColor4hNV v u16 u16 u16 u16
+glColor4hvNV v p
+glColor4i v i32 i32 i32 i32
+glColor4iv v p
+glColor4s v i16 i16 i16 i16
+glColor4sv v p
+glColor4ub v u8 u8 u8 u8
+glColor4ubVertex2fSUN v u8 u8 u8 u8 f f
+glColor4ubVertex2fvSUN v p p
+glColor4ubVertex3fSUN v u8 u8 u8 u8 f f f
+glColor4ubVertex3fvSUN v p p
+glColor4ubv v p
+glColor4ui v u32 u32 u32 u32
+glColor4uiv v p
+glColor4us v u16 u16 u16 u16
+glColor4usv v p
+glColor4x v i32 i32 i32 i32
+glColor4xOES v i32 i32 i32 i32
+glColor4xvOES v p
+glColorFormatNV v i32 u32 i32
+glColorFragmentOp1ATI v u32 u32 u32 u32 u32 u32 u32
+glColorFragmentOp2ATI v u32 u32 u32 u32 u32 u32 u32 u32 u32 u32
+glColorFragmentOp3ATI v u32 u32 u32 u32 u32 u32 u32 u32 u32 u32 u32 u32 u32
+glColorMask v u8 u8 u8 u8
+glColorMaskIndexedEXT v u32 u8 u8 u8 u8
+glColorMaski v u32 u8 u8 u8 u8
+glColorMaskiEXT v u32 u8 u8 u8 u8
+glColorMaskiOES v u32 u8 u8 u8 u8
+glColorMaterial v u32 u32
+glColorP3ui v u32 u32
+glColorP3uiv v u32 p
+glColorP4ui v u32 u32
+glColorP4uiv v u32 p
+glColorPointer v i32 u32 i32 p
+glColorPointerEXT v i32 u32 i32 i32 p
+glColorPointerListIBM v i32 u32 i32 p i32
+glColorPointervINTEL v i32 u32 p
+glColorSubTable v u32 i32 i32 u32 u32 p
+glColorSubTableEXT v u32 i32 i32 u32 u32 p
+glColorTable v u32 u32 i32 u32 u32 p
+glColorTableEXT v u32 u32 i32 u32 u32 p
+glColorTableParameterfv v u32 u32 p
+glColorTableParameterfvSGI v u32 u32 p
+glColorTableParameteriv v u32 u32 p
+glColorTableParameterivSGI v u32 u32 p
+glColorTableSGI v u32 u32 i32 u32 u32 p
+glCombinerInputNV v u32 u32 u32 u32 u32 u32
+glCombinerOutputNV v u32 u32 u32 u32 u32 u32 u32 u8 u8 u8
+glCombinerParameterfNV v u32 f
+glCombinerParameterfvNV v u32 p
+glCombinerParameteriNV v u32 i32
+glCombinerParameterivNV v u32 p
+glCombinerStageParameterfvNV v u32 u32 p
+glCommandListSegmentsNV v u32 u32
+glCompileCommandListNV v u32
+glCompileShader v u32
+glCompileShaderARB v u32
+glCompileShaderIncludeARB v u32 i32 p p
+glCompressedMultiTexImage1DEXT v u32 u32 i32 u32 i32 i32 i32 p
+glCompressedMultiTexImage2DEXT v u32 u32 i32 u32 i32 i32 i32 i32 p
+glCompressedMultiTexImage3DEXT v u32 u32 i32 u32 i32 i32 i32 i32 i32 p
+glCompressedMultiTexSubImage1DEXT v u32 u32 i32 i32 i32 u32 i32 p
+glCompressedMultiTexSubImage2DEXT v u32 u32 i32 i32 i32 i32 i32 u32 i32 p
+glCompressedMultiTexSubImage3DEXT v u32 u32 i32 i32 i32 i32 i32 i32 i32 u32 i32 p
+glCompressedTexImage1D v u32 i32 u32 i32 i32 i32 p
+glCompressedTexImage1DARB v u32 i32 u32 i32 i32 i32 p
+glCompressedTexImage2D v u32 i32 u32 i32 i32 i32 i32 p
+glCompressedTexImage2DARB v u32 i32 u32 i32 i32 i32 i32 p
+glCompressedTexImage3D v u32 i32 u32 i32 i32 i32 i32 i32 p
+glCompressedTexImage3DARB v u32 i32 u32 i32 i32 i32 i32 i32 p
+glCompressedTexImage3DOES v u32 i32 u32 i32 i32 i32 i32 i32 p
+glCompressedTexSubImage1D v u32 i32 i32 i32 u32 i32 p
+glCompressedTexSubImage1DARB v u32 i32 i32 i32 u32 i32 p
+glCompressedTexSubImage2D v u32 i32 i32 i32 i32 i32 u32 i32 p
+glCompressedTexSubImage2DARB v u32 i32 i32 i32 i32 i32 u32 i32 p
+glCompressedTexSubImage3D v u32 i32 i32 i32 i32 i32 i32 i32 u32 i32 p
+glCompressedTexSubImage3DARB v u32 i32 i32 i32 i32 i32 i32 i32 u32 i32 p
+glCompressedTexSubImage3DOES v u32 i32 i32 i32 i32 i32 i32 i32 u32 i32 p
+glCompressedTextureImage1DEXT v u32 u32 i32 u32 i32 i32 i32 p
+glCompressedTextureImage2DEXT v u32 u32 i32 u32 i32 i32 i32 i32 p
+glCompressedTextureImage3DEXT v u32 u32 i32 u32 i32 i32 i32 i32 i32 p
+glCompressedTextureSubImage1D v u32 i32 i32 i32 u32 i32 p
+glCompressedTextureSubImage1DEXT v u32 u32 i32 i32 i32 u32 i32 p
+glCompressedTextureSubImage2D v u32 i32 i32 i32 i32 i32 u32 i32 p
+glCompressedTextureSubImage2DEXT v u32 u32 i32 i32 i32 i32 i32 u32 i32 p
+glCompressedTextureSubImage3D v u32 i32 i32 i32 i32 i32 i32 i32 u32 i32 p
+glCompressedTextureSubImage3DEXT v u32 u32 i32 i32 i32 i32 i32 i32 i32 u32 i32 p
+glConservativeRasterParameterfNV v u32 f
+glConservativeRasterParameteriNV v u32 i32
+glConvolutionFilter1D v u32 u32 i32 u32 u32 p
+glConvolutionFilter1DEXT v u32 u32 i32 u32 u32 p
+glConvolutionFilter2D v u32 u32 i32 i32 u32 u32 p
+glConvolutionFilter2DEXT v u32 u32 i32 i32 u32 u32 p
+glConvolutionParameterf v u32 u32 f
+glConvolutionParameterfEXT v u32 u32 f
+glConvolutionParameterfv v u32 u32 p
+glConvolutionParameterfvEXT v u32 u32 p
+glConvolutionParameteri v u32 u32 i32
+glConvolutionParameteriEXT v u32 u32 i32
+glConvolutionParameteriv v u32 u32 p
+glConvolutionParameterivEXT v u32 u32 p
+glConvolutionParameterxOES v u32 u32 i32
+glConvolutionParameterxvOES v u32 u32 p
+glCopyBufferSubData v u32 u32 i64 i64 i64
+glCopyBufferSubDataNV v u32 u32 i64 i64 i64
+glCopyColorSubTable v u32 i32 i32 i32 i32
+glCopyColorSubTableEXT v u32 i32 i32 i32 i32
+glCopyColorTable v u32 u32 i32 i32 i32
+glCopyColorTableSGI v u32 u32 i32 i32 i32
+glCopyConvolutionFilter1D v u32 u32 i32 i32 i32
+glCopyConvolutionFilter1DEXT v u32 u32 i32 i32 i32
+glCopyConvolutionFilter2D v u32 u32 i32 i32 i32 i32
+glCopyConvolutionFilter2DEXT v u32 u32 i32 i32 i32 i32
+glCopyImageSubData v u32 u32 i32 i32 i32 i32 u32 u32 i32 i32 i32 i32 i32 i32 i32
+glCopyImageSubDataEXT v u32 u32 i32 i32 i32 i32 u32 u32 i32 i32 i32 i32 i32 i32 i32
+glCopyImageSubDataNV v u32 u32 i32 i32 i32 i32 u32 u32 i32 i32 i32 i32 i32 i32 i32
+glCopyImageSubDataOES v u32 u32 i32 i32 i32 i32 u32 u32 i32 i32 i32 i32 i32 i32 i32
+glCopyMultiTexImage1DEXT v u32 u32 i32 u32 i32 i32 i32 i32
+glCopyMultiTexImage2DEXT v u32 u32 i32 u32 i32 i32 i32 i32 i32
+glCopyMultiTexSubImage1DEXT v u32 u32 i32 i32 i32 i32 i32
+glCopyMultiTexSubImage2DEXT v u32 u32 i32 i32 i32 i32 i32 i32 i32
+glCopyMultiTexSubImage3DEXT v u32 u32 i32 i32 i32 i32 i32 i32 i32 i32
+glCopyNamedBufferSubData v u32 u32 i64 i64 i64
+glCopyPathNV v u32 u32
+glCopyPixels v i32 i32 i32 i32 u32
+glCopyTexImage1D v u32 i32 u32 i32 i32 i32 i32
+glCopyTexImage1DEXT v u32 i32 u32 i32 i32 i32 i32
+glCopyTexImage2D v u32 i32 u32 i32 i32 i32 i32 i32
+glCopyTexImage2DEXT v u32 i32 u32 i32 i32 i32 i32 i32
+glCopyTexSubImage1D v u32 i32 i32 i32 i32 i32
+glCopyTexSubImage1DEXT v u32 i32 i32 i32 i32 i32
+glCopyTexSubImage2D v u32 i32 i32 i32 i32 i32 i32 i32
+glCopyTexSubImage2DEXT v u32 i32 i32 i32 i32 i32 i32 i32
+glCopyTexSubImage3D v u32 i32 i32 i32 i32 i32 i32 i32 i32
+glCopyTexSubImage3DEXT v u32 i32 i32 i32 i32 i32 i32 i32 i32
+glCopyTexSubImage3DOES v u32 i32 i32 i32 i32 i32 i32 i32 i32
+glCopyTextureImage1DEXT v u32 u32 i32 u32 i32 i32 i32 i32
+glCopyTextureImage2DEXT v u32 u32 i32 u32 i32 i32 i32 i32 i32
+glCopyTextureLevelsAPPLE v u32 u32 i32 i32
+glCopyTextureSubImage1D v u32 i32 i32 i32 i32 i32
+glCopyTextureSubImage1DEXT v u32 u32 i32 i32 i32 i32 i32
+glCopyTextureSubImage2D v u32 i32 i32 i32 i32 i32 i32 i32
+glCopyTextureSubImage2DEXT v u32 u32 i32 i32 i32 i32 i32 i32 i32
+glCopyTextureSubImage3D v u32 i32 i32 i32 i32 i32 i32 i32 i32
+glCopyTextureSubImage3DEXT v u32 u32 i32 i32 i32 i32 i32 i32 i32 i32
+glCoverFillPathInstancedNV v i32 u32 p u32 u32 u32 p
+glCoverFillPathNV v u32 u32
+glCoverStrokePathInstancedNV v i32 u32 p u32 u32 u32 p
+glCoverStrokePathNV v u32 u32
+glCoverageMaskNV v u8
+glCoverageModulationNV v u32
+glCoverageModulationTableNV v i32 p
+glCoverageOperationNV v u32
+glCreateBuffers v i32 p
+glCreateCommandListsNV v i32 p
+glCreateFramebuffers v i32 p
+glCreateMemoryObjectsEXT v i32 p
+glCreatePerfQueryINTEL v u32 p
+glCreateProgram u32
+glCreateProgramObjectARB u32
+glCreateProgramPipelines v i32 p
+glCreateProgressFenceNVX u32
+glCreateQueries v u32 i32 p
+glCreateRenderbuffers v i32 p
+glCreateSamplers v i32 p
+glCreateSemaphoresNV v i32 p
+glCreateShader u32 u32
+glCreateShaderObjectARB u32 u32
+glCreateShaderProgramEXT u32 u32 p
+glCreateShaderProgramv u32 u32 i32 p
+glCreateShaderProgramvEXT u32 u32 i32 p
+glCreateStatesNV v i32 p
+glCreateSyncFromCLeventARB p p p u32
+glCreateTextures v u32 i32 p
+glCreateTransformFeedbacks v i32 p
+glCreateVertexArrays v i32 p
+glCullFace v u32
+glCullParameterdvEXT v u32 p
+glCullParameterfvEXT v u32 p
+glCurrentPaletteMatrixARB v i32
+glCurrentPaletteMatrixOES v u32
+glDebugMessageCallback v p p
+glDebugMessageCallbackAMD v p p
+glDebugMessageCallbackARB v p p
+glDebugMessageCallbackKHR v p p
+glDebugMessageControl v u32 u32 u32 i32 p u8
+glDebugMessageControlARB v u32 u32 u32 i32 p u8
+glDebugMessageControlKHR v u32 u32 u32 i32 p u8
+glDebugMessageEnableAMD v u32 u32 i32 p u8
+glDebugMessageInsert v u32 u32 u32 u32 i32 p
+glDebugMessageInsertAMD v u32 u32 u32 i32 p
+glDebugMessageInsertARB v u32 u32 u32 u32 i32 p
+glDebugMessageInsertKHR v u32 u32 u32 u32 i32 p
+glDeformSGIX v u32
+glDeformationMap3dSGIX v u32 d d i32 i32 d d i32 i32 d d i32 i32 p
+glDeformationMap3fSGIX v u32 f f i32 i32 f f i32 i32 f f i32 i32 p
+glDeleteAsyncMarkersSGIX v u32 i32
+glDeleteBuffers v i32 p
+glDeleteBuffersARB v i32 p
+glDeleteCommandListsNV v i32 p
+glDeleteFencesAPPLE v i32 p
+glDeleteFencesNV v i32 p
+glDeleteFragmentShaderATI v u32
+glDeleteFramebuffers v i32 p
+glDeleteFramebuffersEXT v i32 p
+glDeleteFramebuffersOES v i32 p
+glDeleteLists v u32 i32
+glDeleteMemoryObjectsEXT v i32 p
+glDeleteNamedStringARB v i32 p
+glDeleteNamesAMD v u32 u32 p
+glDeleteObjectARB v u32
+glDeleteOcclusionQueriesNV v i32 p
+glDeletePathsNV v u32 i32
+glDeletePerfMonitorsAMD v i32 p
+glDeletePerfQueryINTEL v u32
+glDeleteProgram v u32
+glDeleteProgramPipelines v i32 p
+glDeleteProgramPipelinesEXT v i32 p
+glDeleteProgramsARB v i32 p
+glDeleteProgramsNV v i32 p
+glDeleteQueries v i32 p
+glDeleteQueriesARB v i32 p
+glDeleteQueriesEXT v i32 p
+glDeleteQueryResourceTagNV v i32 p
+glDeleteRenderbuffers v i32 p
+glDeleteRenderbuffersEXT v i32 p
+glDeleteRenderbuffersOES v i32 p
+glDeleteSamplers v i32 p
+glDeleteSemaphoresEXT v i32 p
+glDeleteShader v u32
+glDeleteStatesNV v i32 p
+glDeleteSync v p
+glDeleteSyncAPPLE v p
+glDeleteTextures v i32 p
+glDeleteTexturesEXT v i32 p
+glDeleteTransformFeedbacks v i32 p
+glDeleteTransformFeedbacksNV v i32 p
+glDeleteVertexArrays v i32 p
+glDeleteVertexArraysAPPLE v i32 p
+glDeleteVertexArraysOES v i32 p
+glDeleteVertexShaderEXT v u32
+glDepthBoundsEXT v d d
+glDepthBoundsdNV v d d
+glDepthFunc v u32
+glDepthMask v u8
+glDepthRange v d d
+glDepthRangeArraydvNV v u32 i32 p
+glDepthRangeArrayfvNV v u32 i32 p
+glDepthRangeArrayfvOES v u32 i32 p
+glDepthRangeArrayv v u32 i32 p
+glDepthRangeIndexed v u32 d d
+glDepthRangeIndexeddNV v u32 d d
+glDepthRangeIndexedfNV v u32 f f
+glDepthRangeIndexedfOES v u32 f f
+glDepthRangedNV v d d
+glDepthRangef v f f
+glDepthRangefOES v f f
+glDepthRangex v i32 i32
+glDepthRangexOES v i32 i32
+glDetachObjectARB v u32 u32
+glDetachShader v u32 u32
+glDetailTexFuncSGIS v u32 i32 p
+glDisable v u32
+glDisableClientState v u32
+glDisableClientStateIndexedEXT v u32 u32
+glDisableClientStateiEXT v u32 u32
+glDisableDriverControlQCOM v u32
+glDisableIndexedEXT v u32 u32
+glDisableVariantClientStateEXT v u32
+glDisableVertexArrayAttrib v u32 u32
+glDisableVertexArrayAttribEXT v u32 u32
+glDisableVertexArrayEXT v u32 u32
+glDisableVertexAttribAPPLE v u32 u32
+glDisableVertexAttribArray v u32
+glDisableVertexAttribArrayARB v u32
+glDisablei v u32 u32
+glDisableiEXT v u32 u32
+glDisableiNV v u32 u32
+glDisableiOES v u32 u32
+glDiscardFramebufferEXT v u32 i32 p
+glDispatchCompute v u32 u32 u32
+glDispatchComputeGroupSizeARB v u32 u32 u32 u32 u32 u32
+glDispatchComputeIndirect v i64
+glDrawArrays v u32 i32 i32
+glDrawArraysEXT v u32 i32 i32
+glDrawArraysIndirect v u32 p
+glDrawArraysInstanced v u32 i32 i32 i32
+glDrawArraysInstancedANGLE v u32 i32 i32 i32
+glDrawArraysInstancedARB v u32 i32 i32 i32
+glDrawArraysInstancedBaseInstance v u32 i32 i32 i32 u32
+glDrawArraysInstancedBaseInstanceEXT v u32 i32 i32 i32 u32
+glDrawArraysInstancedEXT v u32 i32 i32 i32
+glDrawArraysInstancedNV v u32 i32 i32 i32
+glDrawBuffer v u32
+glDrawBuffers v i32 p
+glDrawBuffersARB v i32 p
+glDrawBuffersATI v i32 p
+glDrawBuffersEXT v i32 p
+glDrawBuffersIndexedEXT v i32 p p
+glDrawBuffersNV v i32 p
+glDrawCommandsAddressNV v u32 p p u32
+glDrawCommandsNV v u32 u32 p p u32
+glDrawCommandsStatesAddressNV v p p p p u32
+glDrawCommandsStatesNV v u32 p p p p u32
+glDrawElementArrayAPPLE v u32 i32 i32
+glDrawElementArrayATI v u32 i32
+glDrawElements v u32 i32 u32 p
+glDrawElementsBaseVertex v u32 i32 u32 p i32
+glDrawElementsBaseVertexEXT v u32 i32 u32 p i32
+glDrawElementsBaseVertexOES v u32 i32 u32 p i32
+glDrawElementsIndirect v u32 u32 p
+glDrawElementsInstanced v u32 i32 u32 p i32
+glDrawElementsInstancedANGLE v u32 i32 u32 p i32
+glDrawElementsInstancedARB v u32 i32 u32 p i32
+glDrawElementsInstancedBaseInstance v u32 i32 u32 p i32 u32
+glDrawElementsInstancedBaseInstanceEXT v u32 i32 u32 p i32 u32
+glDrawElementsInstancedBaseVertex v u32 i32 u32 p i32 i32
+glDrawElementsInstancedBaseVertexBaseInstance v u32 i32 u32 p i32 i32 u32
+glDrawElementsInstancedBaseVertexBaseInstanceEXT v u32 i32 u32 p i32 i32 u32
+glDrawElementsInstancedBaseVertexEXT v u32 i32 u32 p i32 i32
+glDrawElementsInstancedBaseVertexOES v u32 i32 u32 p i32 i32
+glDrawElementsInstancedEXT v u32 i32 u32 p i32
+glDrawElementsInstancedNV v u32 i32 u32 p i32
+glDrawMeshArraysSUN v u32 i32 i32 i32
+glDrawMeshTasksNV v u32 u32
+glDrawMeshTasksIndirectNV v i64
+glDrawPixels v i32 i32 u32 u32 p
+glDrawRangeElementArrayAPPLE v u32 u32 u32 i32 i32
+glDrawRangeElementArrayATI v u32 u32 u32 i32
+glDrawRangeElements v u32 u32 u32 i32 u32 p
+glDrawRangeElementsBaseVertex v u32 u32 u32 i32 u32 p i32
+glDrawRangeElementsBaseVertexEXT v u32 u32 u32 i32 u32 p i32
+glDrawRangeElementsBaseVertexOES v u32 u32 u32 i32 u32 p i32
+glDrawRangeElementsEXT v u32 u32 u32 i32 u32 p
+glDrawTexfOES v f f f f f
+glDrawTexfvOES v p
+glDrawTexiOES v i32 i32 i32 i32 i32
+glDrawTexivOES v p
+glDrawTexsOES v i16 i16 i16 i16 i16
+glDrawTexsvOES v p
+glDrawTextureNV v u32 u32 f f f f f f f f f
+glDrawTexxOES v i32 i32 i32 i32 i32
+glDrawTexxvOES v p
+glDrawTransformFeedback v u32 u32
+glDrawTransformFeedbackEXT v u32 u32
+glDrawTransformFeedbackInstanced v u32 u32 i32
+glDrawTransformFeedbackInstancedEXT v u32 u32 i32
+glDrawTransformFeedbackNV v u32 u32
+glDrawTransformFeedbackStream v u32 u32 u32
+glDrawTransformFeedbackStreamInstanced v u32 u32 u32 i32
+glEGLImageTargetRenderbufferStorageOES v u32 p
+glEGLImageTargetTexStorageEXT v u32 p p
+glEGLImageTargetTexture2DOES v u32 p
+glEGLImageTargetTextureStorageEXT v u32 p p
+glEdgeFlag v u8
+glEdgeFlagFormatNV v i32
+glEdgeFlagPointer v i32 p
+glEdgeFlagPointerEXT v i32 i32 p
+glEdgeFlagPointerListIBM v i32 p i32
+glEdgeFlagv v p
+glElementPointerAPPLE v u32 p
+glElementPointerATI v u32 p
+glEnable v u32
+glEnableClientState v u32
+glEnableClientStateIndexedEXT v u32 u32
+glEnableClientStateiEXT v u32 u32
+glEnableDriverControlQCOM v u32
+glEnableIndexedEXT v u32 u32
+glEnableVariantClientStateEXT v u32
+glEnableVertexArrayAttrib v u32 u32
+glEnableVertexArrayAttribEXT v u32 u32
+glEnableVertexArrayEXT v u32 u32
+glEnableVertexAttribAPPLE v u32 u32
+glEnableVertexAttribArray v u32
+glEnableVertexAttribArrayARB v u32
+glEnablei v u32 u32
+glEnableiEXT v u32 u32
+glEnableiNV v u32 u32
+glEnableiOES v u32 u32
+glEnd v
+glEndConditionalRender v
+glEndConditionalRenderNV v
+glEndConditionalRenderNVX v
+glEndFragmentShaderATI v
+glEndList v
+glEndOcclusionQueryNV v
+glEndPerfMonitorAMD v u32
+glEndPerfQueryINTEL v u32
+glEndQuery v u32
+glEndQueryARB v u32
+glEndQueryEXT v u32
+glEndQueryIndexed v u32 u32
+glEndTilingQCOM v u32
+glEndTransformFeedback v
+glEndTransformFeedbackEXT v
+glEndTransformFeedbackNV v
+glEndVertexShaderEXT v
+glEndVideoCaptureNV v u32
+glEvalCoord1d v d
+glEvalCoord1dv v p
+glEvalCoord1f v f
+glEvalCoord1fv v p
+glEvalCoord1xOES v i32
+glEvalCoord1xvOES v p
+glEvalCoord2d v d d
+glEvalCoord2dv v p
+glEvalCoord2f v f f
+glEvalCoord2fv v p
+glEvalCoord2xOES v i32 i32
+glEvalCoord2xvOES v p
+glEvalMapsNV v u32 u32
+glEvalMesh1 v u32 i32 i32
+glEvalMesh2 v u32 i32 i32 i32 i32
+glEvalPoint1 v i32
+glEvalPoint2 v i32 i32
+glEvaluateDepthValuesARB v
+glExecuteProgramNV v u32 u32 p
+glExtGetBufferPointervQCOM v u32 p
+glExtGetBuffersQCOM v p i32 p
+glExtGetFramebuffersQCOM v p i32 p
+glExtGetProgramBinarySourceQCOM v u32 u32 p p
+glExtGetProgramsQCOM v p i32 p
+glExtGetRenderbuffersQCOM v p i32 p
+glExtGetShadersQCOM v p i32 p
+glExtGetTexLevelParameterivQCOM v u32 u32 i32 u32 p
+glExtGetTexSubImageQCOM v u32 i32 i32 i32 i32 i32 i32 i32 u32 u32 p
+glExtGetTexturesQCOM v p i32 p
+glExtIsProgramBinaryQCOM u8 u32
+glExtTexObjectStateOverrideiQCOM v u32 u32 i32
+glExtractComponentEXT v u32 u32 u32
+glFeedbackBuffer v i32 u32 p
+glFeedbackBufferxOES v i32 u32 p
+glFenceSync p u32 u32
+glFenceSyncAPPLE p u32 u32
+glFinalCombinerInputNV v u32 u32 u32 u32
+glFinish v
+glFinishAsyncSGIX i32 p
+glFinishFenceAPPLE v u32
+glFinishFenceNV v u32
+glFinishObjectAPPLE v u32 i32
+glFinishTextureSUNX v
+glFlush v
+glFlushMappedBufferRange v u32 i64 i64
+glFlushMappedBufferRangeAPPLE v u32 i64 i64
+glFlushMappedBufferRangeEXT v u32 i64 i64
+glFlushMappedNamedBufferRange v u32 i64 i64
+glFlushMappedNamedBufferRangeEXT v u32 i64 i64
+glFlushPixelDataRangeNV v u32
+glFlushRasterSGIX v
+glFlushStaticDataIBM v u32
+glFlushVertexArrayRangeAPPLE v i32 p
+glFlushVertexArrayRangeNV v
+glFogCoordFormatNV v u32 i32
+glFogCoordPointer v u32 i32 p
+glFogCoordPointerEXT v u32 i32 p
+glFogCoordPointerListIBM v u32 i32 p i32
+glFogCoordd v d
+glFogCoorddEXT v d
+glFogCoorddv v p
+glFogCoorddvEXT v p
+glFogCoordf v f
+glFogCoordfEXT v f
+glFogCoordfv v p
+glFogCoordfvEXT v p
+glFogCoordhNV v u16
+glFogCoordhvNV v p
+glFogFuncSGIS v i32 p
+glFogf v u32 f
+glFogfv v u32 p
+glFogi v u32 i32
+glFogiv v u32 p
+glFogx v u32 i32
+glFogxOES v u32 i32
+glFogxv v u32 p
+glFogxvOES v u32 p
+glFragmentColorMaterialSGIX v u32 u32
+glFragmentCoverageColorNV v u32
+glFragmentLightModelfSGIX v u32 f
+glFragmentLightModelfvSGIX v u32 p
+glFragmentLightModeliSGIX v u32 i32
+glFragmentLightModelivSGIX v u32 p
+glFragmentLightfSGIX v u32 u32 f
+glFragmentLightfvSGIX v u32 u32 p
+glFragmentLightiSGIX v u32 u32 i32
+glFragmentLightivSGIX v u32 u32 p
+glFragmentMaterialfSGIX v u32 u32 f
+glFragmentMaterialfvSGIX v u32 u32 p
+glFragmentMaterialiSGIX v u32 u32 i32
+glFragmentMaterialivSGIX v u32 u32 p
+glFrameTerminatorGREMEDY v
+glFrameZoomSGIX v i32
+glFramebufferDrawBufferEXT v u32 u32
+glFramebufferDrawBuffersEXT v u32 i32 p
+glFramebufferFetchBarrierEXT v
+glFramebufferFetchBarrierQCOM v
+glFramebufferFoveationConfigQCOM v u32 u32 u32 u32 p
+glFramebufferFoveationParametersQCOM v u32 u32 u32 f f f f f
+glFramebufferParameteri v u32 u32 i32
+glFramebufferPixelLocalStorageSizeEXT v u32 i32
+glFramebufferReadBufferEXT v u32 u32
+glFramebufferRenderbuffer v u32 u32 u32 u32
+glFramebufferRenderbufferEXT v u32 u32 u32 u32
+glFramebufferRenderbufferOES v u32 u32 u32 u32
+glFramebufferSampleLocationsfvARB v u32 u32 i32 p
+glFramebufferSampleLocationsfvNV v u32 u32 i32 p
+glFramebufferSamplePositionsfvAMD v u32 u32 u32 p
+glFramebufferShadingRateEXT v u32 u32 u32 i32 i32 i32 i32
+glFramebufferTexture v u32 u32 u32 i32
+glFramebufferTexture1D v u32 u32 u32 u32 i32
+glFramebufferTexture1DEXT v u32 u32 u32 u32 i32
+glFramebufferTexture2D v u32 u32 u32 u32 i32
+glFramebufferTexture2DEXT v u32 u32 u32 u32 i32
+glFramebufferTexture2DDownsampleIMG v u32 u32 u32 u32 i32 i32 i32
+glFramebufferTexture2DMultisampleEXT v u32 u32 u32 u32 i32 i32
+glFramebufferTexture2DMultisampleIMG v u32 u32 u32 u32 i32 i32
+glFramebufferTexture2DOES v u32 u32 u32 u32 i32
+glFramebufferTexture3D v u32 u32 u32 u32 i32 i32
+glFramebufferTexture3DEXT v u32 u32 u32 u32 i32 i32
+glFramebufferTexture3DOES v u32 u32 u32 u32 i32 i32
+glFramebufferTextureARB v u32 u32 u32 i32
+glFramebufferTextureEXT v u32 u32 u32 i32
+glFramebufferTextureFaceARB v u32 u32 u32 i32 u32
+glFramebufferTextureFaceEXT v u32 u32 u32 i32 u32
+glFramebufferTextureLayer v u32 u32 u32 i32 i32
+glFramebufferTextureLayerARB v u32 u32 u32 i32 i32
+glFramebufferTextureLayerEXT v u32 u32 u32 i32 i32
+glFramebufferTextureLayerDownsampleIMG v u32 u32 u32 i32 i32 i32 i32
+glFramebufferTextureMultisampleMultiviewOVR v u32 u32 u32 i32 i32 i32 i32
+glFramebufferTextureMultiviewOVR v u32 u32 u32 i32 i32 i32
+glFramebufferTextureOES v u32 u32 u32 i32
+glFreeObjectBufferATI v u32
+glFrontFace v u32
+glFrustum v d d d d d d
+glFrustumf v f f f f f f
+glFrustumfOES v f f f f f f
+glFrustumx v i32 i32 i32 i32 i32 i32
+glFrustumxOES v i32 i32 i32 i32 i32 i32
+glGenAsyncMarkersSGIX u32 i32
+glGenBuffers v i32 p
+glGenBuffersARB v i32 p
+glGenFencesAPPLE v i32 p
+glGenFencesNV v i32 p
+glGenFragmentShadersATI u32 u32
+glGenFramebuffers v i32 p
+glGenFramebuffersEXT v i32 p
+glGenFramebuffersOES v i32 p
+glGenLists u32 i32
+glGenNamesAMD v u32 u32 p
+glGenOcclusionQueriesNV v i32 p
+glGenPathsNV u32 i32
+glGenPerfMonitorsAMD v i32 p
+glGenProgramPipelines v i32 p
+glGenProgramPipelinesEXT v i32 p
+glGenProgramsARB v i32 p
+glGenProgramsNV v i32 p
+glGenQueries v i32 p
+glGenQueriesARB v i32 p
+glGenQueriesEXT v i32 p
+glGenQueryResourceTagNV v i32 p
+glGenRenderbuffers v i32 p
+glGenRenderbuffersEXT v i32 p
+glGenRenderbuffersOES v i32 p
+glGenSamplers v i32 p
+glGenSemaphoresEXT v i32 p
+glGenSymbolsEXT u32 u32 u32 u32 u32
+glGenTextures v i32 p
+glGenTexturesEXT v i32 p
+glGenTransformFeedbacks v i32 p
+glGenTransformFeedbacksNV v i32 p
+glGenVertexArrays v i32 p
+glGenVertexArraysAPPLE v i32 p
+glGenVertexArraysOES v i32 p
+glGenVertexShadersEXT u32 u32
+glGenerateMipmap v u32
+glGenerateMipmapEXT v u32
+glGenerateMipmapOES v u32
+glGenerateMultiTexMipmapEXT v u32 u32
+glGenerateTextureMipmap v u32
+glGenerateTextureMipmapEXT v u32 u32
+glGetActiveAtomicCounterBufferiv v u32 u32 u32 p
+glGetActiveAttrib v u32 u32 i32 p p p p
+glGetActiveAttribARB v u32 u32 i32 p p p p
+glGetActiveSubroutineName v u32 u32 u32 i32 p p
+glGetActiveSubroutineUniformName v u32 u32 u32 i32 p p
+glGetActiveSubroutineUniformiv v u32 u32 u32 u32 p
+glGetActiveUniform v u32 u32 i32 p p p p
+glGetActiveUniformARB v u32 u32 i32 p p p p
+glGetActiveUniformBlockName v u32 u32 i32 p p
+glGetActiveUniformBlockiv v u32 u32 u32 p
+glGetActiveUniformName v u32 u32 i32 p p
+glGetActiveUniformsiv v u32 i32 p u32 p
+glGetActiveVaryingNV v u32 u32 i32 p p p p
+glGetArrayObjectfvATI v u32 u32 p
+glGetArrayObjectivATI v u32 u32 p
+glGetAttachedObjectsARB v u32 i32 p p
+glGetAttachedShaders v u32 i32 p p
+glGetAttribLocation i32 u32 p
+glGetAttribLocationARB i32 u32 p
+glGetBooleanIndexedvEXT v u32 u32 p
+glGetBooleani_v v u32 u32 p
+glGetBooleanv v u32 p
+glGetBufferParameteri64v v u32 u32 p
+glGetBufferParameteriv v u32 u32 p
+glGetBufferParameterivARB v u32 u32 p
+glGetBufferParameterui64vNV v u32 u32 p
+glGetBufferPointerv v u32 u32 p
+glGetBufferPointervARB v u32 u32 p
+glGetBufferPointervOES v u32 u32 p
+glGetBufferSubData v u32 i64 i64 p
+glGetBufferSubDataARB v u32 i64 i64 p
+glGetClipPlane v u32 p
+glGetClipPlanef v u32 p
+glGetClipPlanefOES v u32 p
+glGetClipPlanex v u32 p
+glGetClipPlanexOES v u32 p
+glGetColorTable v u32 u32 u32 p
+glGetColorTableEXT v u32 u32 u32 p
+glGetColorTableParameterfv v u32 u32 p
+glGetColorTableParameterfvEXT v u32 u32 p
+glGetColorTableParameterfvSGI v u32 u32 p
+glGetColorTableParameteriv v u32 u32 p
+glGetColorTableParameterivEXT v u32 u32 p
+glGetColorTableParameterivSGI v u32 u32 p
+glGetColorTableSGI v u32 u32 u32 p
+glGetCombinerInputParameterfvNV v u32 u32 u32 u32 p
+glGetCombinerInputParameterivNV v u32 u32 u32 u32 p
+glGetCombinerOutputParameterfvNV v u32 u32 u32 p
+glGetCombinerOutputParameterivNV v u32 u32 u32 p
+glGetCombinerStageParameterfvNV v u32 u32 p
+glGetCommandHeaderNV u32 u32 u32
+glGetCompressedMultiTexImageEXT v u32 u32 i32 p
+glGetCompressedTexImage v u32 i32 p
+glGetCompressedTexImageARB v u32 i32 p
+glGetCompressedTextureImage v u32 i32 i32 p
+glGetCompressedTextureImageEXT v u32 u32 i32 p
+glGetCompressedTextureSubImage v u32 i32 i32 i32 i32 i32 i32 i32 i32 p
+glGetConvolutionFilter v u32 u32 u32 p
+glGetConvolutionFilterEXT v u32 u32 u32 p
+glGetConvolutionParameterfv v u32 u32 p
+glGetConvolutionParameterfvEXT v u32 u32 p
+glGetConvolutionParameteriv v u32 u32 p
+glGetConvolutionParameterivEXT v u32 u32 p
+glGetConvolutionParameterxvOES v u32 u32 p
+glGetCoverageModulationTableNV v i32 p
+glGetDebugMessageLog u32 u32 i32 p p p p p p
+glGetDebugMessageLogAMD u32 u32 i32 p p p p p
+glGetDebugMessageLogARB u32 u32 i32 p p p p p p
+glGetDebugMessageLogKHR u32 u32 i32 p p p p p p
+glGetDetailTexFuncSGIS v u32 p
+glGetDoubleIndexedvEXT v u32 u32 p
+glGetDoublei_v v u32 u32 p
+glGetDoublei_vEXT v u32 u32 p
+glGetDoublev v u32 p
+glGetDriverControlStringQCOM v u32 i32 p p
+glGetDriverControlsQCOM v p i32 p
+glGetError u32
+glGetFenceivNV v u32 u32 p
+glGetFinalCombinerInputParameterfvNV v u32 u32 p
+glGetFinalCombinerInputParameterivNV v u32 u32 p
+glGetFirstPerfQueryIdINTEL v p
+glGetFixedv v u32 p
+glGetFixedvOES v u32 p
+glGetFloatIndexedvEXT v u32 u32 p
+glGetFloati_v v u32 u32 p
+glGetFloati_vEXT v u32 u32 p
+glGetFloati_vNV v u32 u32 p
+glGetFloati_vOES v u32 u32 p
+glGetFloatv v u32 p
+glGetFogFuncSGIS v p
+glGetFragDataIndex i32 u32 p
+glGetFragDataIndexEXT i32 u32 p
+glGetFragDataLocation i32 u32 p
+glGetFragDataLocationEXT i32 u32 p
+glGetFragmentLightfvSGIX v u32 u32 p
+glGetFragmentLightivSGIX v u32 u32 p
+glGetFragmentMaterialfvSGIX v u32 u32 p
+glGetFragmentMaterialivSGIX v u32 u32 p
+glGetFragmentShadingRatesEXT v i32 i32 p p
+glGetFramebufferAttachmentParameteriv v u32 u32 u32 p
+glGetFramebufferAttachmentParameterivEXT v u32 u32 u32 p
+glGetFramebufferAttachmentParameterivOES v u32 u32 u32 p
+glGetFramebufferParameterfvAMD v u32 u32 u32 u32 i32 p
+glGetFramebufferParameteriv v u32 u32 p
+glGetFramebufferParameterivEXT v u32 u32 p
+glGetFramebufferPixelLocalStorageSizeEXT i32 u32
+glGetGraphicsResetStatus u32
+glGetGraphicsResetStatusARB u32
+glGetGraphicsResetStatusEXT u32
+glGetGraphicsResetStatusKHR u32
+glGetHandleARB u32 u32
+glGetHistogram v u32 u8 u32 u32 p
+glGetHistogramEXT v u32 u8 u32 u32 p
+glGetHistogramParameterfv v u32 u32 p
+glGetHistogramParameterfvEXT v u32 u32 p
+glGetHistogramParameteriv v u32 u32 p
+glGetHistogramParameterivEXT v u32 u32 p
+glGetHistogramParameterxvOES v u32 u32 p
+glGetImageHandleARB u64 u32 i32 u8 i32 u32
+glGetImageHandleNV u64 u32 i32 u8 i32 u32
+glGetImageTransformParameterfvHP v u32 u32 p
+glGetImageTransformParameterivHP v u32 u32 p
+glGetInfoLogARB v u32 i32 p p
+glGetInstrumentsSGIX i32
+glGetInteger64i_v v u32 u32 p
+glGetInteger64v v u32 p
+glGetInteger64vAPPLE v u32 p
+glGetInteger64vEXT v u32 p
+glGetIntegerIndexedvEXT v u32 u32 p
+glGetIntegeri_v v u32 u32 p
+glGetIntegeri_vEXT v u32 u32 p
+glGetIntegerui64i_vNV v u32 u32 p
+glGetIntegerui64vNV v u32 p
+glGetIntegerv v u32 p
+glGetInternalformatSampleivNV v u32 u32 i32 u32 i32 p
+glGetInternalformati64v v u32 u32 u32 i32 p
+glGetInternalformativ v u32 u32 u32 i32 p
+glGetInvariantBooleanvEXT v u32 u32 p
+glGetInvariantFloatvEXT v u32 u32 p
+glGetInvariantIntegervEXT v u32 u32 p
+glGetLightfv v u32 u32 p
+glGetLightiv v u32 u32 p
+glGetLightxOES v u32 u32 p
+glGetLightxv v u32 u32 p
+glGetLightxvOES v u32 u32 p
+glGetListParameterfvSGIX v u32 u32 p
+glGetListParameterivSGIX v u32 u32 p
+glGetLocalConstantBooleanvEXT v u32 u32 p
+glGetLocalConstantFloatvEXT v u32 u32 p
+glGetLocalConstantIntegervEXT v u32 u32 p
+glGetMapAttribParameterfvNV v u32 u32 u32 p
+glGetMapAttribParameterivNV v u32 u32 u32 p
+glGetMapControlPointsNV v u32 u32 u32 i32 i32 u8 p
+glGetMapParameterfvNV v u32 u32 p
+glGetMapParameterivNV v u32 u32 p
+glGetMapdv v u32 u32 p
+glGetMapfv v u32 u32 p
+glGetMapiv v u32 u32 p
+glGetMapxvOES v u32 u32 p
+glGetMaterialfv v u32 u32 p
+glGetMaterialiv v u32 u32 p
+glGetMaterialxOES v u32 u32 i32
+glGetMaterialxv v u32 u32 p
+glGetMaterialxvOES v u32 u32 p
+glGetMemoryObjectDetachedResourcesuivNV v u32 u32 i32 i32 p
+glGetMemoryObjectParameterivEXT v u32 u32 p
+glGetMinmax v u32 u8 u32 u32 p
+glGetMinmaxEXT v u32 u8 u32 u32 p
+glGetMinmaxParameterfv v u32 u32 p
+glGetMinmaxParameterfvEXT v u32 u32 p
+glGetMinmaxParameteriv v u32 u32 p
+glGetMinmaxParameterivEXT v u32 u32 p
+glGetMultiTexEnvfvEXT v u32 u32 u32 p
+glGetMultiTexEnvivEXT v u32 u32 u32 p
+glGetMultiTexGendvEXT v u32 u32 u32 p
+glGetMultiTexGenfvEXT v u32 u32 u32 p
+glGetMultiTexGenivEXT v u32 u32 u32 p
+glGetMultiTexImageEXT v u32 u32 i32 u32 u32 p
+glGetMultiTexLevelParameterfvEXT v u32 u32 i32 u32 p
+glGetMultiTexLevelParameterivEXT v u32 u32 i32 u32 p
+glGetMultiTexParameterIivEXT v u32 u32 u32 p
+glGetMultiTexParameterIuivEXT v u32 u32 u32 p
+glGetMultiTexParameterfvEXT v u32 u32 u32 p
+glGetMultiTexParameterivEXT v u32 u32 u32 p
+glGetMultisamplefv v u32 u32 p
+glGetMultisamplefvNV v u32 u32 p
+glGetNamedBufferParameteri64v v u32 u32 p
+glGetNamedBufferParameteriv v u32 u32 p
+glGetNamedBufferParameterivEXT v u32 u32 p
+glGetNamedBufferParameterui64vNV v u32 u32 p
+glGetNamedBufferPointerv v u32 u32 p
+glGetNamedBufferPointervEXT v u32 u32 p
+glGetNamedBufferSubData v u32 i64 i64 p
+glGetNamedBufferSubDataEXT v u32 i64 i64 p
+glGetNamedFramebufferParameterfvAMD v u32 u32 u32 u32 i32 p
+glGetNamedFramebufferAttachmentParameteriv v u32 u32 u32 p
+glGetNamedFramebufferAttachmentParameterivEXT v u32 u32 u32 p
+glGetNamedFramebufferParameteriv v u32 u32 p
+glGetNamedFramebufferParameterivEXT v u32 u32 p
+glGetNamedProgramLocalParameterIivEXT v u32 u32 u32 p
+glGetNamedProgramLocalParameterIuivEXT v u32 u32 u32 p
+glGetNamedProgramLocalParameterdvEXT v u32 u32 u32 p
+glGetNamedProgramLocalParameterfvEXT v u32 u32 u32 p
+glGetNamedProgramStringEXT v u32 u32 u32 p
+glGetNamedProgramivEXT v u32 u32 u32 p
+glGetNamedRenderbufferParameteriv v u32 u32 p
+glGetNamedRenderbufferParameterivEXT v u32 u32 p
+glGetNamedStringARB v i32 p i32 p p
+glGetNamedStringivARB v i32 p u32 p
+glGetNextPerfQueryIdINTEL v u32 p
+glGetObjectBufferfvATI v u32 u32 p
+glGetObjectBufferivATI v u32 u32 p
+glGetObjectLabel v u32 u32 i32 p p
+glGetObjectLabelEXT v u32 u32 i32 p p
+glGetObjectLabelKHR v u32 u32 i32 p p
+glGetObjectParameterfvARB v u32 u32 p
+glGetObjectParameterivAPPLE v u32 u32 u32 p
+glGetObjectParameterivARB v u32 u32 p
+glGetObjectPtrLabel v p i32 p p
+glGetObjectPtrLabelKHR v p i32 p p
+glGetOcclusionQueryivNV v u32 u32 p
+glGetOcclusionQueryuivNV v u32 u32 p
+glGetPathColorGenfvNV v u32 u32 p
+glGetPathColorGenivNV v u32 u32 p
+glGetPathCommandsNV v u32 p
+glGetPathCoordsNV v u32 p
+glGetPathDashArrayNV v u32 p
+glGetPathLengthNV f u32 i32 i32
+glGetPathMetricRangeNV v u32 u32 i32 i32 p
+glGetPathMetricsNV v u32 i32 u32 p u32 i32 p
+glGetPathParameterfvNV v u32 u32 p
+glGetPathParameterivNV v u32 u32 p
+glGetPathSpacingNV v u32 i32 u32 p u32 f f u32 p
+glGetPathTexGenfvNV v u32 u32 p
+glGetPathTexGenivNV v u32 u32 p
+glGetPerfCounterInfoINTEL v u32 u32 u32 p u32 p p p p p p
+glGetPerfMonitorCounterDataAMD v u32 u32 i32 p p
+glGetPerfMonitorCounterInfoAMD v u32 u32 u32 p
+glGetPerfMonitorCounterStringAMD v u32 u32 i32 p p
+glGetPerfMonitorCountersAMD v u32 p p i32 p
+glGetPerfMonitorGroupStringAMD v u32 i32 p p
+glGetPerfMonitorGroupsAMD v p i32 p
+glGetPerfQueryDataINTEL v u32 u32 i32 p p
+glGetPerfQueryIdByNameINTEL v p p
+glGetPerfQueryInfoINTEL v u32 u32 p p p p p
+glGetPixelMapfv v u32 p
+glGetPixelMapuiv v u32 p
+glGetPixelMapusv v u32 p
+glGetPixelMapxv v u32 i32 p
+glGetPixelTexGenParameterfvSGIS v u32 p
+glGetPixelTexGenParameterivSGIS v u32 p
+glGetPixelTransformParameterfvEXT v u32 u32 p
+glGetPixelTransformParameterivEXT v u32 u32 p
+glGetPointerIndexedvEXT v u32 u32 p
+glGetPointeri_vEXT v u32 u32 p
+glGetPointerv v u32 p
+glGetPointervEXT v u32 p
+glGetPointervKHR v u32 p
+glGetPolygonStipple v p
+glGetProgramBinary v u32 i32 p p p
+glGetProgramBinaryOES v u32 i32 p p p
+glGetProgramEnvParameterIivNV v u32 u32 p
+glGetProgramEnvParameterIuivNV v u32 u32 p
+glGetProgramEnvParameterdvARB v u32 u32 p
+glGetProgramEnvParameterfvARB v u32 u32 p
+glGetProgramInfoLog v u32 i32 p p
+glGetProgramInterfaceiv v u32 u32 u32 p
+glGetProgramLocalParameterIivNV v u32 u32 p
+glGetProgramLocalParameterIuivNV v u32 u32 p
+glGetProgramLocalParameterdvARB v u32 u32 p
+glGetProgramLocalParameterfvARB v u32 u32 p
+glGetProgramNamedParameterdvNV v u32 i32 p p
+glGetProgramNamedParameterfvNV v u32 i32 p p
+glGetProgramParameterdvNV v u32 u32 u32 p
+glGetProgramParameterfvNV v u32 u32 u32 p
+glGetProgramPipelineInfoLog v u32 i32 p p
+glGetProgramPipelineInfoLogEXT v u32 i32 p p
+glGetProgramPipelineiv v u32 u32 p
+glGetProgramPipelineivEXT v u32 u32 p
+glGetProgramResourceIndex u32 u32 u32 p
+glGetProgramResourceLocation i32 u32 u32 p
+glGetProgramResourceLocationIndex i32 u32 u32 p
+glGetProgramResourceLocationIndexEXT i32 u32 u32 p
+glGetProgramResourceName v u32 u32 u32 i32 p p
+glGetProgramResourcefvNV v u32 u32 u32 i32 p i32 p p
+glGetProgramResourceiv v u32 u32 u32 i32 p i32 p p
+glGetProgramStageiv v u32 u32 u32 p
+glGetProgramStringARB v u32 u32 p
+glGetProgramStringNV v u32 u32 p
+glGetProgramSubroutineParameteruivNV v u32 u32 p
+glGetProgramiv v u32 u32 p
+glGetProgramivARB v u32 u32 p
+glGetProgramivNV v u32 u32 p
+glGetQueryBufferObjecti64v v u32 u32 u32 i64
+glGetQueryBufferObjectiv v u32 u32 u32 i64
+glGetQueryBufferObjectui64v v u32 u32 u32 i64
+glGetQueryBufferObjectuiv v u32 u32 u32 i64
+glGetQueryIndexediv v u32 u32 u32 p
+glGetQueryObjecti64v v u32 u32 p
+glGetQueryObjecti64vEXT v u32 u32 p
+glGetQueryObjectiv v u32 u32 p
+glGetQueryObjectivARB v u32 u32 p
+glGetQueryObjectivEXT v u32 u32 p
+glGetQueryObjectui64v v u32 u32 p
+glGetQueryObjectui64vEXT v u32 u32 p
+glGetQueryObjectuiv v u32 u32 p
+glGetQueryObjectuivARB v u32 u32 p
+glGetQueryObjectuivEXT v u32 u32 p
+glGetQueryiv v u32 u32 p
+glGetQueryivARB v u32 u32 p
+glGetQueryivEXT v u32 u32 p
+glGetRenderbufferParameteriv v u32 u32 p
+glGetRenderbufferParameterivEXT v u32 u32 p
+glGetRenderbufferParameterivOES v u32 u32 p
+glGetSamplerParameterIiv v u32 u32 p
+glGetSamplerParameterIivEXT v u32 u32 p
+glGetSamplerParameterIivOES v u32 u32 p
+glGetSamplerParameterIuiv v u32 u32 p
+glGetSamplerParameterIuivEXT v u32 u32 p
+glGetSamplerParameterIuivOES v u32 u32 p
+glGetSamplerParameterfv v u32 u32 p
+glGetSamplerParameteriv v u32 u32 p
+glGetSemaphoreParameterivNV v u32 u32 p
+glGetSemaphoreParameterui64vEXT v u32 u32 p
+glGetSeparableFilter v u32 u32 u32 p p p
+glGetSeparableFilterEXT v u32 u32 u32 p p p
+glGetShaderInfoLog v u32 i32 p p
+glGetShaderPrecisionFormat v u32 u32 p p
+glGetShaderSource v u32 i32 p p
+glGetShaderSourceARB v u32 i32 p p
+glGetShaderiv v u32 u32 p
+glGetShadingRateImagePaletteNV v u32 u32 p
+glGetShadingRateSampleLocationivNV v u32 u32 u32 p
+glGetSharpenTexFuncSGIS v u32 p
+glGetStageIndexNV u16 u32
+glGetString p u32
+glGetStringi p u32 u32
+glGetSubroutineIndex u32 u32 u32 p
+glGetSubroutineUniformLocation i32 u32 u32 p
+glGetSynciv v p u32 i32 p p
+glGetSyncivAPPLE v p u32 i32 p p
+glGetTexBumpParameterfvATI v u32 p
+glGetTexBumpParameterivATI v u32 p
+glGetTexEnvfv v u32 u32 p
+glGetTexEnviv v u32 u32 p
+glGetTexEnvxv v u32 u32 p
+glGetTexEnvxvOES v u32 u32 p
+glGetTexFilterFuncSGIS v u32 u32 p
+glGetTexGendv v u32 u32 p
+glGetTexGenfv v u32 u32 p
+glGetTexGenfvOES v u32 u32 p
+glGetTexGeniv v u32 u32 p
+glGetTexGenivOES v u32 u32 p
+glGetTexGenxvOES v u32 u32 p
+glGetTexImage v u32 i32 u32 u32 p
+glGetTexLevelParameterfv v u32 i32 u32 p
+glGetTexLevelParameteriv v u32 i32 u32 p
+glGetTexLevelParameterxvOES v u32 i32 u32 p
+glGetTexParameterIiv v u32 u32 p
+glGetTexParameterIivEXT v u32 u32 p
+glGetTexParameterIivOES v u32 u32 p
+glGetTexParameterIuiv v u32 u32 p
+glGetTexParameterIuivEXT v u32 u32 p
+glGetTexParameterIuivOES v u32 u32 p
+glGetTexParameterPointervAPPLE v u32 u32 p
+glGetTexParameterfv v u32 u32 p
+glGetTexParameteriv v u32 u32 p
+glGetTexParameterxv v u32 u32 p
+glGetTexParameterxvOES v u32 u32 p
+glGetTextureHandleARB u64 u32
+glGetTextureHandleIMG u64 u32
+glGetTextureHandleNV u64 u32
+glGetTextureImage v u32 i32 u32 u32 i32 p
+glGetTextureImageEXT v u32 u32 i32 u32 u32 p
+glGetTextureLevelParameterfv v u32 i32 u32 p
+glGetTextureLevelParameterfvEXT v u32 u32 i32 u32 p
+glGetTextureLevelParameteriv v u32 i32 u32 p
+glGetTextureLevelParameterivEXT v u32 u32 i32 u32 p
+glGetTextureParameterIiv v u32 u32 p
+glGetTextureParameterIivEXT v u32 u32 u32 p
+glGetTextureParameterIuiv v u32 u32 p
+glGetTextureParameterIuivEXT v u32 u32 u32 p
+glGetTextureParameterfv v u32 u32 p
+glGetTextureParameterfvEXT v u32 u32 u32 p
+glGetTextureParameteriv v u32 u32 p
+glGetTextureParameterivEXT v u32 u32 u32 p
+glGetTextureSamplerHandleARB u64 u32 u32
+glGetTextureSamplerHandleIMG u64 u32 u32
+glGetTextureSamplerHandleNV u64 u32 u32
+glGetTextureSubImage v u32 i32 i32 i32 i32 i32 i32 i32 u32 u32 i32 p
+glGetTrackMatrixivNV v u32 u32 u32 p
+glGetTransformFeedbackVarying v u32 u32 i32 p p p p
+glGetTransformFeedbackVaryingEXT v u32 u32 i32 p p p p
+glGetTransformFeedbackVaryingNV v u32 u32 p
+glGetTransformFeedbacki64_v v u32 u32 u32 p
+glGetTransformFeedbacki_v v u32 u32 u32 p
+glGetTransformFeedbackiv v u32 u32 p
+glGetTranslatedShaderSourceANGLE v u32 i32 p p
+glGetUniformBlockIndex u32 u32 p
+glGetUniformBufferSizeEXT i32 u32 i32
+glGetUniformIndices v u32 i32 p p
+glGetUniformLocation i32 u32 p
+glGetUniformLocationARB i32 u32 p
+glGetUniformOffsetEXT i64 u32 i32
+glGetUniformSubroutineuiv v u32 i32 p
+glGetUniformdv v u32 i32 p
+glGetUniformfv v u32 i32 p
+glGetUniformfvARB v u32 i32 p
+glGetUniformi64vARB v u32 i32 p
+glGetUniformi64vNV v u32 i32 p
+glGetUniformiv v u32 i32 p
+glGetUniformivARB v u32 i32 p
+glGetUniformui64vARB v u32 i32 p
+glGetUniformui64vNV v u32 i32 p
+glGetUniformuiv v u32 i32 p
+glGetUniformuivEXT v u32 i32 p
+glGetUnsignedBytevEXT v u32 p
+glGetUnsignedBytei_vEXT v u32 u32 p
+glGetVariantArrayObjectfvATI v u32 u32 p
+glGetVariantArrayObjectivATI v u32 u32 p
+glGetVariantBooleanvEXT v u32 u32 p
+glGetVariantFloatvEXT v u32 u32 p
+glGetVariantIntegervEXT v u32 u32 p
+glGetVariantPointervEXT v u32 u32 p
+glGetVaryingLocationNV i32 u32 p
+glGetVertexArrayIndexed64iv v u32 u32 u32 p
+glGetVertexArrayIndexediv v u32 u32 u32 p
+glGetVertexArrayIntegeri_vEXT v u32 u32 u32 p
+glGetVertexArrayIntegervEXT v u32 u32 p
+glGetVertexArrayPointeri_vEXT v u32 u32 u32 p
+glGetVertexArrayPointervEXT v u32 u32 p
+glGetVertexArrayiv v u32 u32 p
+glGetVertexAttribArrayObjectfvATI v u32 u32 p
+glGetVertexAttribArrayObjectivATI v u32 u32 p
+glGetVertexAttribIiv v u32 u32 p
+glGetVertexAttribIivEXT v u32 u32 p
+glGetVertexAttribIuiv v u32 u32 p
+glGetVertexAttribIuivEXT v u32 u32 p
+glGetVertexAttribLdv v u32 u32 p
+glGetVertexAttribLdvEXT v u32 u32 p
+glGetVertexAttribLi64vNV v u32 u32 p
+glGetVertexAttribLui64vARB v u32 u32 p
+glGetVertexAttribLui64vNV v u32 u32 p
+glGetVertexAttribPointerv v u32 u32 p
+glGetVertexAttribPointervARB v u32 u32 p
+glGetVertexAttribPointervNV v u32 u32 p
+glGetVertexAttribdv v u32 u32 p
+glGetVertexAttribdvARB v u32 u32 p
+glGetVertexAttribdvNV v u32 u32 p
+glGetVertexAttribfv v u32 u32 p
+glGetVertexAttribfvARB v u32 u32 p
+glGetVertexAttribfvNV v u32 u32 p
+glGetVertexAttribiv v u32 u32 p
+glGetVertexAttribivARB v u32 u32 p
+glGetVertexAttribivNV v u32 u32 p
+glGetVideoCaptureStreamdvNV v u32 u32 u32 p
+glGetVideoCaptureStreamfvNV v u32 u32 u32 p
+glGetVideoCaptureStreamivNV v u32 u32 u32 p
+glGetVideoCaptureivNV v u32 u32 p
+glGetVideoi64vNV v u32 u32 p
+glGetVideoivNV v u32 u32 p
+glGetVideoui64vNV v u32 u32 p
+glGetVideouivNV v u32 u32 p
+glGetnColorTable v u32 u32 u32 i32 p
+glGetnColorTableARB v u32 u32 u32 i32 p
+glGetnCompressedTexImage v u32 i32 i32 p
+glGetnCompressedTexImageARB v u32 i32 i32 p
+glGetnConvolutionFilter v u32 u32 u32 i32 p
+glGetnConvolutionFilterARB v u32 u32 u32 i32 p
+glGetnHistogram v u32 u8 u32 u32 i32 p
+glGetnHistogramARB v u32 u8 u32 u32 i32 p
+glGetnMapdv v u32 u32 i32 p
+glGetnMapdvARB v u32 u32 i32 p
+glGetnMapfv v u32 u32 i32 p
+glGetnMapfvARB v u32 u32 i32 p
+glGetnMapiv v u32 u32 i32 p
+glGetnMapivARB v u32 u32 i32 p
+glGetnMinmax v u32 u8 u32 u32 i32 p
+glGetnMinmaxARB v u32 u8 u32 u32 i32 p
+glGetnPixelMapfv v u32 i32 p
+glGetnPixelMapfvARB v u32 i32 p
+glGetnPixelMapuiv v u32 i32 p
+glGetnPixelMapuivARB v u32 i32 p
+glGetnPixelMapusv v u32 i32 p
+glGetnPixelMapusvARB v u32 i32 p
+glGetnPolygonStipple v i32 p
+glGetnPolygonStippleARB v i32 p
+glGetnSeparableFilter v u32 u32 u32 i32 p i32 p p
+glGetnSeparableFilterARB v u32 u32 u32 i32 p i32 p p
+glGetnTexImage v u32 i32 u32 u32 i32 p
+glGetnTexImageARB v u32 i32 u32 u32 i32 p
+glGetnUniformdv v u32 i32 i32 p
+glGetnUniformdvARB v u32 i32 i32 p
+glGetnUniformfv v u32 i32 i32 p
+glGetnUniformfvARB v u32 i32 i32 p
+glGetnUniformfvEXT v u32 i32 i32 p
+glGetnUniformfvKHR v u32 i32 i32 p
+glGetnUniformi64vARB v u32 i32 i32 p
+glGetnUniformiv v u32 i32 i32 p
+glGetnUniformivARB v u32 i32 i32 p
+glGetnUniformivEXT v u32 i32 i32 p
+glGetnUniformivKHR v u32 i32 i32 p
+glGetnUniformui64vARB v u32 i32 i32 p
+glGetnUniformuiv v u32 i32 i32 p
+glGetnUniformuivARB v u32 i32 i32 p
+glGetnUniformuivKHR v u32 i32 i32 p
+glGlobalAlphaFactorbSUN v i8
+glGlobalAlphaFactordSUN v d
+glGlobalAlphaFactorfSUN v f
+glGlobalAlphaFactoriSUN v i32
+glGlobalAlphaFactorsSUN v i16
+glGlobalAlphaFactorubSUN v u8
+glGlobalAlphaFactoruiSUN v u32
+glGlobalAlphaFactorusSUN v u16
+glHint v u32 u32
+glHintPGI v u32 i32
+glHistogram v u32 i32 u32 u8
+glHistogramEXT v u32 i32 u32 u8
+glIglooInterfaceSGIX v u32 p
+glImageTransformParameterfHP v u32 u32 f
+glImageTransformParameterfvHP v u32 u32 p
+glImageTransformParameteriHP v u32 u32 i32
+glImageTransformParameterivHP v u32 u32 p
+glImportMemoryFdEXT v u32 u64 u32 i32
+glImportMemoryWin32HandleEXT v u32 u64 u32 p
+glImportMemoryWin32NameEXT v u32 u64 u32 p
+glImportSemaphoreFdEXT v u32 u32 i32
+glImportSemaphoreWin32HandleEXT v u32 u32 p
+glImportSemaphoreWin32NameEXT v u32 u32 p
+glImportSyncEXT p u32 i64 u32
+glIndexFormatNV v u32 i32
+glIndexFuncEXT v u32 f
+glIndexMask v u32
+glIndexMaterialEXT v u32 u32
+glIndexPointer v u32 i32 p
+glIndexPointerEXT v u32 i32 i32 p
+glIndexPointerListIBM v u32 i32 p i32
+glIndexd v d
+glIndexdv v p
+glIndexf v f
+glIndexfv v p
+glIndexi v i32
+glIndexiv v p
+glIndexs v i16
+glIndexsv v p
+glIndexub v u8
+glIndexubv v p
+glIndexxOES v i32
+glIndexxvOES v p
+glInitNames v
+glInsertComponentEXT v u32 u32 u32
+glInsertEventMarkerEXT v i32 p
+glInstrumentsBufferSGIX v i32 p
+glInterleavedArrays v u32 i32 p
+glInterpolatePathsNV v u32 u32 u32 f
+glInvalidateBufferData v u32
+glInvalidateBufferSubData v u32 i64 i64
+glInvalidateFramebuffer v u32 i32 p
+glInvalidateNamedFramebufferData v u32 i32 p
+glInvalidateNamedFramebufferSubData v u32 i32 p i32 i32 i32 i32
+glInvalidateSubFramebuffer v u32 i32 p i32 i32 i32 i32
+glInvalidateTexImage v u32 i32
+glInvalidateTexSubImage v u32 i32 i32 i32 i32 i32 i32 i32
+glIsAsyncMarkerSGIX u8 u32
+glIsBuffer u8 u32
+glIsBufferARB u8 u32
+glIsBufferResidentNV u8 u32
+glIsCommandListNV u8 u32
+glIsEnabled u8 u32
+glIsEnabledIndexedEXT u8 u32 u32
+glIsEnabledi u8 u32 u32
+glIsEnablediEXT u8 u32 u32
+glIsEnablediNV u8 u32 u32
+glIsEnablediOES u8 u32 u32
+glIsFenceAPPLE u8 u32
+glIsFenceNV u8 u32
+glIsFramebuffer u8 u32
+glIsFramebufferEXT u8 u32
+glIsFramebufferOES u8 u32
+glIsImageHandleResidentARB u8 u64
+glIsImageHandleResidentNV u8 u64
+glIsList u8 u32
+glIsMemoryObjectEXT u8 u32
+glIsNameAMD u8 u32 u32
+glIsNamedBufferResidentNV u8 u32
+glIsNamedStringARB u8 i32 p
+glIsObjectBufferATI u8 u32
+glIsOcclusionQueryNV u8 u32
+glIsPathNV u8 u32
+glIsPointInFillPathNV u8 u32 u32 f f
+glIsPointInStrokePathNV u8 u32 f f
+glIsProgram u8 u32
+glIsProgramARB u8 u32
+glIsProgramNV u8 u32
+glIsProgramPipeline u8 u32
+glIsProgramPipelineEXT u8 u32
+glIsQuery u8 u32
+glIsQueryARB u8 u32
+glIsQueryEXT u8 u32
+glIsRenderbuffer u8 u32
+glIsRenderbufferEXT u8 u32
+glIsRenderbufferOES u8 u32
+glIsSemaphoreEXT u8 u32
+glIsSampler u8 u32
+glIsShader u8 u32
+glIsStateNV u8 u32
+glIsSync u8 p
+glIsSyncAPPLE u8 p
+glIsTexture u8 u32
+glIsTextureEXT u8 u32
+glIsTextureHandleResidentARB u8 u64
+glIsTextureHandleResidentNV u8 u64
+glIsTransformFeedback u8 u32
+glIsTransformFeedbackNV u8 u32
+glIsVariantEnabledEXT u8 u32 u32
+glIsVertexArray u8 u32
+glIsVertexArrayAPPLE u8 u32
+glIsVertexArrayOES u8 u32
+glIsVertexAttribEnabledAPPLE u8 u32 u32
+glLGPUCopyImageSubDataNVX v u32 u32 u32 u32 i32 i32 i32 i32 u32 u32 i32 i32 i32 i32 i32 i32 i32
+glLGPUInterlockNVX v
+glLGPUNamedBufferSubDataNVX v u32 u32 i64 i64 p
+glLabelObjectEXT v u32 u32 i32 p
+glLightEnviSGIX v u32 i32
+glLightModelf v u32 f
+glLightModelfv v u32 p
+glLightModeli v u32 i32
+glLightModeliv v u32 p
+glLightModelx v u32 i32
+glLightModelxOES v u32 i32
+glLightModelxv v u32 p
+glLightModelxvOES v u32 p
+glLightf v u32 u32 f
+glLightfv v u32 u32 p
+glLighti v u32 u32 i32
+glLightiv v u32 u32 p
+glLightx v u32 u32 i32
+glLightxOES v u32 u32 i32
+glLightxv v u32 u32 p
+glLightxvOES v u32 u32 p
+glLineStipple v i32 u16
+glLineWidth v f
+glLineWidthx v i32
+glLineWidthxOES v i32
+glLinkProgram v u32
+glLinkProgramARB v u32
+glListBase v u32
+glListDrawCommandsStatesClientNV v u32 u32 p p p p u32
+glListParameterfSGIX v u32 u32 f
+glListParameterfvSGIX v u32 u32 p
+glListParameteriSGIX v u32 u32 i32
+glListParameterivSGIX v u32 u32 p
+glLoadIdentity v
+glLoadIdentityDeformationMapSGIX v u32
+glLoadMatrixd v p
+glLoadMatrixf v p
+glLoadMatrixx v p
+glLoadMatrixxOES v p
+glLoadName v u32
+glLoadPaletteFromModelViewMatrixOES v
+glLoadProgramNV v u32 u32 i32 p
+glLoadTransposeMatrixd v p
+glLoadTransposeMatrixdARB v p
+glLoadTransposeMatrixf v p
+glLoadTransposeMatrixfARB v p
+glLoadTransposeMatrixxOES v p
+glLockArraysEXT v i32 i32
+glLogicOp v u32
+glMakeBufferNonResidentNV v u32
+glMakeBufferResidentNV v u32 u32
+glMakeImageHandleNonResidentARB v u64
+glMakeImageHandleNonResidentNV v u64
+glMakeImageHandleResidentARB v u64 u32
+glMakeImageHandleResidentNV v u64 u32
+glMakeNamedBufferNonResidentNV v u32
+glMakeNamedBufferResidentNV v u32 u32
+glMakeTextureHandleNonResidentARB v u64
+glMakeTextureHandleNonResidentNV v u64
+glMakeTextureHandleResidentARB v u64
+glMakeTextureHandleResidentNV v u64
+glMap1d v u32 d d i32 i32 p
+glMap1f v u32 f f i32 i32 p
+glMap1xOES v u32 i32 i32 i32 i32 i32
+glMap2d v u32 d d i32 i32 d d i32 i32 p
+glMap2f v u32 f f i32 i32 f f i32 i32 p
+glMap2xOES v u32 i32 i32 i32 i32 i32 i32 i32 i32 i32
+glMapBuffer p u32 u32
+glMapBufferARB p u32 u32
+glMapBufferOES p u32 u32
+glMapBufferRange p u32 i64 i64 u32
+glMapBufferRangeEXT p u32 i64 i64 u32
+glMapControlPointsNV v u32 u32 u32 i32 i32 i32 i32 u8 p
+glMapGrid1d v i32 d d
+glMapGrid1f v i32 f f
+glMapGrid1xOES v i32 i32 i32
+glMapGrid2d v i32 d d i32 d d
+glMapGrid2f v i32 f f i32 f f
+glMapGrid2xOES v i32 i32 i32 i32 i32
+glMapNamedBuffer p u32 u32
+glMapNamedBufferEXT p u32 u32
+glMapNamedBufferRange p u32 i64 i64 u32
+glMapNamedBufferRangeEXT p u32 i64 i64 u32
+glMapObjectBufferATI p u32
+glMapParameterfvNV v u32 u32 p
+glMapParameterivNV v u32 u32 p
+glMapTexture2DINTEL p u32 i32 u32 p p
+glMapVertexAttrib1dAPPLE v u32 u32 d d i32 i32 p
+glMapVertexAttrib1fAPPLE v u32 u32 f f i32 i32 p
+glMapVertexAttrib2dAPPLE v u32 u32 d d i32 i32 d d i32 i32 p
+glMapVertexAttrib2fAPPLE v u32 u32 f f i32 i32 f f i32 i32 p
+glMaterialf v u32 u32 f
+glMaterialfv v u32 u32 p
+glMateriali v u32 u32 i32
+glMaterialiv v u32 u32 p
+glMaterialx v u32 u32 i32
+glMaterialxOES v u32 u32 i32
+glMaterialxv v u32 u32 p
+glMaterialxvOES v u32 u32 p
+glMatrixFrustumEXT v u32 d d d d d d
+glMatrixIndexPointerARB v i32 u32 i32 p
+glMatrixIndexPointerOES v i32 u32 i32 p
+glMatrixIndexubvARB v i32 p
+glMatrixIndexuivARB v i32 p
+glMatrixIndexusvARB v i32 p
+glMatrixLoad3x2fNV v u32 p
+glMatrixLoad3x3fNV v u32 p
+glMatrixLoadIdentityEXT v u32
+glMatrixLoadTranspose3x3fNV v u32 p
+glMatrixLoadTransposedEXT v u32 p
+glMatrixLoadTransposefEXT v u32 p
+glMatrixLoaddEXT v u32 p
+glMatrixLoadfEXT v u32 p
+glMatrixMode v u32
+glMatrixMult3x2fNV v u32 p
+glMatrixMult3x3fNV v u32 p
+glMatrixMultTranspose3x3fNV v u32 p
+glMatrixMultTransposedEXT v u32 p
+glMatrixMultTransposefEXT v u32 p
+glMatrixMultdEXT v u32 p
+glMatrixMultfEXT v u32 p
+glMatrixOrthoEXT v u32 d d d d d d
+glMatrixPopEXT v u32
+glMatrixPushEXT v u32
+glMatrixRotatedEXT v u32 d d d d
+glMatrixRotatefEXT v u32 f f f f
+glMatrixScaledEXT v u32 d d d
+glMatrixScalefEXT v u32 f f f
+glMatrixTranslatedEXT v u32 d d d
+glMatrixTranslatefEXT v u32 f f f
+glMaxActiveShaderCoresARM v u32
+glMaxShaderCompilerThreadsKHR v u32
+glMaxShaderCompilerThreadsARB v u32
+glMemoryBarrier v u32
+glMemoryBarrierByRegion v u32
+glMemoryBarrierEXT v u32
+glMemoryObjectParameterivEXT v u32 u32 p
+glMinSampleShading v f
+glMinSampleShadingARB v f
+glMinSampleShadingOES v f
+glMinmax v u32 u32 u8
+glMinmaxEXT v u32 u32 u8
+glMultMatrixd v p
+glMultMatrixf v p
+glMultMatrixx v p
+glMultMatrixxOES v p
+glMultTransposeMatrixd v p
+glMultTransposeMatrixdARB v p
+glMultTransposeMatrixf v p
+glMultTransposeMatrixfARB v p
+glMultTransposeMatrixxOES v p
+glMultiDrawArrays v u32 p p i32
+glMultiDrawArraysEXT v u32 p p i32
+glMultiDrawArraysIndirect v u32 p i32 i32
+glMultiDrawArraysIndirectAMD v u32 p i32 i32
+glMultiDrawArraysIndirectBindlessCountNV v u32 p i32 i32 i32 i32
+glMultiDrawArraysIndirectBindlessNV v u32 p i32 i32 i32
+glMultiDrawArraysIndirectCount v u32 p i64 i32 i32
+glMultiDrawArraysIndirectCountARB v u32 p i64 i32 i32
+glMultiDrawArraysIndirectEXT v u32 p i32 i32
+glMultiDrawElementArrayAPPLE v u32 p p i32
+glMultiDrawElements v u32 p u32 p i32
+glMultiDrawElementsBaseVertex v u32 p u32 p i32 p
+glMultiDrawElementsBaseVertexEXT v u32 p u32 p i32 p
+glMultiDrawElementsEXT v u32 p u32 p i32
+glMultiDrawElementsIndirect v u32 u32 p i32 i32
+glMultiDrawElementsIndirectAMD v u32 u32 p i32 i32
+glMultiDrawElementsIndirectBindlessCountNV v u32 u32 p i32 i32 i32 i32
+glMultiDrawElementsIndirectBindlessNV v u32 u32 p i32 i32 i32
+glMultiDrawElementsIndirectCount v u32 u32 p i64 i32 i32
+glMultiDrawElementsIndirectCountARB v u32 u32 p i64 i32 i32
+glMultiDrawElementsIndirectEXT v u32 u32 p i32 i32
+glMultiDrawMeshTasksIndirectNV v i64 i32 i32
+glMultiDrawMeshTasksIndirectCountNV v i64 i64 i32 i32
+glMultiDrawRangeElementArrayAPPLE v u32 u32 u32 p p i32
+glMultiModeDrawArraysIBM v p p p i32 i32
+glMultiModeDrawElementsIBM v p p u32 p i32 i32
+glMultiTexBufferEXT v u32 u32 u32 u32
+glMultiTexCoord1bOES v u32 i8
+glMultiTexCoord1bvOES v u32 p
+glMultiTexCoord1d v u32 d
+glMultiTexCoord1dARB v u32 d
+glMultiTexCoord1dv v u32 p
+glMultiTexCoord1dvARB v u32 p
+glMultiTexCoord1f v u32 f
+glMultiTexCoord1fARB v u32 f
+glMultiTexCoord1fv v u32 p
+glMultiTexCoord1fvARB v u32 p
+glMultiTexCoord1hNV v u32 u16
+glMultiTexCoord1hvNV v u32 p
+glMultiTexCoord1i v u32 i32
+glMultiTexCoord1iARB v u32 i32
+glMultiTexCoord1iv v u32 p
+glMultiTexCoord1ivARB v u32 p
+glMultiTexCoord1s v u32 i16
+glMultiTexCoord1sARB v u32 i16
+glMultiTexCoord1sv v u32 p
+glMultiTexCoord1svARB v u32 p
+glMultiTexCoord1xOES v u32 i32
+glMultiTexCoord1xvOES v u32 p
+glMultiTexCoord2bOES v u32 i8 i8
+glMultiTexCoord2bvOES v u32 p
+glMultiTexCoord2d v u32 d d
+glMultiTexCoord2dARB v u32 d d
+glMultiTexCoord2dv v u32 p
+glMultiTexCoord2dvARB v u32 p
+glMultiTexCoord2f v u32 f f
+glMultiTexCoord2fARB v u32 f f
+glMultiTexCoord2fv v u32 p
+glMultiTexCoord2fvARB v u32 p
+glMultiTexCoord2hNV v u32 u16 u16
+glMultiTexCoord2hvNV v u32 p
+glMultiTexCoord2i v u32 i32 i32
+glMultiTexCoord2iARB v u32 i32 i32
+glMultiTexCoord2iv v u32 p
+glMultiTexCoord2ivARB v u32 p
+glMultiTexCoord2s v u32 i16 i16
+glMultiTexCoord2sARB v u32 i16 i16
+glMultiTexCoord2sv v u32 p
+glMultiTexCoord2svARB v u32 p
+glMultiTexCoord2xOES v u32 i32 i32
+glMultiTexCoord2xvOES v u32 p
+glMultiTexCoord3bOES v u32 i8 i8 i8
+glMultiTexCoord3bvOES v u32 p
+glMultiTexCoord3d v u32 d d d
+glMultiTexCoord3dARB v u32 d d d
+glMultiTexCoord3dv v u32 p
+glMultiTexCoord3dvARB v u32 p
+glMultiTexCoord3f v u32 f f f
+glMultiTexCoord3fARB v u32 f f f
+glMultiTexCoord3fv v u32 p
+glMultiTexCoord3fvARB v u32 p
+glMultiTexCoord3hNV v u32 u16 u16 u16
+glMultiTexCoord3hvNV v u32 p
+glMultiTexCoord3i v u32 i32 i32 i32
+glMultiTexCoord3iARB v u32 i32 i32 i32
+glMultiTexCoord3iv v u32 p
+glMultiTexCoord3ivARB v u32 p
+glMultiTexCoord3s v u32 i16 i16 i16
+glMultiTexCoord3sARB v u32 i16 i16 i16
+glMultiTexCoord3sv v u32 p
+glMultiTexCoord3svARB v u32 p
+glMultiTexCoord3xOES v u32 i32 i32 i32
+glMultiTexCoord3xvOES v u32 p
+glMultiTexCoord4bOES v u32 i8 i8 i8 i8
+glMultiTexCoord4bvOES v u32 p
+glMultiTexCoord4d v u32 d d d d
+glMultiTexCoord4dARB v u32 d d d d
+glMultiTexCoord4dv v u32 p
+glMultiTexCoord4dvARB v u32 p
+glMultiTexCoord4f v u32 f f f f
+glMultiTexCoord4fARB v u32 f f f f
+glMultiTexCoord4fv v u32 p
+glMultiTexCoord4fvARB v u32 p
+glMultiTexCoord4hNV v u32 u16 u16 u16 u16
+glMultiTexCoord4hvNV v u32 p
+glMultiTexCoord4i v u32 i32 i32 i32 i32
+glMultiTexCoord4iARB v u32 i32 i32 i32 i32
+glMultiTexCoord4iv v u32 p
+glMultiTexCoord4ivARB v u32 p
+glMultiTexCoord4s v u32 i16 i16 i16 i16
+glMultiTexCoord4sARB v u32 i16 i16 i16 i16
+glMultiTexCoord4sv v u32 p
+glMultiTexCoord4svARB v u32 p
+glMultiTexCoord4x v u32 i32 i32 i32 i32
+glMultiTexCoord4xOES v u32 i32 i32 i32 i32
+glMultiTexCoord4xvOES v u32 p
+glMultiTexCoordP1ui v u32 u32 u32
+glMultiTexCoordP1uiv v u32 u32 p
+glMultiTexCoordP2ui v u32 u32 u32
+glMultiTexCoordP2uiv v u32 u32 p
+glMultiTexCoordP3ui v u32 u32 u32
+glMultiTexCoordP3uiv v u32 u32 p
+glMultiTexCoordP4ui v u32 u32 u32
+glMultiTexCoordP4uiv v u32 u32 p
+glMultiTexCoordPointerEXT v u32 i32 u32 i32 p
+glMultiTexEnvfEXT v u32 u32 u32 f
+glMultiTexEnvfvEXT v u32 u32 u32 p
+glMultiTexEnviEXT v u32 u32 u32 i32
+glMultiTexEnvivEXT v u32 u32 u32 p
+glMultiTexGendEXT v u32 u32 u32 d
+glMultiTexGendvEXT v u32 u32 u32 p
+glMultiTexGenfEXT v u32 u32 u32 f
+glMultiTexGenfvEXT v u32 u32 u32 p
+glMultiTexGeniEXT v u32 u32 u32 i32
+glMultiTexGenivEXT v u32 u32 u32 p
+glMultiTexImage1DEXT v u32 u32 i32 i32 i32 i32 u32 u32 p
+glMultiTexImage2DEXT v u32 u32 i32 i32 i32 i32 i32 u32 u32 p
+glMultiTexImage3DEXT v u32 u32 i32 i32 i32 i32 i32 i32 u32 u32 p
+glMultiTexParameterIivEXT v u32 u32 u32 p
+glMultiTexParameterIuivEXT v u32 u32 u32 p
+glMultiTexParameterfEXT v u32 u32 u32 f
+glMultiTexParameterfvEXT v u32 u32 u32 p
+glMultiTexParameteriEXT v u32 u32 u32 i32
+glMultiTexParameterivEXT v u32 u32 u32 p
+glMultiTexRenderbufferEXT v u32 u32 u32
+glMultiTexSubImage1DEXT v u32 u32 i32 i32 i32 u32 u32 p
+glMultiTexSubImage2DEXT v u32 u32 i32 i32 i32 i32 i32 u32 u32 p
+glMultiTexSubImage3DEXT v u32 u32 i32 i32 i32 i32 i32 i32 i32 u32 u32 p
+glMulticastBarrierNV v
+glMulticastBlitFramebufferNV v u32 u32 i32 i32 i32 i32 i32 i32 i32 i32 u32 u32
+glMulticastBufferSubDataNV v u32 u32 i64 i64 p
+glMulticastCopyBufferSubDataNV v u32 u32 u32 u32 i64 i64 i64
+glMulticastCopyImageSubDataNV v u32 u32 u32 u32 i32 i32 i32 i32 u32 u32 i32 i32 i32 i32 i32 i32 i32
+glMulticastFramebufferSampleLocationsfvNV v u32 u32 u32 i32 p
+glMulticastGetQueryObjecti64vNV v u32 u32 u32 p
+glMulticastGetQueryObjectivNV v u32 u32 u32 p
+glMulticastGetQueryObjectui64vNV v u32 u32 u32 p
+glMulticastGetQueryObjectuivNV v u32 u32 u32 p
+glMulticastScissorArrayvNVX v u32 u32 i32 p
+glMulticastViewportArrayvNVX v u32 u32 i32 p
+glMulticastViewportPositionWScaleNVX v u32 u32 f f
+glMulticastWaitSyncNV v u32 u32
+glNamedBufferAttachMemoryNV v u32 u32 u64
+glNamedBufferData v u32 i64 p u32
+glNamedBufferDataEXT v u32 i64 p u32
+glNamedBufferPageCommitmentARB v u32 i64 i64 u8
+glNamedBufferPageCommitmentEXT v u32 i64 i64 u8
+glNamedBufferPageCommitmentMemNV v u32 i64 i64 u32 u64 u8
+glNamedBufferStorage v u32 i64 p u32
+glNamedBufferStorageExternalEXT v u32 i64 i64 p u32
+glNamedBufferStorageEXT v u32 i64 p u32
+glNamedBufferStorageMemEXT v u32 i64 u32 u64
+glNamedBufferSubData v u32 i64 i64 p
+glNamedBufferSubDataEXT v u32 i64 i64 p
+glNamedCopyBufferSubDataEXT v u32 u32 i64 i64 i64
+glNamedFramebufferDrawBuffer v u32 u32
+glNamedFramebufferDrawBuffers v u32 i32 p
+glNamedFramebufferParameteri v u32 u32 i32
+glNamedFramebufferParameteriEXT v u32 u32 i32
+glNamedFramebufferReadBuffer v u32 u32
+glNamedFramebufferRenderbuffer v u32 u32 u32 u32
+glNamedFramebufferRenderbufferEXT v u32 u32 u32 u32
+glNamedFramebufferSampleLocationsfvARB v u32 u32 i32 p
+glNamedFramebufferSampleLocationsfvNV v u32 u32 i32 p
+glNamedFramebufferTexture v u32 u32 u32 i32
+glNamedFramebufferSamplePositionsfvAMD v u32 u32 u32 p
+glNamedFramebufferTexture1DEXT v u32 u32 u32 u32 i32
+glNamedFramebufferTexture2DEXT v u32 u32 u32 u32 i32
+glNamedFramebufferTexture3DEXT v u32 u32 u32 u32 i32 i32
+glNamedFramebufferTextureEXT v u32 u32 u32 i32
+glNamedFramebufferTextureFaceEXT v u32 u32 u32 i32 u32
+glNamedFramebufferTextureLayer v u32 u32 u32 i32 i32
+glNamedFramebufferTextureLayerEXT v u32 u32 u32 i32 i32
+glNamedFramebufferTextureMultiviewOVR v u32 u32 u32 i32 i32 i32
+glNamedProgramLocalParameter4dEXT v u32 u32 u32 d d d d
+glNamedProgramLocalParameter4dvEXT v u32 u32 u32 p
+glNamedProgramLocalParameter4fEXT v u32 u32 u32 f f f f
+glNamedProgramLocalParameter4fvEXT v u32 u32 u32 p
+glNamedProgramLocalParameterI4iEXT v u32 u32 u32 i32 i32 i32 i32
+glNamedProgramLocalParameterI4ivEXT v u32 u32 u32 p
+glNamedProgramLocalParameterI4uiEXT v u32 u32 u32 u32 u32 u32 u32
+glNamedProgramLocalParameterI4uivEXT v u32 u32 u32 p
+glNamedProgramLocalParameters4fvEXT v u32 u32 u32 i32 p
+glNamedProgramLocalParametersI4ivEXT v u32 u32 u32 i32 p
+glNamedProgramLocalParametersI4uivEXT v u32 u32 u32 i32 p
+glNamedProgramStringEXT v u32 u32 u32 i32 p
+glNamedRenderbufferStorage v u32 u32 i32 i32
+glNamedRenderbufferStorageEXT v u32 u32 i32 i32
+glNamedRenderbufferStorageMultisample v u32 i32 u32 i32 i32
+glNamedRenderbufferStorageMultisampleAdvancedAMD v u32 i32 i32 u32 i32 i32
+glNamedRenderbufferStorageMultisampleCoverageEXT v u32 i32 i32 u32 i32 i32
+glNamedRenderbufferStorageMultisampleEXT v u32 i32 u32 i32 i32
+glNamedStringARB v u32 i32 p i32 p
+glNewList v u32 u32
+glNewObjectBufferATI u32 i32 p u32
+glNormal3b v i8 i8 i8
+glNormal3bv v p
+glNormal3d v d d d
+glNormal3dv v p
+glNormal3f v f f f
+glNormal3fVertex3fSUN v f f f f f f
+glNormal3fVertex3fvSUN v p p
+glNormal3fv v p
+glNormal3hNV v u16 u16 u16
+glNormal3hvNV v p
+glNormal3i v i32 i32 i32
+glNormal3iv v p
+glNormal3s v i16 i16 i16
+glNormal3sv v p
+glNormal3x v i32 i32 i32
+glNormal3xOES v i32 i32 i32
+glNormal3xvOES v p
+glNormalFormatNV v u32 i32
+glNormalP3ui v u32 u32
+glNormalP3uiv v u32 p
+glNormalPointer v u32 i32 p
+glNormalPointerEXT v u32 i32 i32 p
+glNormalPointerListIBM v u32 i32 p i32
+glNormalPointervINTEL v u32 p
+glNormalStream3bATI v u32 i8 i8 i8
+glNormalStream3bvATI v u32 p
+glNormalStream3dATI v u32 d d d
+glNormalStream3dvATI v u32 p
+glNormalStream3fATI v u32 f f f
+glNormalStream3fvATI v u32 p
+glNormalStream3iATI v u32 i32 i32 i32
+glNormalStream3ivATI v u32 p
+glNormalStream3sATI v u32 i16 i16 i16
+glNormalStream3svATI v u32 p
+glObjectLabel v u32 u32 i32 p
+glObjectLabelKHR v u32 u32 i32 p
+glObjectPtrLabel v p i32 p
+glObjectPtrLabelKHR v p i32 p
+glObjectPurgeableAPPLE u32 u32 u32 u32
+glObjectUnpurgeableAPPLE u32 u32 u32 u32
+glOrtho v d d d d d d
+glOrthof v f f f f f f
+glOrthofOES v f f f f f f
+glOrthox v i32 i32 i32 i32 i32 i32
+glOrthoxOES v i32 i32 i32 i32 i32 i32
+glPNTrianglesfATI v u32 f
+glPNTrianglesiATI v u32 i32
+glPassTexCoordATI v u32 u32 u32
+glPassThrough v f
+glPassThroughxOES v i32
+glPatchParameterfv v u32 p
+glPatchParameteri v u32 i32
+glPatchParameteriEXT v u32 i32
+glPatchParameteriOES v u32 i32
+glPathColorGenNV v u32 u32 u32 p
+glPathCommandsNV v u32 i32 p i32 u32 p
+glPathCoordsNV v u32 i32 u32 p
+glPathCoverDepthFuncNV v u32
+glPathDashArrayNV v u32 i32 p
+glPathFogGenNV v u32
+glPathGlyphIndexArrayNV u32 u32 u32 p u32 u32 i32 u32 f
+glPathGlyphIndexRangeNV u32 u32 p u32 u32 f p
+glPathGlyphRangeNV v u32 u32 p u32 u32 i32 u32 u32 f
+glPathGlyphsNV v u32 u32 p u32 i32 u32 p u32 u32 f
+glPathMemoryGlyphIndexArrayNV u32 u32 u32 i64 p i32 u32 i32 u32 f
+glPathParameterfNV v u32 u32 f
+glPathParameterfvNV v u32 u32 p
+glPathParameteriNV v u32 u32 i32
+glPathParameterivNV v u32 u32 p
+glPathStencilDepthOffsetNV v f f
+glPathStencilFuncNV v u32 i32 u32
+glPathStringNV v u32 u32 i32 p
+glPathSubCommandsNV v u32 i32 i32 i32 p i32 u32 p
+glPathSubCoordsNV v u32 i32 i32 u32 p
+glPathTexGenNV v u32 u32 i32 p
+glPauseTransformFeedback v
+glPauseTransformFeedbackNV v
+glPixelDataRangeNV v u32 i32 p
+glPixelMapfv v u32 i32 p
+glPixelMapuiv v u32 i32 p
+glPixelMapusv v u32 i32 p
+glPixelMapx v u32 i32 p
+glPixelStoref v u32 f
+glPixelStorei v u32 i32
+glPixelStorex v u32 i32
+glPixelTexGenParameterfSGIS v u32 f
+glPixelTexGenParameterfvSGIS v u32 p
+glPixelTexGenParameteriSGIS v u32 i32
+glPixelTexGenParameterivSGIS v u32 p
+glPixelTexGenSGIX v u32
+glPixelTransferf v u32 f
+glPixelTransferi v u32 i32
+glPixelTransferxOES v u32 i32
+glPixelTransformParameterfEXT v u32 u32 f
+glPixelTransformParameterfvEXT v u32 u32 p
+glPixelTransformParameteriEXT v u32 u32 i32
+glPixelTransformParameterivEXT v u32 u32 p
+glPixelZoom v f f
+glPixelZoomxOES v i32 i32
+glPointAlongPathNV u8 u32 i32 i32 f p p p p
+glPointParameterf v u32 f
+glPointParameterfARB v u32 f
+glPointParameterfEXT v u32 f
+glPointParameterfSGIS v u32 f
+glPointParameterfv v u32 p
+glPointParameterfvARB v u32 p
+glPointParameterfvEXT v u32 p
+glPointParameterfvSGIS v u32 p
+glPointParameteri v u32 i32
+glPointParameteriNV v u32 i32
+glPointParameteriv v u32 p
+glPointParameterivNV v u32 p
+glPointParameterx v u32 i32
+glPointParameterxOES v u32 i32
+glPointParameterxv v u32 p
+glPointParameterxvOES v u32 p
+glPointSize v f
+glPointSizePointerOES v u32 i32 p
+glPointSizex v i32
+glPointSizexOES v i32
+glPollAsyncSGIX i32 p
+glPollInstrumentsSGIX i32 p
+glPolygonMode v u32 u32
+glPolygonModeNV v u32 u32
+glPolygonOffset v f f
+glPolygonOffsetClamp v f f f
+glPolygonOffsetClampEXT v f f f
+glPolygonOffsetEXT v f f
+glPolygonOffsetx v i32 i32
+glPolygonOffsetxOES v i32 i32
+glPolygonStipple v p
+glPopAttrib v
+glPopClientAttrib v
+glPopDebugGroup v
+glPopDebugGroupKHR v
+glPopGroupMarkerEXT v
+glPopMatrix v
+glPopName v
+glPresentFrameDualFillNV v u32 u64 u32 u32 u32 u32 u32 u32 u32 u32 u32 u32 u32
+glPresentFrameKeyedNV v u32 u64 u32 u32 u32 u32 u32 u32 u32 u32 u32
+glPrimitiveBoundingBox v f f f f f f f f
+glPrimitiveBoundingBoxARB v f f f f f f f f
+glPrimitiveBoundingBoxEXT v f f f f f f f f
+glPrimitiveBoundingBoxOES v f f f f f f f f
+glPrimitiveRestartIndex v u32
+glPrimitiveRestartIndexNV v u32
+glPrimitiveRestartNV v
+glPrioritizeTextures v i32 p p
+glPrioritizeTexturesEXT v i32 p p
+glPrioritizeTexturesxOES v i32 p p
+glProgramBinary v u32 u32 p i32
+glProgramBinaryOES v u32 u32 p i32
+glProgramBufferParametersIivNV v u32 u32 u32 i32 p
+glProgramBufferParametersIuivNV v u32 u32 u32 i32 p
+glProgramBufferParametersfvNV v u32 u32 u32 i32 p
+glProgramEnvParameter4dARB v u32 u32 d d d d
+glProgramEnvParameter4dvARB v u32 u32 p
+glProgramEnvParameter4fARB v u32 u32 f f f f
+glProgramEnvParameter4fvARB v u32 u32 p
+glProgramEnvParameterI4iNV v u32 u32 i32 i32 i32 i32
+glProgramEnvParameterI4ivNV v u32 u32 p
+glProgramEnvParameterI4uiNV v u32 u32 u32 u32 u32 u32
+glProgramEnvParameterI4uivNV v u32 u32 p
+glProgramEnvParameters4fvEXT v u32 u32 i32 p
+glProgramEnvParametersI4ivNV v u32 u32 i32 p
+glProgramEnvParametersI4uivNV v u32 u32 i32 p
+glProgramLocalParameter4dARB v u32 u32 d d d d
+glProgramLocalParameter4dvARB v u32 u32 p
+glProgramLocalParameter4fARB v u32 u32 f f f f
+glProgramLocalParameter4fvARB v u32 u32 p
+glProgramLocalParameterI4iNV v u32 u32 i32 i32 i32 i32
+glProgramLocalParameterI4ivNV v u32 u32 p
+glProgramLocalParameterI4uiNV v u32 u32 u32 u32 u32 u32
+glProgramLocalParameterI4uivNV v u32 u32 p
+glProgramLocalParameters4fvEXT v u32 u32 i32 p
+glProgramLocalParametersI4ivNV v u32 u32 i32 p
+glProgramLocalParametersI4uivNV v u32 u32 i32 p
+glProgramNamedParameter4dNV v u32 i32 p d d d d
+glProgramNamedParameter4dvNV v u32 i32 p p
+glProgramNamedParameter4fNV v u32 i32 p f f f f
+glProgramNamedParameter4fvNV v u32 i32 p p
+glProgramParameter4dNV v u32 u32 d d d d
+glProgramParameter4dvNV v u32 u32 p
+glProgramParameter4fNV v u32 u32 f f f f
+glProgramParameter4fvNV v u32 u32 p
+glProgramParameteri v u32 u32 i32
+glProgramParameteriARB v u32 u32 i32
+glProgramParameteriEXT v u32 u32 i32
+glProgramParameters4dvNV v u32 u32 i32 p
+glProgramParameters4fvNV v u32 u32 i32 p
+glProgramPathFragmentInputGenNV v u32 i32 u32 i32 p
+glProgramStringARB v u32 u32 i32 p
+glProgramSubroutineParametersuivNV v u32 i32 p
+glProgramUniform1d v u32 i32 d
+glProgramUniform1dEXT v u32 i32 d
+glProgramUniform1dv v u32 i32 i32 p
+glProgramUniform1dvEXT v u32 i32 i32 p
+glProgramUniform1f v u32 i32 f
+glProgramUniform1fEXT v u32 i32 f
+glProgramUniform1fv v u32 i32 i32 p
+glProgramUniform1fvEXT v u32 i32 i32 p
+glProgramUniform1i v u32 i32 i32
+glProgramUniform1i64ARB v u32 i32 i64
+glProgramUniform1i64NV v u32 i32 i64
+glProgramUniform1i64vARB v u32 i32 i32 p
+glProgramUniform1i64vNV v u32 i32 i32 p
+glProgramUniform1iEXT v u32 i32 i32
+glProgramUniform1iv v u32 i32 i32 p
+glProgramUniform1ivEXT v u32 i32 i32 p
+glProgramUniform1ui v u32 i32 u32
+glProgramUniform1ui64ARB v u32 i32 u64
+glProgramUniform1ui64NV v u32 i32 u64
+glProgramUniform1ui64vARB v u32 i32 i32 p
+glProgramUniform1ui64vNV v u32 i32 i32 p
+glProgramUniform1uiEXT v u32 i32 u32
+glProgramUniform1uiv v u32 i32 i32 p
+glProgramUniform1uivEXT v u32 i32 i32 p
+glProgramUniform2d v u32 i32 d d
+glProgramUniform2dEXT v u32 i32 d d
+glProgramUniform2dv v u32 i32 i32 p
+glProgramUniform2dvEXT v u32 i32 i32 p
+glProgramUniform2f v u32 i32 f f
+glProgramUniform2fEXT v u32 i32 f f
+glProgramUniform2fv v u32 i32 i32 p
+glProgramUniform2fvEXT v u32 i32 i32 p
+glProgramUniform2i v u32 i32 i32 i32
+glProgramUniform2i64ARB v u32 i32 i64 i64
+glProgramUniform2i64NV v u32 i32 i64 i64
+glProgramUniform2i64vARB v u32 i32 i32 p
+glProgramUniform2i64vNV v u32 i32 i32 p
+glProgramUniform2iEXT v u32 i32 i32 i32
+glProgramUniform2iv v u32 i32 i32 p
+glProgramUniform2ivEXT v u32 i32 i32 p
+glProgramUniform2ui v u32 i32 u32 u32
+glProgramUniform2ui64ARB v u32 i32 u64 u64
+glProgramUniform2ui64NV v u32 i32 u64 u64
+glProgramUniform2ui64vARB v u32 i32 i32 p
+glProgramUniform2ui64vNV v u32 i32 i32 p
+glProgramUniform2uiEXT v u32 i32 u32 u32
+glProgramUniform2uiv v u32 i32 i32 p
+glProgramUniform2uivEXT v u32 i32 i32 p
+glProgramUniform3d v u32 i32 d d d
+glProgramUniform3dEXT v u32 i32 d d d
+glProgramUniform3dv v u32 i32 i32 p
+glProgramUniform3dvEXT v u32 i32 i32 p
+glProgramUniform3f v u32 i32 f f f
+glProgramUniform3fEXT v u32 i32 f f f
+glProgramUniform3fv v u32 i32 i32 p
+glProgramUniform3fvEXT v u32 i32 i32 p
+glProgramUniform3i v u32 i32 i32 i32 i32
+glProgramUniform3i64ARB v u32 i32 i64 i64 i64
+glProgramUniform3i64NV v u32 i32 i64 i64 i64
+glProgramUniform3i64vARB v u32 i32 i32 p
+glProgramUniform3i64vNV v u32 i32 i32 p
+glProgramUniform3iEXT v u32 i32 i32 i32 i32
+glProgramUniform3iv v u32 i32 i32 p
+glProgramUniform3ivEXT v u32 i32 i32 p
+glProgramUniform3ui v u32 i32 u32 u32 u32
+glProgramUniform3ui64ARB v u32 i32 u64 u64 u64
+glProgramUniform3ui64NV v u32 i32 u64 u64 u64
+glProgramUniform3ui64vARB v u32 i32 i32 p
+glProgramUniform3ui64vNV v u32 i32 i32 p
+glProgramUniform3uiEXT v u32 i32 u32 u32 u32
+glProgramUniform3uiv v u32 i32 i32 p
+glProgramUniform3uivEXT v u32 i32 i32 p
+glProgramUniform4d v u32 i32 d d d d
+glProgramUniform4dEXT v u32 i32 d d d d
+glProgramUniform4dv v u32 i32 i32 p
+glProgramUniform4dvEXT v u32 i32 i32 p
+glProgramUniform4f v u32 i32 f f f f
+glProgramUniform4fEXT v u32 i32 f f f f
+glProgramUniform4fv v u32 i32 i32 p
+glProgramUniform4fvEXT v u32 i32 i32 p
+glProgramUniform4i v u32 i32 i32 i32 i32 i32
+glProgramUniform4i64ARB v u32 i32 i64 i64 i64 i64
+glProgramUniform4i64NV v u32 i32 i64 i64 i64 i64
+glProgramUniform4i64vARB v u32 i32 i32 p
+glProgramUniform4i64vNV v u32 i32 i32 p
+glProgramUniform4iEXT v u32 i32 i32 i32 i32 i32
+glProgramUniform4iv v u32 i32 i32 p
+glProgramUniform4ivEXT v u32 i32 i32 p
+glProgramUniform4ui v u32 i32 u32 u32 u32 u32
+glProgramUniform4ui64ARB v u32 i32 u64 u64 u64 u64
+glProgramUniform4ui64NV v u32 i32 u64 u64 u64 u64
+glProgramUniform4ui64vARB v u32 i32 i32 p
+glProgramUniform4ui64vNV v u32 i32 i32 p
+glProgramUniform4uiEXT v u32 i32 u32 u32 u32 u32
+glProgramUniform4uiv v u32 i32 i32 p
+glProgramUniform4uivEXT v u32 i32 i32 p
+glProgramUniformHandleui64ARB v u32 i32 u64
+glProgramUniformHandleui64IMG v u32 i32 u64
+glProgramUniformHandleui64NV v u32 i32 u64
+glProgramUniformHandleui64vARB v u32 i32 i32 p
+glProgramUniformHandleui64vIMG v u32 i32 i32 p
+glProgramUniformHandleui64vNV v u32 i32 i32 p
+glProgramUniformMatrix2dv v u32 i32 i32 u8 p
+glProgramUniformMatrix2dvEXT v u32 i32 i32 u8 p
+glProgramUniformMatrix2fv v u32 i32 i32 u8 p
+glProgramUniformMatrix2fvEXT v u32 i32 i32 u8 p
+glProgramUniformMatrix2x3dv v u32 i32 i32 u8 p
+glProgramUniformMatrix2x3dvEXT v u32 i32 i32 u8 p
+glProgramUniformMatrix2x3fv v u32 i32 i32 u8 p
+glProgramUniformMatrix2x3fvEXT v u32 i32 i32 u8 p
+glProgramUniformMatrix2x4dv v u32 i32 i32 u8 p
+glProgramUniformMatrix2x4dvEXT v u32 i32 i32 u8 p
+glProgramUniformMatrix2x4fv v u32 i32 i32 u8 p
+glProgramUniformMatrix2x4fvEXT v u32 i32 i32 u8 p
+glProgramUniformMatrix3dv v u32 i32 i32 u8 p
+glProgramUniformMatrix3dvEXT v u32 i32 i32 u8 p
+glProgramUniformMatrix3fv v u32 i32 i32 u8 p
+glProgramUniformMatrix3fvEXT v u32 i32 i32 u8 p
+glProgramUniformMatrix3x2dv v u32 i32 i32 u8 p
+glProgramUniformMatrix3x2dvEXT v u32 i32 i32 u8 p
+glProgramUniformMatrix3x2fv v u32 i32 i32 u8 p
+glProgramUniformMatrix3x2fvEXT v u32 i32 i32 u8 p
+glProgramUniformMatrix3x4dv v u32 i32 i32 u8 p
+glProgramUniformMatrix3x4dvEXT v u32 i32 i32 u8 p
+glProgramUniformMatrix3x4fv v u32 i32 i32 u8 p
+glProgramUniformMatrix3x4fvEXT v u32 i32 i32 u8 p
+glProgramUniformMatrix4dv v u32 i32 i32 u8 p
+glProgramUniformMatrix4dvEXT v u32 i32 i32 u8 p
+glProgramUniformMatrix4fv v u32 i32 i32 u8 p
+glProgramUniformMatrix4fvEXT v u32 i32 i32 u8 p
+glProgramUniformMatrix4x2dv v u32 i32 i32 u8 p
+glProgramUniformMatrix4x2dvEXT v u32 i32 i32 u8 p
+glProgramUniformMatrix4x2fv v u32 i32 i32 u8 p
+glProgramUniformMatrix4x2fvEXT v u32 i32 i32 u8 p
+glProgramUniformMatrix4x3dv v u32 i32 i32 u8 p
+glProgramUniformMatrix4x3dvEXT v u32 i32 i32 u8 p
+glProgramUniformMatrix4x3fv v u32 i32 i32 u8 p
+glProgramUniformMatrix4x3fvEXT v u32 i32 i32 u8 p
+glProgramUniformui64NV v u32 i32 u64
+glProgramUniformui64vNV v u32 i32 i32 p
+glProgramVertexLimitNV v u32 i32
+glProvokingVertex v u32
+glProvokingVertexEXT v u32
+glPushAttrib v u32
+glPushClientAttrib v u32
+glPushClientAttribDefaultEXT v u32
+glPushDebugGroup v u32 u32 i32 p
+glPushDebugGroupKHR v u32 u32 i32 p
+glPushGroupMarkerEXT v i32 p
+glPushMatrix v
+glPushName v u32
+glQueryCounter v u32 u32
+glQueryCounterEXT v u32 u32
+glQueryMatrixxOES u32 p p
+glQueryObjectParameteruiAMD v u32 u32 u32 u32
+glQueryResourceNV i32 u32 i32 u32 p
+glQueryResourceTagNV v i32 p
+glRasterPos2d v d d
+glRasterPos2dv v p
+glRasterPos2f v f f
+glRasterPos2fv v p
+glRasterPos2i v i32 i32
+glRasterPos2iv v p
+glRasterPos2s v i16 i16
+glRasterPos2sv v p
+glRasterPos2xOES v i32 i32
+glRasterPos2xvOES v p
+glRasterPos3d v d d d
+glRasterPos3dv v p
+glRasterPos3f v f f f
+glRasterPos3fv v p
+glRasterPos3i v i32 i32 i32
+glRasterPos3iv v p
+glRasterPos3s v i16 i16 i16
+glRasterPos3sv v p
+glRasterPos3xOES v i32 i32 i32
+glRasterPos3xvOES v p
+glRasterPos4d v d d d d
+glRasterPos4dv v p
+glRasterPos4f v f f f f
+glRasterPos4fv v p
+glRasterPos4i v i32 i32 i32 i32
+glRasterPos4iv v p
+glRasterPos4s v i16 i16 i16 i16
+glRasterPos4sv v p
+glRasterPos4xOES v i32 i32 i32 i32
+glRasterPos4xvOES v p
+glRasterSamplesEXT v u32 u8
+glReadBuffer v u32
+glReadBufferIndexedEXT v u32 i32
+glReadBufferNV v u32
+glReadInstrumentsSGIX v i32
+glReadPixels v i32 i32 i32 i32 u32 u32 p
+glReadnPixels v i32 i32 i32 i32 u32 u32 i32 p
+glReadnPixelsARB v i32 i32 i32 i32 u32 u32 i32 p
+glReadnPixelsEXT v i32 i32 i32 i32 u32 u32 i32 p
+glReadnPixelsKHR v i32 i32 i32 i32 u32 u32 i32 p
+glReleaseKeyedMutexWin32EXT u8 u32 u64
+glRectd v d d d d
+glRectdv v p p
+glRectf v f f f f
+glRectfv v p p
+glRecti v i32 i32 i32 i32
+glRectiv v p p
+glRects v i16 i16 i16 i16
+glRectsv v p p
+glRectxOES v i32 i32 i32 i32
+glRectxvOES v p p
+glReferencePlaneSGIX v p
+glReleaseClientPointerRangeMESA p u32 p
+glReleaseShaderCompiler v
+glRenderGpuMaskNV v u32
+glRenderMode i32 u32
+glRenderbufferStorage v u32 u32 i32 i32
+glRenderbufferStorageEXT v u32 u32 i32 i32
+glRenderbufferStorageMultisample v u32 i32 u32 i32 i32
+glRenderbufferStorageMultisampleANGLE v u32 i32 u32 i32 i32
+glRenderbufferStorageMultisampleAPPLE v u32 i32 u32 i32 i32
+glRenderbufferStorageMultisampleAdvancedAMD v u32 i32 i32 u32 i32 i32
+glRenderbufferStorageMultisampleCoverageNV v u32 i32 i32 u32 i32 i32
+glRenderbufferStorageMultisampleEXT v u32 i32 u32 i32 i32
+glRenderbufferStorageMultisampleIMG v u32 i32 u32 i32 i32
+glRenderbufferStorageMultisampleNV v u32 i32 u32 i32 i32
+glRenderbufferStorageOES v u32 u32 i32 i32
+glReplacementCodePointerSUN v u32 i32 p
+glReplacementCodeubSUN v u8
+glReplacementCodeubvSUN v p
+glReplacementCodeuiColor3fVertex3fSUN v u32 f f f f f f
+glReplacementCodeuiColor3fVertex3fvSUN v p p p
+glReplacementCodeuiColor4fNormal3fVertex3fSUN v u32 f f f f f f f f f f
+glReplacementCodeuiColor4fNormal3fVertex3fvSUN v p p p p
+glReplacementCodeuiColor4ubVertex3fSUN v u32 u8 u8 u8 u8 f f f
+glReplacementCodeuiColor4ubVertex3fvSUN v p p p
+glReplacementCodeuiNormal3fVertex3fSUN v u32 f f f f f f
+glReplacementCodeuiNormal3fVertex3fvSUN v p p p
+glReplacementCodeuiSUN v u32
+glReplacementCodeuiTexCoord2fColor4fNormal3fVertex3fSUN v u32 f f f f f f f f f f f f
+glReplacementCodeuiTexCoord2fColor4fNormal3fVertex3fvSUN v p p p p p
+glReplacementCodeuiTexCoord2fNormal3fVertex3fSUN v u32 f f f f f f f f
+glReplacementCodeuiTexCoord2fNormal3fVertex3fvSUN v p p p p
+glReplacementCodeuiTexCoord2fVertex3fSUN v u32 f f f f f
+glReplacementCodeuiTexCoord2fVertex3fvSUN v p p p
+glReplacementCodeuiVertex3fSUN v u32 f f f
+glReplacementCodeuiVertex3fvSUN v p p
+glReplacementCodeuivSUN v p
+glReplacementCodeusSUN v u16
+glReplacementCodeusvSUN v p
+glRequestResidentProgramsNV v i32 p
+glResetHistogram v u32
+glResetHistogramEXT v u32
+glResetMemoryObjectParameterNV v u32 u32
+glResetMinmax v u32
+glResetMinmaxEXT v u32
+glResizeBuffersMESA v
+glResolveDepthValuesNV v
+glResolveMultisampleFramebufferAPPLE v
+glResumeTransformFeedback v
+glResumeTransformFeedbackNV v
+glRotated v d d d d
+glRotatef v f f f f
+glRotatex v i32 i32 i32 i32
+glRotatexOES v i32 i32 i32 i32
+glSampleCoverage v f u8
+glSampleCoverageARB v f u8
+glSampleCoveragex v i32 u8
+glSampleCoveragexOES v i32 u8
+glSampleMapATI v u32 u32 u32
+glSampleMaskEXT v f u8
+glSampleMaskIndexedNV v u32 u32
+glSampleMaskSGIS v f u8
+glSampleMaski v u32 u32
+glSamplePatternEXT v u32
+glSamplePatternSGIS v u32
+glSamplerParameterIiv v u32 u32 p
+glSamplerParameterIivEXT v u32 u32 p
+glSamplerParameterIivOES v u32 u32 p
+glSamplerParameterIuiv v u32 u32 p
+glSamplerParameterIuivEXT v u32 u32 p
+glSamplerParameterIuivOES v u32 u32 p
+glSamplerParameterf v u32 u32 f
+glSamplerParameterfv v u32 u32 p
+glSamplerParameteri v u32 u32 i32
+glSamplerParameteriv v u32 u32 p
+glScaled v d d d
+glScalef v f f f
+glScalex v i32 i32 i32
+glScalexOES v i32 i32 i32
+glScissor v i32 i32 i32 i32
+glScissorArrayv v u32 i32 p
+glScissorArrayvNV v u32 i32 p
+glScissorArrayvOES v u32 i32 p
+glScissorExclusiveArrayvNV v u32 i32 p
+glScissorExclusiveNV v i32 i32 i32 i32
+glScissorIndexed v u32 i32 i32 i32 i32
+glScissorIndexedNV v u32 i32 i32 i32 i32
+glScissorIndexedOES v u32 i32 i32 i32 i32
+glScissorIndexedv v u32 p
+glScissorIndexedvNV v u32 p
+glScissorIndexedvOES v u32 p
+glSecondaryColor3b v i8 i8 i8
+glSecondaryColor3bEXT v i8 i8 i8
+glSecondaryColor3bv v p
+glSecondaryColor3bvEXT v p
+glSecondaryColor3d v d d d
+glSecondaryColor3dEXT v d d d
+glSecondaryColor3dv v p
+glSecondaryColor3dvEXT v p
+glSecondaryColor3f v f f f
+glSecondaryColor3fEXT v f f f
+glSecondaryColor3fv v p
+glSecondaryColor3fvEXT v p
+glSecondaryColor3hNV v u16 u16 u16
+glSecondaryColor3hvNV v p
+glSecondaryColor3i v i32 i32 i32
+glSecondaryColor3iEXT v i32 i32 i32
+glSecondaryColor3iv v p
+glSecondaryColor3ivEXT v p
+glSecondaryColor3s v i16 i16 i16
+glSecondaryColor3sEXT v i16 i16 i16
+glSecondaryColor3sv v p
+glSecondaryColor3svEXT v p
+glSecondaryColor3ub v u8 u8 u8
+glSecondaryColor3ubEXT v u8 u8 u8
+glSecondaryColor3ubv v p
+glSecondaryColor3ubvEXT v p
+glSecondaryColor3ui v u32 u32 u32
+glSecondaryColor3uiEXT v u32 u32 u32
+glSecondaryColor3uiv v p
+glSecondaryColor3uivEXT v p
+glSecondaryColor3us v u16 u16 u16
+glSecondaryColor3usEXT v u16 u16 u16
+glSecondaryColor3usv v p
+glSecondaryColor3usvEXT v p
+glSecondaryColorFormatNV v i32 u32 i32
+glSecondaryColorP3ui v u32 u32
+glSecondaryColorP3uiv v u32 p
+glSecondaryColorPointer v i32 u32 i32 p
+glSecondaryColorPointerEXT v i32 u32 i32 p
+glSecondaryColorPointerListIBM v i32 u32 i32 p i32
+glSelectBuffer v i32 p
+glSelectPerfMonitorCountersAMD v u32 u8 u32 i32 p
+glSemaphoreParameterivNV v u32 u32 p
+glSemaphoreParameterui64vEXT v u32 u32 p
+glSeparableFilter2D v u32 u32 i32 i32 u32 u32 p p
+glSeparableFilter2DEXT v u32 u32 i32 i32 u32 u32 p p
+glSetFenceAPPLE v u32
+glSetFenceNV v u32 u32
+glSetFragmentShaderConstantATI v u32 p
+glSetInvariantEXT v u32 u32 p
+glSetLocalConstantEXT v u32 u32 p
+glSetMultisamplefvAMD v u32 u32 p
+glShadeModel v u32
+glShaderBinary v i32 p u32 p i32
+glShaderOp1EXT v u32 u32 u32
+glShaderOp2EXT v u32 u32 u32 u32
+glShaderOp3EXT v u32 u32 u32 u32 u32
+glShaderSource v u32 i32 p p
+glShaderSourceARB v u32 i32 p p
+glShaderStorageBlockBinding v u32 u32 u32
+glShadingRateEXT v u32
+glShadingRateCombinerOpsEXT v u32 u32
+glShadingRateImageBarrierNV v u8
+glShadingRateQCOM v u32
+glShadingRateImagePaletteNV v u32 u32 i32 p
+glShadingRateSampleOrderNV v u32
+glShadingRateSampleOrderCustomNV v u32 u32 p
+glSharpenTexFuncSGIS v u32 i32 p
+glSignalSemaphoreEXT v u32 u32 p u32 p p
+glSignalSemaphoreui64NVX v u32 i32 p p
+glSpecializeShader v u32 p u32 p p
+glSpecializeShaderARB v u32 p u32 p p
+glSpriteParameterfSGIX v u32 f
+glSpriteParameterfvSGIX v u32 p
+glSpriteParameteriSGIX v u32 i32
+glSpriteParameterivSGIX v u32 p
+glStartInstrumentsSGIX v
+glStartTilingQCOM v u32 u32 u32 u32 u32
+glStateCaptureNV v u32 u32
+glStencilClearTagEXT v i32 u32
+glStencilFillPathInstancedNV v i32 u32 p u32 u32 u32 u32 p
+glStencilFillPathNV v u32 u32 u32
+glStencilFunc v u32 i32 u32
+glStencilFuncSeparate v u32 u32 i32 u32
+glStencilFuncSeparateATI v u32 u32 i32 u32
+glStencilMask v u32
+glStencilMaskSeparate v u32 u32
+glStencilOp v u32 u32 u32
+glStencilOpSeparate v u32 u32 u32 u32
+glStencilOpSeparateATI v u32 u32 u32 u32
+glStencilOpValueAMD v u32 u32
+glStencilStrokePathInstancedNV v i32 u32 p u32 i32 u32 u32 p
+glStencilStrokePathNV v u32 i32 u32
+glStencilThenCoverFillPathInstancedNV v i32 u32 p u32 u32 u32 u32 u32 p
+glStencilThenCoverFillPathNV v u32 u32 u32 u32
+glStencilThenCoverStrokePathInstancedNV v i32 u32 p u32 i32 u32 u32 u32 p
+glStencilThenCoverStrokePathNV v u32 i32 u32 u32
+glStopInstrumentsSGIX v i32
+glStringMarkerGREMEDY v i32 p
+glSubpixelPrecisionBiasNV v u32 u32
+glSwizzleEXT v u32 u32 u32 u32 u32 u32
+glSyncTextureINTEL v u32
+glTagSampleBufferSGIX v
+glTangent3bEXT v i8 i8 i8
+glTangent3bvEXT v p
+glTangent3dEXT v d d d
+glTangent3dvEXT v p
+glTangent3fEXT v f f f
+glTangent3fvEXT v p
+glTangent3iEXT v i32 i32 i32
+glTangent3ivEXT v p
+glTangent3sEXT v i16 i16 i16
+glTangent3svEXT v p
+glTangentPointerEXT v u32 i32 p
+glTbufferMask3DFX v u32
+glTessellationFactorAMD v f
+glTessellationModeAMD v u32
+glTestFenceAPPLE u8 u32
+glTestFenceNV u8 u32
+glTestObjectAPPLE u8 u32 u32
+glTexAttachMemoryNV v u32 u32 u64
+glTexBuffer v u32 u32 u32
+glTexBufferARB v u32 u32 u32
+glTexBufferEXT v u32 u32 u32
+glTexBufferOES v u32 u32 u32
+glTexBufferRange v u32 u32 u32 i64 i64
+glTexBufferRangeEXT v u32 u32 u32 i64 i64
+glTexBufferRangeOES v u32 u32 u32 i64 i64
+glTexBumpParameterfvATI v u32 p
+glTexBumpParameterivATI v u32 p
+glTexCoord1bOES v i8
+glTexCoord1bvOES v p
+glTexCoord1d v d
+glTexCoord1dv v p
+glTexCoord1f v f
+glTexCoord1fv v p
+glTexCoord1hNV v u16
+glTexCoord1hvNV v p
+glTexCoord1i v i32
+glTexCoord1iv v p
+glTexCoord1s v i16
+glTexCoord1sv v p
+glTexCoord1xOES v i32
+glTexCoord1xvOES v p
+glTexCoord2bOES v i8 i8
+glTexCoord2bvOES v p
+glTexCoord2d v d d
+glTexCoord2dv v p
+glTexCoord2f v f f
+glTexCoord2fColor3fVertex3fSUN v f f f f f f f f
+glTexCoord2fColor3fVertex3fvSUN v p p p
+glTexCoord2fColor4fNormal3fVertex3fSUN v f f f f f f f f f f f f
+glTexCoord2fColor4fNormal3fVertex3fvSUN v p p p p
+glTexCoord2fColor4ubVertex3fSUN v f f u8 u8 u8 u8 f f f
+glTexCoord2fColor4ubVertex3fvSUN v p p p
+glTexCoord2fNormal3fVertex3fSUN v f f f f f f f f
+glTexCoord2fNormal3fVertex3fvSUN v p p p
+glTexCoord2fVertex3fSUN v f f f f f
+glTexCoord2fVertex3fvSUN v p p
+glTexCoord2fv v p
+glTexCoord2hNV v u16 u16
+glTexCoord2hvNV v p
+glTexCoord2i v i32 i32
+glTexCoord2iv v p
+glTexCoord2s v i16 i16
+glTexCoord2sv v p
+glTexCoord2xOES v i32 i32
+glTexCoord2xvOES v p
+glTexCoord3bOES v i8 i8 i8
+glTexCoord3bvOES v p
+glTexCoord3d v d d d
+glTexCoord3dv v p
+glTexCoord3f v f f f
+glTexCoord3fv v p
+glTexCoord3hNV v u16 u16 u16
+glTexCoord3hvNV v p
+glTexCoord3i v i32 i32 i32
+glTexCoord3iv v p
+glTexCoord3s v i16 i16 i16
+glTexCoord3sv v p
+glTexCoord3xOES v i32 i32 i32
+glTexCoord3xvOES v p
+glTexCoord4bOES v i8 i8 i8 i8
+glTexCoord4bvOES v p
+glTexCoord4d v d d d d
+glTexCoord4dv v p
+glTexCoord4f v f f f f
+glTexCoord4fColor4fNormal3fVertex4fSUN v f f f f f f f f f f f f f f f
+glTexCoord4fColor4fNormal3fVertex4fvSUN v p p p p
+glTexCoord4fVertex4fSUN v f f f f f f f f
+glTexCoord4fVertex4fvSUN v p p
+glTexCoord4fv v p
+glTexCoord4hNV v u16 u16 u16 u16
+glTexCoord4hvNV v p
+glTexCoord4i v i32 i32 i32 i32
+glTexCoord4iv v p
+glTexCoord4s v i16 i16 i16 i16
+glTexCoord4sv v p
+glTexCoord4xOES v i32 i32 i32 i32
+glTexCoord4xvOES v p
+glTexCoordFormatNV v i32 u32 i32
+glTexCoordP1ui v u32 u32
+glTexCoordP1uiv v u32 p
+glTexCoordP2ui v u32 u32
+glTexCoordP2uiv v u32 p
+glTexCoordP3ui v u32 u32
+glTexCoordP3uiv v u32 p
+glTexCoordP4ui v u32 u32
+glTexCoordP4uiv v u32 p
+glTexCoordPointer v i32 u32 i32 p
+glTexCoordPointerEXT v i32 u32 i32 i32 p
+glTexCoordPointerListIBM v i32 u32 i32 p i32
+glTexCoordPointervINTEL v i32 u32 p
+glTexEnvf v u32 u32 f
+glTexEnvfv v u32 u32 p
+glTexEnvi v u32 u32 i32
+glTexEnviv v u32 u32 p
+glTexEnvx v u32 u32 i32
+glTexEnvxOES v u32 u32 i32
+glTexEnvxv v u32 u32 p
+glTexEnvxvOES v u32 u32 p
+glTexEstimateMotionQCOM v u32 u32 u32
+glTexEstimateMotionRegionsQCOM v u32 u32 u32 u32
+glExtrapolateTex2DQCOM v u32 u32 u32 f
+glTexFilterFuncSGIS v u32 u32 i32 p
+glTexGend v u32 u32 d
+glTexGendv v u32 u32 p
+glTexGenf v u32 u32 f
+glTexGenfOES v u32 u32 f
+glTexGenfv v u32 u32 p
+glTexGenfvOES v u32 u32 p
+glTexGeni v u32 u32 i32
+glTexGeniOES v u32 u32 i32
+glTexGeniv v u32 u32 p
+glTexGenivOES v u32 u32 p
+glTexGenxOES v u32 u32 i32
+glTexGenxvOES v u32 u32 p
+glTexImage1D v u32 i32 i32 i32 i32 u32 u32 p
+glTexImage2D v u32 i32 i32 i32 i32 i32 u32 u32 p
+glTexImage2DMultisample v u32 i32 u32 i32 i32 u8
+glTexImage2DMultisampleCoverageNV v u32 i32 i32 i32 i32 i32 u8
+glTexImage3D v u32 i32 i32 i32 i32 i32 i32 u32 u32 p
+glTexImage3DEXT v u32 i32 u32 i32 i32 i32 i32 u32 u32 p
+glTexImage3DMultisample v u32 i32 u32 i32 i32 i32 u8
+glTexImage3DMultisampleCoverageNV v u32 i32 i32 i32 i32 i32 i32 u8
+glTexImage3DOES v u32 i32 u32 i32 i32 i32 i32 u32 u32 p
+glTexImage4DSGIS v u32 i32 u32 i32 i32 i32 i32 i32 u32 u32 p
+glTexPageCommitmentARB v u32 i32 i32 i32 i32 i32 i32 i32 u8
+glTexPageCommitmentEXT v u32 i32 i32 i32 i32 i32 i32 i32 u8
+glTexPageCommitmentMemNV v u32 i32 i32 i32 i32 i32 i32 i32 i32 u32 u64 u8
+glTexParameterIiv v u32 u32 p
+glTexParameterIivEXT v u32 u32 p
+glTexParameterIivOES v u32 u32 p
+glTexParameterIuiv v u32 u32 p
+glTexParameterIuivEXT v u32 u32 p
+glTexParameterIuivOES v u32 u32 p
+glTexParameterf v u32 u32 f
+glTexParameterfv v u32 u32 p
+glTexParameteri v u32 u32 i32
+glTexParameteriv v u32 u32 p
+glTexParameterx v u32 u32 i32
+glTexParameterxOES v u32 u32 i32
+glTexParameterxv v u32 u32 p
+glTexParameterxvOES v u32 u32 p
+glTexRenderbufferNV v u32 u32
+glTexStorage1D v u32 i32 u32 i32
+glTexStorage1DEXT v u32 i32 u32 i32
+glTexStorage2D v u32 i32 u32 i32 i32
+glTexStorage2DEXT v u32 i32 u32 i32 i32
+glTexStorage2DMultisample v u32 i32 u32 i32 i32 u8
+glTexStorage3D v u32 i32 u32 i32 i32 i32
+glTexStorage3DEXT v u32 i32 u32 i32 i32 i32
+glTexStorage3DMultisample v u32 i32 u32 i32 i32 i32 u8
+glTexStorage3DMultisampleOES v u32 i32 u32 i32 i32 i32 u8
+glTexStorageAttribs2DEXT v u32 i32 u32 i32 i32 p
+glTexStorageAttribs3DEXT v u32 i32 u32 i32 i32 i32 p
+glTexStorageMem1DEXT v u32 i32 u32 i32 u32 u64
+glTexStorageMem2DEXT v u32 i32 u32 i32 i32 u32 u64
+glTexStorageMem2DMultisampleEXT v u32 i32 u32 i32 i32 u8 u32 u64
+glTexStorageMem3DEXT v u32 i32 u32 i32 i32 i32 u32 u64
+glTexStorageMem3DMultisampleEXT v u32 i32 u32 i32 i32 i32 u8 u32 u64
+glTexStorageSparseAMD v u32 u32 i32 i32 i32 i32 u32
+glTexSubImage1D v u32 i32 i32 i32 u32 u32 p
+glTexSubImage1DEXT v u32 i32 i32 i32 u32 u32 p
+glTexSubImage2D v u32 i32 i32 i32 i32 i32 u32 u32 p
+glTexSubImage2DEXT v u32 i32 i32 i32 i32 i32 u32 u32 p
+glTexSubImage3D v u32 i32 i32 i32 i32 i32 i32 i32 u32 u32 p
+glTexSubImage3DEXT v u32 i32 i32 i32 i32 i32 i32 i32 u32 u32 p
+glTexSubImage3DOES v u32 i32 i32 i32 i32 i32 i32 i32 u32 u32 p
+glTexSubImage4DSGIS v u32 i32 i32 i32 i32 i32 i32 i32 i32 i32 u32 u32 p
+glTextureAttachMemoryNV v u32 u32 u64
+glTextureBarrier v
+glTextureBarrierNV v
+glTextureBuffer v u32 u32 u32
+glTextureBufferEXT v u32 u32 u32 u32
+glTextureBufferRange v u32 u32 u32 i64 i64
+glTextureBufferRangeEXT v u32 u32 u32 u32 i64 i64
+glTextureColorMaskSGIS v u8 u8 u8 u8
+glTextureFoveationParametersQCOM v u32 u32 u32 f f f f f
+glTextureImage1DEXT v u32 u32 i32 i32 i32 i32 u32 u32 p
+glTextureImage2DEXT v u32 u32 i32 i32 i32 i32 i32 u32 u32 p
+glTextureImage2DMultisampleCoverageNV v u32 u32 i32 i32 i32 i32 i32 u8
+glTextureImage2DMultisampleNV v u32 u32 i32 i32 i32 i32 u8
+glTextureImage3DEXT v u32 u32 i32 i32 i32 i32 i32 i32 u32 u32 p
+glTextureImage3DMultisampleCoverageNV v u32 u32 i32 i32 i32 i32 i32 i32 u8
+glTextureImage3DMultisampleNV v u32 u32 i32 i32 i32 i32 i32 u8
+glTextureLightEXT v u32
+glTextureMaterialEXT v u32 u32
+glTextureNormalEXT v u32
+glTexturePageCommitmentEXT v u32 i32 i32 i32 i32 i32 i32 i32 u8
+glTexturePageCommitmentMemNV v u32 i32 i32 i32 i32 i32 i32 i32 i32 u32 u64 u8
+glTextureParameterIiv v u32 u32 p
+glTextureParameterIivEXT v u32 u32 u32 p
+glTextureParameterIuiv v u32 u32 p
+glTextureParameterIuivEXT v u32 u32 u32 p
+glTextureParameterf v u32 u32 f
+glTextureParameterfEXT v u32 u32 u32 f
+glTextureParameterfv v u32 u32 p
+glTextureParameterfvEXT v u32 u32 u32 p
+glTextureParameteri v u32 u32 i32
+glTextureParameteriEXT v u32 u32 u32 i32
+glTextureParameteriv v u32 u32 p
+glTextureParameterivEXT v u32 u32 u32 p
+glTextureRangeAPPLE v u32 i32 p
+glTextureRenderbufferEXT v u32 u32 u32
+glTextureStorage1D v u32 i32 u32 i32
+glTextureStorage1DEXT v u32 u32 i32 u32 i32
+glTextureStorage2D v u32 i32 u32 i32 i32
+glTextureStorage2DEXT v u32 u32 i32 u32 i32 i32
+glTextureStorage2DMultisample v u32 i32 u32 i32 i32 u8
+glTextureStorage2DMultisampleEXT v u32 u32 i32 u32 i32 i32 u8
+glTextureStorage3D v u32 i32 u32 i32 i32 i32
+glTextureStorage3DEXT v u32 u32 i32 u32 i32 i32 i32
+glTextureStorage3DMultisample v u32 i32 u32 i32 i32 i32 u8
+glTextureStorage3DMultisampleEXT v u32 u32 i32 u32 i32 i32 i32 u8
+glTextureStorageMem1DEXT v u32 i32 u32 i32 u32 u64
+glTextureStorageMem2DEXT v u32 i32 u32 i32 i32 u32 u64
+glTextureStorageMem2DMultisampleEXT v u32 i32 u32 i32 i32 u8 u32 u64
+glTextureStorageMem3DEXT v u32 i32 u32 i32 i32 i32 u32 u64
+glTextureStorageMem3DMultisampleEXT v u32 i32 u32 i32 i32 i32 u8 u32 u64
+glTextureStorageSparseAMD v u32 u32 u32 i32 i32 i32 i32 u32
+glTextureSubImage1D v u32 i32 i32 i32 u32 u32 p
+glTextureSubImage1DEXT v u32 u32 i32 i32 i32 u32 u32 p
+glTextureSubImage2D v u32 i32 i32 i32 i32 i32 u32 u32 p
+glTextureSubImage2DEXT v u32 u32 i32 i32 i32 i32 i32 u32 u32 p
+glTextureSubImage3D v u32 i32 i32 i32 i32 i32 i32 i32 u32 u32 p
+glTextureSubImage3DEXT v u32 u32 i32 i32 i32 i32 i32 i32 i32 u32 u32 p
+glTextureView v u32 u32 u32 u32 u32 u32 u32 u32
+glTextureViewEXT v u32 u32 u32 u32 u32 u32 u32 u32
+glTextureViewOES v u32 u32 u32 u32 u32 u32 u32 u32
+glTrackMatrixNV v u32 u32 u32 u32
+glTransformFeedbackAttribsNV v i32 p u32
+glTransformFeedbackBufferBase v u32 u32 u32
+glTransformFeedbackBufferRange v u32 u32 u32 i64 i64
+glTransformFeedbackStreamAttribsNV v i32 p i32 p u32
+glTransformFeedbackVaryings v u32 i32 p u32
+glTransformFeedbackVaryingsEXT v u32 i32 p u32
+glTransformFeedbackVaryingsNV v u32 i32 p u32
+glTransformPathNV v u32 u32 u32 p
+glTranslated v d d d
+glTranslatef v f f f
+glTranslatex v i32 i32 i32
+glTranslatexOES v i32 i32 i32
+glUniform1d v i32 d
+glUniform1dv v i32 i32 p
+glUniform1f v i32 f
+glUniform1fARB v i32 f
+glUniform1fv v i32 i32 p
+glUniform1fvARB v i32 i32 p
+glUniform1i v i32 i32
+glUniform1i64ARB v i32 i64
+glUniform1i64NV v i32 i64
+glUniform1i64vARB v i32 i32 p
+glUniform1i64vNV v i32 i32 p
+glUniform1iARB v i32 i32
+glUniform1iv v i32 i32 p
+glUniform1ivARB v i32 i32 p
+glUniform1ui v i32 u32
+glUniform1ui64ARB v i32 u64
+glUniform1ui64NV v i32 u64
+glUniform1ui64vARB v i32 i32 p
+glUniform1ui64vNV v i32 i32 p
+glUniform1uiEXT v i32 u32
+glUniform1uiv v i32 i32 p
+glUniform1uivEXT v i32 i32 p
+glUniform2d v i32 d d
+glUniform2dv v i32 i32 p
+glUniform2f v i32 f f
+glUniform2fARB v i32 f f
+glUniform2fv v i32 i32 p
+glUniform2fvARB v i32 i32 p
+glUniform2i v i32 i32 i32
+glUniform2i64ARB v i32 i64 i64
+glUniform2i64NV v i32 i64 i64
+glUniform2i64vARB v i32 i32 p
+glUniform2i64vNV v i32 i32 p
+glUniform2iARB v i32 i32 i32
+glUniform2iv v i32 i32 p
+glUniform2ivARB v i32 i32 p
+glUniform2ui v i32 u32 u32
+glUniform2ui64ARB v i32 u64 u64
+glUniform2ui64NV v i32 u64 u64
+glUniform2ui64vARB v i32 i32 p
+glUniform2ui64vNV v i32 i32 p
+glUniform2uiEXT v i32 u32 u32
+glUniform2uiv v i32 i32 p
+glUniform2uivEXT v i32 i32 p
+glUniform3d v i32 d d d
+glUniform3dv v i32 i32 p
+glUniform3f v i32 f f f
+glUniform3fARB v i32 f f f
+glUniform3fv v i32 i32 p
+glUniform3fvARB v i32 i32 p
+glUniform3i v i32 i32 i32 i32
+glUniform3i64ARB v i32 i64 i64 i64
+glUniform3i64NV v i32 i64 i64 i64
+glUniform3i64vARB v i32 i32 p
+glUniform3i64vNV v i32 i32 p
+glUniform3iARB v i32 i32 i32 i32
+glUniform3iv v i32 i32 p
+glUniform3ivARB v i32 i32 p
+glUniform3ui v i32 u32 u32 u32
+glUniform3ui64ARB v i32 u64 u64 u64
+glUniform3ui64NV v i32 u64 u64 u64
+glUniform3ui64vARB v i32 i32 p
+glUniform3ui64vNV v i32 i32 p
+glUniform3uiEXT v i32 u32 u32 u32
+glUniform3uiv v i32 i32 p
+glUniform3uivEXT v i32 i32 p
+glUniform4d v i32 d d d d
+glUniform4dv v i32 i32 p
+glUniform4f v i32 f f f f
+glUniform4fARB v i32 f f f f
+glUniform4fv v i32 i32 p
+glUniform4fvARB v i32 i32 p
+glUniform4i v i32 i32 i32 i32 i32
+glUniform4i64ARB v i32 i64 i64 i64 i64
+glUniform4i64NV v i32 i64 i64 i64 i64
+glUniform4i64vARB v i32 i32 p
+glUniform4i64vNV v i32 i32 p
+glUniform4iARB v i32 i32 i32 i32 i32
+glUniform4iv v i32 i32 p
+glUniform4ivARB v i32 i32 p
+glUniform4ui v i32 u32 u32 u32 u32
+glUniform4ui64ARB v i32 u64 u64 u64 u64
+glUniform4ui64NV v i32 u64 u64 u64 u64
+glUniform4ui64vARB v i32 i32 p
+glUniform4ui64vNV v i32 i32 p
+glUniform4uiEXT v i32 u32 u32 u32 u32
+glUniform4uiv v i32 i32 p
+glUniform4uivEXT v i32 i32 p
+glUniformBlockBinding v u32 u32 u32
+glUniformBufferEXT v u32 i32 u32
+glUniformHandleui64ARB v i32 u64
+glUniformHandleui64IMG v i32 u64
+glUniformHandleui64NV v i32 u64
+glUniformHandleui64vARB v i32 i32 p
+glUniformHandleui64vIMG v i32 i32 p
+glUniformHandleui64vNV v i32 i32 p
+glUniformMatrix2dv v i32 i32 u8 p
+glUniformMatrix2fv v i32 i32 u8 p
+glUniformMatrix2fvARB v i32 i32 u8 p
+glUniformMatrix2x3dv v i32 i32 u8 p
+glUniformMatrix2x3fv v i32 i32 u8 p
+glUniformMatrix2x3fvNV v i32 i32 u8 p
+glUniformMatrix2x4dv v i32 i32 u8 p
+glUniformMatrix2x4fv v i32 i32 u8 p
+glUniformMatrix2x4fvNV v i32 i32 u8 p
+glUniformMatrix3dv v i32 i32 u8 p
+glUniformMatrix3fv v i32 i32 u8 p
+glUniformMatrix3fvARB v i32 i32 u8 p
+glUniformMatrix3x2dv v i32 i32 u8 p
+glUniformMatrix3x2fv v i32 i32 u8 p
+glUniformMatrix3x2fvNV v i32 i32 u8 p
+glUniformMatrix3x4dv v i32 i32 u8 p
+glUniformMatrix3x4fv v i32 i32 u8 p
+glUniformMatrix3x4fvNV v i32 i32 u8 p
+glUniformMatrix4dv v i32 i32 u8 p
+glUniformMatrix4fv v i32 i32 u8 p
+glUniformMatrix4fvARB v i32 i32 u8 p
+glUniformMatrix4x2dv v i32 i32 u8 p
+glUniformMatrix4x2fv v i32 i32 u8 p
+glUniformMatrix4x2fvNV v i32 i32 u8 p
+glUniformMatrix4x3dv v i32 i32 u8 p
+glUniformMatrix4x3fv v i32 i32 u8 p
+glUniformMatrix4x3fvNV v i32 i32 u8 p
+glUniformSubroutinesuiv v u32 i32 p
+glUniformui64NV v i32 u64
+glUniformui64vNV v i32 i32 p
+glUnlockArraysEXT v
+glUnmapBuffer u8 u32
+glUnmapBufferARB u8 u32
+glUnmapBufferOES u8 u32
+glUnmapNamedBuffer u8 u32
+glUnmapNamedBufferEXT u8 u32
+glUnmapObjectBufferATI v u32
+glUnmapTexture2DINTEL v u32 i32
+glUpdateObjectBufferATI v u32 u32 i32 p u32
+glUploadGpuMaskNVX v u32
+glUseProgram v u32
+glUseProgramObjectARB v u32
+glUseProgramStages v u32 u32 u32
+glUseProgramStagesEXT v u32 u32 u32
+glUseShaderProgramEXT v u32 u32
+glVDPAUFiniNV v
+glVDPAUGetSurfaceivNV v i64 u32 i32 p p
+glVDPAUInitNV v p p
+glVDPAUIsSurfaceNV u8 i64
+glVDPAUMapSurfacesNV v i32 p
+glVDPAURegisterOutputSurfaceNV i64 p u32 i32 p
+glVDPAURegisterVideoSurfaceNV i64 p u32 i32 p
+glVDPAURegisterVideoSurfaceWithPictureStructureNV i64 p u32 i32 p u8
+glVDPAUSurfaceAccessNV v i64 u32
+glVDPAUUnmapSurfacesNV v i32 p
+glVDPAUUnregisterSurfaceNV v i64
+glValidateProgram v u32
+glValidateProgramARB v u32
+glValidateProgramPipeline v u32
+glValidateProgramPipelineEXT v u32
+glVariantArrayObjectATI v u32 u32 i32 u32 u32
+glVariantPointerEXT v u32 u32 u32 p
+glVariantbvEXT v u32 p
+glVariantdvEXT v u32 p
+glVariantfvEXT v u32 p
+glVariantivEXT v u32 p
+glVariantsvEXT v u32 p
+glVariantubvEXT v u32 p
+glVariantuivEXT v u32 p
+glVariantusvEXT v u32 p
+glVertex2bOES v i8 i8
+glVertex2bvOES v p
+glVertex2d v d d
+glVertex2dv v p
+glVertex2f v f f
+glVertex2fv v p
+glVertex2hNV v u16 u16
+glVertex2hvNV v p
+glVertex2i v i32 i32
+glVertex2iv v p
+glVertex2s v i16 i16
+glVertex2sv v p
+glVertex2xOES v i32
+glVertex2xvOES v p
+glVertex3bOES v i8 i8 i8
+glVertex3bvOES v p
+glVertex3d v d d d
+glVertex3dv v p
+glVertex3f v f f f
+glVertex3fv v p
+glVertex3hNV v u16 u16 u16
+glVertex3hvNV v p
+glVertex3i v i32 i32 i32
+glVertex3iv v p
+glVertex3s v i16 i16 i16
+glVertex3sv v p
+glVertex3xOES v i32 i32
+glVertex3xvOES v p
+glVertex4bOES v i8 i8 i8 i8
+glVertex4bvOES v p
+glVertex4d v d d d d
+glVertex4dv v p
+glVertex4f v f f f f
+glVertex4fv v p
+glVertex4hNV v u16 u16 u16 u16
+glVertex4hvNV v p
+glVertex4i v i32 i32 i32 i32
+glVertex4iv v p
+glVertex4s v i16 i16 i16 i16
+glVertex4sv v p
+glVertex4xOES v i32 i32 i32
+glVertex4xvOES v p
+glVertexArrayAttribBinding v u32 u32 u32
+glVertexArrayAttribFormat v u32 u32 i32 u32 u8 u32
+glVertexArrayAttribIFormat v u32 u32 i32 u32 u32
+glVertexArrayAttribLFormat v u32 u32 i32 u32 u32
+glVertexArrayBindVertexBufferEXT v u32 u32 u32 i64 i32
+glVertexArrayBindingDivisor v u32 u32 u32
+glVertexArrayColorOffsetEXT v u32 u32 i32 u32 i32 i64
+glVertexArrayEdgeFlagOffsetEXT v u32 u32 i32 i64
+glVertexArrayElementBuffer v u32 u32
+glVertexArrayFogCoordOffsetEXT v u32 u32 u32 i32 i64
+glVertexArrayIndexOffsetEXT v u32 u32 u32 i32 i64
+glVertexArrayMultiTexCoordOffsetEXT v u32 u32 u32 i32 u32 i32 i64
+glVertexArrayNormalOffsetEXT v u32 u32 u32 i32 i64
+glVertexArrayParameteriAPPLE v u32 i32
+glVertexArrayRangeAPPLE v i32 p
+glVertexArrayRangeNV v i32 p
+glVertexArraySecondaryColorOffsetEXT v u32 u32 i32 u32 i32 i64
+glVertexArrayTexCoordOffsetEXT v u32 u32 i32 u32 i32 i64
+glVertexArrayVertexAttribBindingEXT v u32 u32 u32
+glVertexArrayVertexAttribDivisorEXT v u32 u32 u32
+glVertexArrayVertexAttribFormatEXT v u32 u32 i32 u32 u8 u32
+glVertexArrayVertexAttribIFormatEXT v u32 u32 i32 u32 u32
+glVertexArrayVertexAttribIOffsetEXT v u32 u32 u32 i32 u32 i32 i64
+glVertexArrayVertexAttribLFormatEXT v u32 u32 i32 u32 u32
+glVertexArrayVertexAttribLOffsetEXT v u32 u32 u32 i32 u32 i32 i64
+glVertexArrayVertexAttribOffsetEXT v u32 u32 u32 i32 u32 u8 i32 i64
+glVertexArrayVertexBindingDivisorEXT v u32 u32 u32
+glVertexArrayVertexBuffer v u32 u32 u32 i64 i32
+glVertexArrayVertexBuffers v u32 u32 i32 p p p
+glVertexArrayVertexOffsetEXT v u32 u32 i32 u32 i32 i64
+glVertexAttrib1d v u32 d
+glVertexAttrib1dARB v u32 d
+glVertexAttrib1dNV v u32 d
+glVertexAttrib1dv v u32 p
+glVertexAttrib1dvARB v u32 p
+glVertexAttrib1dvNV v u32 p
+glVertexAttrib1f v u32 f
+glVertexAttrib1fARB v u32 f
+glVertexAttrib1fNV v u32 f
+glVertexAttrib1fv v u32 p
+glVertexAttrib1fvARB v u32 p
+glVertexAttrib1fvNV v u32 p
+glVertexAttrib1hNV v u32 u16
+glVertexAttrib1hvNV v u32 p
+glVertexAttrib1s v u32 i16
+glVertexAttrib1sARB v u32 i16
+glVertexAttrib1sNV v u32 i16
+glVertexAttrib1sv v u32 p
+glVertexAttrib1svARB v u32 p
+glVertexAttrib1svNV v u32 p
+glVertexAttrib2d v u32 d d
+glVertexAttrib2dARB v u32 d d
+glVertexAttrib2dNV v u32 d d
+glVertexAttrib2dv v u32 p
+glVertexAttrib2dvARB v u32 p
+glVertexAttrib2dvNV v u32 p
+glVertexAttrib2f v u32 f f
+glVertexAttrib2fARB v u32 f f
+glVertexAttrib2fNV v u32 f f
+glVertexAttrib2fv v u32 p
+glVertexAttrib2fvARB v u32 p
+glVertexAttrib2fvNV v u32 p
+glVertexAttrib2hNV v u32 u16 u16
+glVertexAttrib2hvNV v u32 p
+glVertexAttrib2s v u32 i16 i16
+glVertexAttrib2sARB v u32 i16 i16
+glVertexAttrib2sNV v u32 i16 i16
+glVertexAttrib2sv v u32 p
+glVertexAttrib2svARB v u32 p
+glVertexAttrib2svNV v u32 p
+glVertexAttrib3d v u32 d d d
+glVertexAttrib3dARB v u32 d d d
+glVertexAttrib3dNV v u32 d d d
+glVertexAttrib3dv v u32 p
+glVertexAttrib3dvARB v u32 p
+glVertexAttrib3dvNV v u32 p
+glVertexAttrib3f v u32 f f f
+glVertexAttrib3fARB v u32 f f f
+glVertexAttrib3fNV v u32 f f f
+glVertexAttrib3fv v u32 p
+glVertexAttrib3fvARB v u32 p
+glVertexAttrib3fvNV v u32 p
+glVertexAttrib3hNV v u32 u16 u16 u16
+glVertexAttrib3hvNV v u32 p
+glVertexAttrib3s v u32 i16 i16 i16
+glVertexAttrib3sARB v u32 i16 i16 i16
+glVertexAttrib3sNV v u32 i16 i16 i16
+glVertexAttrib3sv v u32 p
+glVertexAttrib3svARB v u32 p
+glVertexAttrib3svNV v u32 p
+glVertexAttrib4Nbv v u32 p
+glVertexAttrib4NbvARB v u32 p
+glVertexAttrib4Niv v u32 p
+glVertexAttrib4NivARB v u32 p
+glVertexAttrib4Nsv v u32 p
+glVertexAttrib4NsvARB v u32 p
+glVertexAttrib4Nub v u32 u8 u8 u8 u8
+glVertexAttrib4NubARB v u32 u8 u8 u8 u8
+glVertexAttrib4Nubv v u32 p
+glVertexAttrib4NubvARB v u32 p
+glVertexAttrib4Nuiv v u32 p
+glVertexAttrib4NuivARB v u32 p
+glVertexAttrib4Nusv v u32 p
+glVertexAttrib4NusvARB v u32 p
+glVertexAttrib4bv v u32 p
+glVertexAttrib4bvARB v u32 p
+glVertexAttrib4d v u32 d d d d
+glVertexAttrib4dARB v u32 d d d d
+glVertexAttrib4dNV v u32 d d d d
+glVertexAttrib4dv v u32 p
+glVertexAttrib4dvARB v u32 p
+glVertexAttrib4dvNV v u32 p
+glVertexAttrib4f v u32 f f f f
+glVertexAttrib4fARB v u32 f f f f
+glVertexAttrib4fNV v u32 f f f f
+glVertexAttrib4fv v u32 p
+glVertexAttrib4fvARB v u32 p
+glVertexAttrib4fvNV v u32 p
+glVertexAttrib4hNV v u32 u16 u16 u16 u16
+glVertexAttrib4hvNV v u32 p
+glVertexAttrib4iv v u32 p
+glVertexAttrib4ivARB v u32 p
+glVertexAttrib4s v u32 i16 i16 i16 i16
+glVertexAttrib4sARB v u32 i16 i16 i16 i16
+glVertexAttrib4sNV v u32 i16 i16 i16 i16
+glVertexAttrib4sv v u32 p
+glVertexAttrib4svARB v u32 p
+glVertexAttrib4svNV v u32 p
+glVertexAttrib4ubNV v u32 u8 u8 u8 u8
+glVertexAttrib4ubv v u32 p
+glVertexAttrib4ubvARB v u32 p
+glVertexAttrib4ubvNV v u32 p
+glVertexAttrib4uiv v u32 p
+glVertexAttrib4uivARB v u32 p
+glVertexAttrib4usv v u32 p
+glVertexAttrib4usvARB v u32 p
+glVertexAttribArrayObjectATI v u32 i32 u32 u8 i32 u32 u32
+glVertexAttribBinding v u32 u32
+glVertexAttribDivisor v u32 u32
+glVertexAttribDivisorANGLE v u32 u32
+glVertexAttribDivisorARB v u32 u32
+glVertexAttribDivisorEXT v u32 u32
+glVertexAttribDivisorNV v u32 u32
+glVertexAttribFormat v u32 i32 u32 u8 u32
+glVertexAttribFormatNV v u32 i32 u32 u8 i32
+glVertexAttribI1i v u32 i32
+glVertexAttribI1iEXT v u32 i32
+glVertexAttribI1iv v u32 p
+glVertexAttribI1ivEXT v u32 p
+glVertexAttribI1ui v u32 u32
+glVertexAttribI1uiEXT v u32 u32
+glVertexAttribI1uiv v u32 p
+glVertexAttribI1uivEXT v u32 p
+glVertexAttribI2i v u32 i32 i32
+glVertexAttribI2iEXT v u32 i32 i32
+glVertexAttribI2iv v u32 p
+glVertexAttribI2ivEXT v u32 p
+glVertexAttribI2ui v u32 u32 u32
+glVertexAttribI2uiEXT v u32 u32 u32
+glVertexAttribI2uiv v u32 p
+glVertexAttribI2uivEXT v u32 p
+glVertexAttribI3i v u32 i32 i32 i32
+glVertexAttribI3iEXT v u32 i32 i32 i32
+glVertexAttribI3iv v u32 p
+glVertexAttribI3ivEXT v u32 p
+glVertexAttribI3ui v u32 u32 u32 u32
+glVertexAttribI3uiEXT v u32 u32 u32 u32
+glVertexAttribI3uiv v u32 p
+glVertexAttribI3uivEXT v u32 p
+glVertexAttribI4bv v u32 p
+glVertexAttribI4bvEXT v u32 p
+glVertexAttribI4i v u32 i32 i32 i32 i32
+glVertexAttribI4iEXT v u32 i32 i32 i32 i32
+glVertexAttribI4iv v u32 p
+glVertexAttribI4ivEXT v u32 p
+glVertexAttribI4sv v u32 p
+glVertexAttribI4svEXT v u32 p
+glVertexAttribI4ubv v u32 p
+glVertexAttribI4ubvEXT v u32 p
+glVertexAttribI4ui v u32 u32 u32 u32 u32
+glVertexAttribI4uiEXT v u32 u32 u32 u32 u32
+glVertexAttribI4uiv v u32 p
+glVertexAttribI4uivEXT v u32 p
+glVertexAttribI4usv v u32 p
+glVertexAttribI4usvEXT v u32 p
+glVertexAttribIFormat v u32 i32 u32 u32
+glVertexAttribIFormatNV v u32 i32 u32 i32
+glVertexAttribIPointer v u32 i32 u32 i32 p
+glVertexAttribIPointerEXT v u32 i32 u32 i32 p
+glVertexAttribL1d v u32 d
+glVertexAttribL1dEXT v u32 d
+glVertexAttribL1dv v u32 p
+glVertexAttribL1dvEXT v u32 p
+glVertexAttribL1i64NV v u32 i64
+glVertexAttribL1i64vNV v u32 p
+glVertexAttribL1ui64ARB v u32 u64
+glVertexAttribL1ui64NV v u32 u64
+glVertexAttribL1ui64vARB v u32 p
+glVertexAttribL1ui64vNV v u32 p
+glVertexAttribL2d v u32 d d
+glVertexAttribL2dEXT v u32 d d
+glVertexAttribL2dv v u32 p
+glVertexAttribL2dvEXT v u32 p
+glVertexAttribL2i64NV v u32 i64 i64
+glVertexAttribL2i64vNV v u32 p
+glVertexAttribL2ui64NV v u32 u64 u64
+glVertexAttribL2ui64vNV v u32 p
+glVertexAttribL3d v u32 d d d
+glVertexAttribL3dEXT v u32 d d d
+glVertexAttribL3dv v u32 p
+glVertexAttribL3dvEXT v u32 p
+glVertexAttribL3i64NV v u32 i64 i64 i64
+glVertexAttribL3i64vNV v u32 p
+glVertexAttribL3ui64NV v u32 u64 u64 u64
+glVertexAttribL3ui64vNV v u32 p
+glVertexAttribL4d v u32 d d d d
+glVertexAttribL4dEXT v u32 d d d d
+glVertexAttribL4dv v u32 p
+glVertexAttribL4dvEXT v u32 p
+glVertexAttribL4i64NV v u32 i64 i64 i64 i64
+glVertexAttribL4i64vNV v u32 p
+glVertexAttribL4ui64NV v u32 u64 u64 u64 u64
+glVertexAttribL4ui64vNV v u32 p
+glVertexAttribLFormat v u32 i32 u32 u32
+glVertexAttribLFormatNV v u32 i32 u32 i32
+glVertexAttribLPointer v u32 i32 u32 i32 p
+glVertexAttribLPointerEXT v u32 i32 u32 i32 p
+glVertexAttribP1ui v u32 u32 u8 u32
+glVertexAttribP1uiv v u32 u32 u8 p
+glVertexAttribP2ui v u32 u32 u8 u32
+glVertexAttribP2uiv v u32 u32 u8 p
+glVertexAttribP3ui v u32 u32 u8 u32
+glVertexAttribP3uiv v u32 u32 u8 p
+glVertexAttribP4ui v u32 u32 u8 u32
+glVertexAttribP4uiv v u32 u32 u8 p
+glVertexAttribParameteriAMD v u32 u32 i32
+glVertexAttribPointer v u32 i32 u32 u8 i32 p
+glVertexAttribPointerARB v u32 i32 u32 u8 i32 p
+glVertexAttribPointerNV v u32 i32 u32 i32 p
+glVertexAttribs1dvNV v u32 i32 p
+glVertexAttribs1fvNV v u32 i32 p
+glVertexAttribs1hvNV v u32 i32 p
+glVertexAttribs1svNV v u32 i32 p
+glVertexAttribs2dvNV v u32 i32 p
+glVertexAttribs2fvNV v u32 i32 p
+glVertexAttribs2hvNV v u32 i32 p
+glVertexAttribs2svNV v u32 i32 p
+glVertexAttribs3dvNV v u32 i32 p
+glVertexAttribs3fvNV v u32 i32 p
+glVertexAttribs3hvNV v u32 i32 p
+glVertexAttribs3svNV v u32 i32 p
+glVertexAttribs4dvNV v u32 i32 p
+glVertexAttribs4fvNV v u32 i32 p
+glVertexAttribs4hvNV v u32 i32 p
+glVertexAttribs4svNV v u32 i32 p
+glVertexAttribs4ubvNV v u32 i32 p
+glVertexBindingDivisor v u32 u32
+glVertexBlendARB v i32
+glVertexBlendEnvfATI v u32 f
+glVertexBlendEnviATI v u32 i32
+glVertexFormatNV v i32 u32 i32
+glVertexP2ui v u32 u32
+glVertexP2uiv v u32 p
+glVertexP3ui v u32 u32
+glVertexP3uiv v u32 p
+glVertexP4ui v u32 u32
+glVertexP4uiv v u32 p
+glVertexPointer v i32 u32 i32 p
+glVertexPointerEXT v i32 u32 i32 i32 p
+glVertexPointerListIBM v i32 u32 i32 p i32
+glVertexPointervINTEL v i32 u32 p
+glVertexStream1dATI v u32 d
+glVertexStream1dvATI v u32 p
+glVertexStream1fATI v u32 f
+glVertexStream1fvATI v u32 p
+glVertexStream1iATI v u32 i32
+glVertexStream1ivATI v u32 p
+glVertexStream1sATI v u32 i16
+glVertexStream1svATI v u32 p
+glVertexStream2dATI v u32 d d
+glVertexStream2dvATI v u32 p
+glVertexStream2fATI v u32 f f
+glVertexStream2fvATI v u32 p
+glVertexStream2iATI v u32 i32 i32
+glVertexStream2ivATI v u32 p
+glVertexStream2sATI v u32 i16 i16
+glVertexStream2svATI v u32 p
+glVertexStream3dATI v u32 d d d
+glVertexStream3dvATI v u32 p
+glVertexStream3fATI v u32 f f f
+glVertexStream3fvATI v u32 p
+glVertexStream3iATI v u32 i32 i32 i32
+glVertexStream3ivATI v u32 p
+glVertexStream3sATI v u32 i16 i16 i16
+glVertexStream3svATI v u32 p
+glVertexStream4dATI v u32 d d d d
+glVertexStream4dvATI v u32 p
+glVertexStream4fATI v u32 f f f f
+glVertexStream4fvATI v u32 p
+glVertexStream4iATI v u32 i32 i32 i32 i32
+glVertexStream4ivATI v u32 p
+glVertexStream4sATI v u32 i16 i16 i16 i16
+glVertexStream4svATI v u32 p
+glVertexWeightPointerEXT v i32 u32 i32 p
+glVertexWeightfEXT v f
+glVertexWeightfvEXT v p
+glVertexWeighthNV v u16
+glVertexWeighthvNV v p
+glVideoCaptureNV u32 u32 p p
+glVideoCaptureStreamParameterdvNV v u32 u32 u32 p
+glVideoCaptureStreamParameterfvNV v u32 u32 u32 p
+glVideoCaptureStreamParameterivNV v u32 u32 u32 p
+glViewport v i32 i32 i32 i32
+glViewportArrayv v u32 i32 p
+glViewportArrayvNV v u32 i32 p
+glViewportArrayvOES v u32 i32 p
+glViewportIndexedf v u32 f f f f
+glViewportIndexedfOES v u32 f f f f
+glViewportIndexedfNV v u32 f f f f
+glViewportIndexedfv v u32 p
+glViewportIndexedfvOES v u32 p
+glViewportIndexedfvNV v u32 p
+glViewportPositionWScaleNV v u32 f f
+glViewportSwizzleNV v u32 u32 u32 u32 u32
+glWaitSemaphoreEXT v u32 u32 p u32 p p
+glWaitSemaphoreui64NVX v u32 i32 p p
+glWaitSync v p u32 u64
+glWaitSyncAPPLE v p u32 u64
+glWeightPathsNV v u32 i32 p p
+glWeightPointerARB v i32 u32 i32 p
+glWeightPointerOES v i32 u32 i32 p
+glWeightbvARB v i32 p
+glWeightdvARB v i32 p
+glWeightfvARB v i32 p
+glWeightivARB v i32 p
+glWeightsvARB v i32 p
+glWeightubvARB v i32 p
+glWeightuivARB v i32 p
+glWeightusvARB v i32 p
+glWindowPos2d v d d
+glWindowPos2dARB v d d
+glWindowPos2dMESA v d d
+glWindowPos2dv v p
+glWindowPos2dvARB v p
+glWindowPos2dvMESA v p
+glWindowPos2f v f f
+glWindowPos2fARB v f f
+glWindowPos2fMESA v f f
+glWindowPos2fv v p
+glWindowPos2fvARB v p
+glWindowPos2fvMESA v p
+glWindowPos2i v i32 i32
+glWindowPos2iARB v i32 i32
+glWindowPos2iMESA v i32 i32
+glWindowPos2iv v p
+glWindowPos2ivARB v p
+glWindowPos2ivMESA v p
+glWindowPos2s v i16 i16
+glWindowPos2sARB v i16 i16
+glWindowPos2sMESA v i16 i16
+glWindowPos2sv v p
+glWindowPos2svARB v p
+glWindowPos2svMESA v p
+glWindowPos3d v d d d
+glWindowPos3dARB v d d d
+glWindowPos3dMESA v d d d
+glWindowPos3dv v p
+glWindowPos3dvARB v p
+glWindowPos3dvMESA v p
+glWindowPos3f v f f f
+glWindowPos3fARB v f f f
+glWindowPos3fMESA v f f f
+glWindowPos3fv v p
+glWindowPos3fvARB v p
+glWindowPos3fvMESA v p
+glWindowPos3i v i32 i32 i32
+glWindowPos3iARB v i32 i32 i32
+glWindowPos3iMESA v i32 i32 i32
+glWindowPos3iv v p
+glWindowPos3ivARB v p
+glWindowPos3ivMESA v p
+glWindowPos3s v i16 i16 i16
+glWindowPos3sARB v i16 i16 i16
+glWindowPos3sMESA v i16 i16 i16
+glWindowPos3sv v p
+glWindowPos3svARB v p
+glWindowPos3svMESA v p
+glWindowPos4dMESA v d d d d
+glWindowPos4dvMESA v p
+glWindowPos4fMESA v f f f f
+glWindowPos4fvMESA v p
+glWindowPos4iMESA v i32 i32 i32 i32
+glWindowPos4ivMESA v p
+glWindowPos4sMESA v i16 i16 i16 i16
+glWindowPos4svMESA v p
+glWindowRectanglesEXT v u32 i32 p
+glWriteMaskEXT v u32 u32 u32 u32 u32 u32
+glDrawVkImageNV v u64 u32 f f f f f f f f f
+glGetVkProcAddrNV p p
+glWaitVkSemaphoreNV v u64
+glSignalVkSemaphoreNV v u64
+glSignalVkFenceNV v u64
+glFramebufferParameteriMESA v u32 u32 i32
+glGetFramebufferParameterivMESA v u32 u32 p

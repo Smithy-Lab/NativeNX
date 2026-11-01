@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=NativeNX
+Comment=Play your own Switch games natively
+Exec=nativenx
+Icon=nativenx
+Terminal=false
+Categories=Game;Emulator;
+StartupWMClass=nativenx

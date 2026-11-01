@@ -1,0 +1,864 @@
+# Vulkan: name, result, parameters (tools/gen_gfxapi.py, from Khronos' vk.xml, Apache-2.0)
+vkAcquireDrmDisplayEXT i32 p i32 u64
+vkAcquireFullScreenExclusiveModeEXT i32 p u64
+vkAcquireImageANDROID i32 p u64 i32 u64 u64
+vkAcquireImageOHOS i32 p u64 i32 u64 u64
+vkAcquireNextImage2KHR i32 p p p
+vkAcquireNextImageKHR i32 p u64 u64 u64 u64 p
+vkAcquirePerformanceConfigurationINTEL i32 p p p
+vkAcquireProfilingLockKHR i32 p p
+vkAcquireWinrtDisplayNV i32 p u64
+vkAcquireXlibDisplayEXT i32 p p u64
+vkAllocateCommandBuffers i32 p p p
+vkAllocateDescriptorSets i32 p p p
+vkAllocateMemory i32 p p A p
+vkAntiLagUpdateAMD v p p
+vkBeginCommandBuffer i32 p p
+vkBindAccelerationStructureMemoryNV i32 p u32 p
+vkBindBufferMemory i32 p u64 u64 u64
+vkBindBufferMemory2 i32 p u32 p
+vkBindBufferMemory2KHR i32 p u32 p
+vkBindDataGraphPipelineSessionMemoryARM i32 p u32 p
+vkBindImageMemory i32 p u64 u64 u64
+vkBindImageMemory2 i32 p u32 p
+vkBindImageMemory2KHR i32 p u32 p
+vkBindOpticalFlowSessionImageNV i32 p u64 i32 u64 i32
+vkBindTensorMemoryARM i32 p u32 p
+vkBindVideoSessionMemoryKHR i32 p u64 u32 p
+vkBuildAccelerationStructuresKHR i32 p u64 u32 p p
+vkBuildMicromapsEXT i32 p u64 u32 p
+vkClearShaderInstrumentationMetricsARM v p u64
+vkCmdBeginConditionalRendering2EXT v p p
+vkCmdBeginConditionalRenderingEXT v p p
+vkCmdBeginCustomResolveEXT v p p
+vkCmdBeginDebugUtilsLabelEXT v p p
+vkCmdBeginGpaSampleAMD i32 p u64 p p
+vkCmdBeginGpaSessionAMD i32 p u64
+vkCmdBeginPerTileExecutionQCOM v p p
+vkCmdBeginQuery v p u64 u32 u32
+vkCmdBeginQueryIndexedEXT v p u64 u32 u32 u32
+vkCmdBeginRenderPass v p p i32
+vkCmdBeginRenderPass2 v p p p
+vkCmdBeginRenderPass2KHR v p p p
+vkCmdBeginRendering v p p
+vkCmdBeginRenderingKHR v p p
+vkCmdBeginShaderInstrumentationARM v p u64
+vkCmdBeginTransformFeedback2EXT v p u32 u32 p
+vkCmdBeginTransformFeedbackEXT v p u32 u32 p p
+vkCmdBeginVideoCodingKHR v p p
+vkCmdBindDescriptorBufferEmbeddedSamplers2EXT v p p
+vkCmdBindDescriptorBufferEmbeddedSamplersEXT v p i32 u64 u32
+vkCmdBindDescriptorBuffersEXT v p u32 p
+vkCmdBindDescriptorSets v p i32 u64 u32 u32 p u32 p
+vkCmdBindDescriptorSets2 v p p
+vkCmdBindDescriptorSets2KHR v p p
+vkCmdBindIndexBuffer v p u64 u64 i32
+vkCmdBindIndexBuffer2 v p u64 u64 u64 i32
+vkCmdBindIndexBuffer2KHR v p u64 u64 u64 i32
+vkCmdBindIndexBuffer3KHR v p p
+vkCmdBindInvocationMaskHUAWEI v p u64 i32
+vkCmdBindPipeline v p i32 u64
+vkCmdBindPipelineShaderGroupNV v p i32 u64 u32
+vkCmdBindResourceHeapEXT v p p
+vkCmdBindSamplerHeapEXT v p p
+vkCmdBindShadersEXT v p u32 p p
+vkCmdBindShadingRateImageNV v p u64 i32
+vkCmdBindTileMemoryQCOM v p p
+vkCmdBindTransformFeedbackBuffers2EXT v p u32 u32 p
+vkCmdBindTransformFeedbackBuffersEXT v p u32 u32 p p p
+vkCmdBindVertexBuffers v p u32 u32 p p
+vkCmdBindVertexBuffers2 v p u32 u32 p p p p
+vkCmdBindVertexBuffers2EXT v p u32 u32 p p p p
+vkCmdBindVertexBuffers3KHR v p u32 u32 p
+vkCmdBlitImage v p u64 i32 u64 i32 u32 p i32
+vkCmdBlitImage2 v p p
+vkCmdBlitImage2KHR v p p
+vkCmdBuildAccelerationStructureNV v p p u64 u64 u32 u64 u64 u64 u64
+vkCmdBuildAccelerationStructuresIndirectKHR v p u32 p p p p
+vkCmdBuildAccelerationStructuresKHR v p u32 p p
+vkCmdBuildClusterAccelerationStructureIndirectNV v p p
+vkCmdBuildMicromapsEXT v p u32 p
+vkCmdBuildPartitionedAccelerationStructuresNV v p p
+vkCmdClearAttachments v p u32 p u32 p
+vkCmdClearColorImage v p u64 i32 p u32 p
+vkCmdClearDepthStencilImage v p u64 i32 p u32 p
+vkCmdControlVideoCodingKHR v p p
+vkCmdConvertCooperativeVectorMatrixNV v p u32 p
+vkCmdCopyAccelerationStructureKHR v p p
+vkCmdCopyAccelerationStructureNV v p u64 u64 i32
+vkCmdCopyAccelerationStructureToMemoryKHR v p p
+vkCmdCopyBuffer v p u64 u64 u32 p
+vkCmdCopyBuffer2 v p p
+vkCmdCopyBuffer2KHR v p p
+vkCmdCopyBufferToImage v p u64 u64 i32 u32 p
+vkCmdCopyBufferToImage2 v p p
+vkCmdCopyBufferToImage2KHR v p p
+vkCmdCopyGpaSessionResultsAMD v p u64
+vkCmdCopyImage v p u64 i32 u64 i32 u32 p
+vkCmdCopyImage2 v p p
+vkCmdCopyImage2KHR v p p
+vkCmdCopyImageToBuffer v p u64 i32 u64 u32 p
+vkCmdCopyImageToBuffer2 v p p
+vkCmdCopyImageToBuffer2KHR v p p
+vkCmdCopyImageToMemoryKHR v p p
+vkCmdCopyMemoryIndirectKHR v p p
+vkCmdCopyMemoryIndirectNV v p u64 u32 u32
+vkCmdCopyMemoryKHR v p p
+vkCmdCopyMemoryToAccelerationStructureKHR v p p
+vkCmdCopyMemoryToImageIndirectKHR v p p
+vkCmdCopyMemoryToImageIndirectNV v p u64 u32 u32 u64 i32 p
+vkCmdCopyMemoryToImageKHR v p p
+vkCmdCopyMemoryToMicromapEXT v p p
+vkCmdCopyMicromapEXT v p p
+vkCmdCopyMicromapToMemoryEXT v p p
+vkCmdCopyQueryPoolResults v p u64 u32 u32 u64 u64 u64 u32
+vkCmdCopyQueryPoolResultsToMemoryKHR v p u64 u32 u32 p u32 u32
+vkCmdCopyTensorARM v p p
+vkCmdCuLaunchKernelNVX v p p
+vkCmdCudaLaunchKernelNV v p p
+vkCmdDebugMarkerBeginEXT v p p
+vkCmdDebugMarkerEndEXT v p
+vkCmdDebugMarkerInsertEXT v p p
+vkCmdDecodeVideoKHR v p p
+vkCmdDecompressMemoryEXT v p p
+vkCmdDecompressMemoryIndirectCountEXT v p u64 u64 u64 u32 u32
+vkCmdDecompressMemoryIndirectCountNV v p u64 u64 u32
+vkCmdDecompressMemoryNV v p u32 p
+vkCmdDispatch v p u32 u32 u32
+vkCmdDispatchBase v p u32 u32 u32 u32 u32 u32
+vkCmdDispatchBaseKHR v p u32 u32 u32 u32 u32 u32
+vkCmdDispatchDataGraphARM v p u64 p
+vkCmdDispatchGraphAMDX v p u64 u64 p
+vkCmdDispatchGraphIndirectAMDX v p u64 u64 p
+vkCmdDispatchGraphIndirectCountAMDX v p u64 u64 u64
+vkCmdDispatchIndirect v p u64 u64
+vkCmdDispatchIndirect2KHR v p p
+vkCmdDispatchTileQCOM v p p
+vkCmdDraw v p u32 u32 u32 u32
+vkCmdDrawClusterHUAWEI v p u32 u32 u32
+vkCmdDrawClusterIndirectHUAWEI v p u64 u64
+vkCmdDrawIndexed v p u32 u32 u32 i32 u32
+vkCmdDrawIndexedIndirect v p u64 u64 u32 u32
+vkCmdDrawIndexedIndirect2KHR v p p
+vkCmdDrawIndexedIndirectCount v p u64 u64 u64 u64 u32 u32
+vkCmdDrawIndexedIndirectCount2KHR v p p
+vkCmdDrawIndexedIndirectCountAMD v p u64 u64 u64 u64 u32 u32
+vkCmdDrawIndexedIndirectCountKHR v p u64 u64 u64 u64 u32 u32
+vkCmdDrawIndirect v p u64 u64 u32 u32
+vkCmdDrawIndirect2KHR v p p
+vkCmdDrawIndirectByteCount2EXT v p u32 u32 p u32 u32
+vkCmdDrawIndirectByteCountEXT v p u32 u32 u64 u64 u32 u32
+vkCmdDrawIndirectCount v p u64 u64 u64 u64 u32 u32
+vkCmdDrawIndirectCount2KHR v p p
+vkCmdDrawIndirectCountAMD v p u64 u64 u64 u64 u32 u32
+vkCmdDrawIndirectCountKHR v p u64 u64 u64 u64 u32 u32
+vkCmdDrawMeshTasksEXT v p u32 u32 u32
+vkCmdDrawMeshTasksIndirect2EXT v p p
+vkCmdDrawMeshTasksIndirectCount2EXT v p p
+vkCmdDrawMeshTasksIndirectCountEXT v p u64 u64 u64 u64 u32 u32
+vkCmdDrawMeshTasksIndirectCountNV v p u64 u64 u64 u64 u32 u32
+vkCmdDrawMeshTasksIndirectEXT v p u64 u64 u32 u32
+vkCmdDrawMeshTasksIndirectNV v p u64 u64 u32 u32
+vkCmdDrawMeshTasksNV v p u32 u32
+vkCmdDrawMultiEXT v p u32 p u32 u32 u32
+vkCmdDrawMultiIndexedEXT v p u32 p u32 u32 u32 p
+vkCmdEncodeVideoKHR v p p
+vkCmdEndConditionalRenderingEXT v p
+vkCmdEndDebugUtilsLabelEXT v p
+vkCmdEndGpaSampleAMD v p u64 u32
+vkCmdEndGpaSessionAMD i32 p u64
+vkCmdEndPerTileExecutionQCOM v p p
+vkCmdEndQuery v p u64 u32
+vkCmdEndQueryIndexedEXT v p u64 u32 u32
+vkCmdEndRenderPass v p
+vkCmdEndRenderPass2 v p p
+vkCmdEndRenderPass2KHR v p p
+vkCmdEndRendering v p
+vkCmdEndRendering2EXT v p p
+vkCmdEndRendering2KHR v p p
+vkCmdEndRenderingKHR v p
+vkCmdEndShaderInstrumentationARM v p
+vkCmdEndTransformFeedback2EXT v p u32 u32 p
+vkCmdEndTransformFeedbackEXT v p u32 u32 p p
+vkCmdEndVideoCodingKHR v p p
+vkCmdExecuteCommands v p u32 p
+vkCmdExecuteGeneratedCommandsEXT v p u32 p
+vkCmdExecuteGeneratedCommandsNV v p u32 p
+vkCmdFillBuffer v p u64 u64 u64 u32
+vkCmdFillMemoryKHR v p p u32 u32
+vkCmdInitializeGraphScratchMemoryAMDX v p u64 u64 u64
+vkCmdInsertDebugUtilsLabelEXT v p p
+vkCmdNextSubpass v p i32
+vkCmdNextSubpass2 v p p p
+vkCmdNextSubpass2KHR v p p p
+vkCmdOpticalFlowExecuteNV v p u64 p
+vkCmdPipelineBarrier v p u32 u32 u32 u32 p u32 p u32 p
+vkCmdPipelineBarrier2 v p p
+vkCmdPipelineBarrier2KHR v p p
+vkCmdPreprocessGeneratedCommandsEXT v p p p
+vkCmdPreprocessGeneratedCommandsNV v p p
+vkCmdPushConstants v p u64 u32 u32 u32 p
+vkCmdPushConstants2 v p p
+vkCmdPushConstants2KHR v p p
+vkCmdPushDataEXT v p p
+vkCmdPushDescriptorSet v p i32 u64 u32 u32 p
+vkCmdPushDescriptorSet2 v p p
+vkCmdPushDescriptorSet2KHR v p p
+vkCmdPushDescriptorSetKHR v p i32 u64 u32 u32 p
+vkCmdPushDescriptorSetWithTemplate v p u64 u64 u32 p
+vkCmdPushDescriptorSetWithTemplate2 v p p
+vkCmdPushDescriptorSetWithTemplate2KHR v p p
+vkCmdPushDescriptorSetWithTemplateKHR v p u64 u64 u32 p
+vkCmdRefreshObjectsKHR v p p
+vkCmdResetEvent v p u64 u32
+vkCmdResetEvent2 v p u64 u64
+vkCmdResetEvent2KHR v p u64 u64
+vkCmdResetQueryPool v p u64 u32 u32
+vkCmdResolveImage v p u64 i32 u64 i32 u32 p
+vkCmdResolveImage2 v p p
+vkCmdResolveImage2KHR v p p
+vkCmdSetAlphaToCoverageEnableEXT v p u32
+vkCmdSetAlphaToOneEnableEXT v p u32
+vkCmdSetAttachmentFeedbackLoopEnableEXT v p u32
+vkCmdSetBlendConstants v p p
+vkCmdSetCheckpointNV v p p
+vkCmdSetCoarseSampleOrderNV v p i32 u32 p
+vkCmdSetColorBlendAdvancedEXT v p u32 u32 p
+vkCmdSetColorBlendEnableEXT v p u32 u32 p
+vkCmdSetColorBlendEquationEXT v p u32 u32 p
+vkCmdSetColorWriteEnableEXT v p u32 p
+vkCmdSetColorWriteMaskEXT v p u32 u32 p
+vkCmdSetComputeOccupancyPriorityNV v p p
+vkCmdSetConservativeRasterizationModeEXT v p i32
+vkCmdSetCoverageModulationModeNV v p i32
+vkCmdSetCoverageModulationTableEnableNV v p u32
+vkCmdSetCoverageModulationTableNV v p u32 p
+vkCmdSetCoverageReductionModeNV v p i32
+vkCmdSetCoverageToColorEnableNV v p u32
+vkCmdSetCoverageToColorLocationNV v p u32
+vkCmdSetCullMode v p u32
+vkCmdSetCullModeEXT v p u32
+vkCmdSetDepthBias v p f f f
+vkCmdSetDepthBias2EXT v p p
+vkCmdSetDepthBiasEnable v p u32
+vkCmdSetDepthBiasEnableEXT v p u32
+vkCmdSetDepthBounds v p f f
+vkCmdSetDepthBoundsTestEnable v p u32
+vkCmdSetDepthBoundsTestEnableEXT v p u32
+vkCmdSetDepthClampEnableEXT v p u32
+vkCmdSetDepthClampRangeEXT v p i32 p
+vkCmdSetDepthClipEnableEXT v p u32
+vkCmdSetDepthClipNegativeOneToOneEXT v p u32
+vkCmdSetDepthCompareOp v p i32
+vkCmdSetDepthCompareOpEXT v p i32
+vkCmdSetDepthTestEnable v p u32
+vkCmdSetDepthTestEnableEXT v p u32
+vkCmdSetDepthWriteEnable v p u32
+vkCmdSetDepthWriteEnableEXT v p u32
+vkCmdSetDescriptorBufferOffsets2EXT v p p
+vkCmdSetDescriptorBufferOffsetsEXT v p i32 u64 u32 u32 p p
+vkCmdSetDeviceMask v p u32
+vkCmdSetDeviceMaskKHR v p u32
+vkCmdSetDiscardRectangleEXT v p u32 u32 p
+vkCmdSetDiscardRectangleEnableEXT v p u32
+vkCmdSetDiscardRectangleModeEXT v p i32
+vkCmdSetDispatchParametersARM v p p
+vkCmdSetEvent v p u64 u32
+vkCmdSetEvent2 v p u64 p
+vkCmdSetEvent2KHR v p u64 p
+vkCmdSetExclusiveScissorEnableNV v p u32 u32 p
+vkCmdSetExclusiveScissorNV v p u32 u32 p
+vkCmdSetExtraPrimitiveOverestimationSizeEXT v p f
+vkCmdSetFragmentShadingRateEnumNV v p i32 p
+vkCmdSetFragmentShadingRateKHR v p p p
+vkCmdSetFrontFace v p i32
+vkCmdSetFrontFaceEXT v p i32
+vkCmdSetLineRasterizationModeEXT v p i32
+vkCmdSetLineStipple v p u32 u16
+vkCmdSetLineStippleEXT v p u32 u16
+vkCmdSetLineStippleEnableEXT v p u32
+vkCmdSetLineStippleKHR v p u32 u16
+vkCmdSetLineWidth v p f
+vkCmdSetLogicOpEXT v p i32
+vkCmdSetLogicOpEnableEXT v p u32
+vkCmdSetPatchControlPointsEXT v p u32
+vkCmdSetPerformanceMarkerINTEL i32 p p
+vkCmdSetPerformanceOverrideINTEL i32 p p
+vkCmdSetPerformanceStreamMarkerINTEL i32 p p
+vkCmdSetPolygonModeEXT v p i32
+vkCmdSetPrimitiveRestartEnable v p u32
+vkCmdSetPrimitiveRestartEnableEXT v p u32
+vkCmdSetPrimitiveRestartIndexEXT v p u32
+vkCmdSetPrimitiveTopology v p i32
+vkCmdSetPrimitiveTopologyEXT v p i32
+vkCmdSetProvokingVertexModeEXT v p i32
+vkCmdSetRasterizationSamplesEXT v p i32
+vkCmdSetRasterizationStreamEXT v p u32
+vkCmdSetRasterizerDiscardEnable v p u32
+vkCmdSetRasterizerDiscardEnableEXT v p u32
+vkCmdSetRayTracingPipelineStackSizeKHR v p u32
+vkCmdSetRenderingAttachmentLocations v p p
+vkCmdSetRenderingAttachmentLocationsKHR v p p
+vkCmdSetRenderingInputAttachmentIndices v p p
+vkCmdSetRenderingInputAttachmentIndicesKHR v p p
+vkCmdSetRepresentativeFragmentTestEnableNV v p u32
+vkCmdSetSampleLocationsEXT v p p
+vkCmdSetSampleLocationsEnableEXT v p u32
+vkCmdSetSampleMaskEXT v p i32 p
+vkCmdSetScissor v p u32 u32 p
+vkCmdSetScissorWithCount v p u32 p
+vkCmdSetScissorWithCountEXT v p u32 p
+vkCmdSetShadingRateImageEnableNV v p u32
+vkCmdSetStencilCompareMask v p u32 u32
+vkCmdSetStencilOp v p u32 i32 i32 i32 i32
+vkCmdSetStencilOpEXT v p u32 i32 i32 i32 i32
+vkCmdSetStencilReference v p u32 u32
+vkCmdSetStencilTestEnable v p u32
+vkCmdSetStencilTestEnableEXT v p u32
+vkCmdSetStencilWriteMask v p u32 u32
+vkCmdSetTessellationDomainOriginEXT v p i32
+vkCmdSetVertexInputEXT v p u32 p u32 p
+vkCmdSetViewport v p u32 u32 p
+vkCmdSetViewportShadingRatePaletteNV v p u32 u32 p
+vkCmdSetViewportSwizzleNV v p u32 u32 p
+vkCmdSetViewportWScalingEnableNV v p u32
+vkCmdSetViewportWScalingNV v p u32 u32 p
+vkCmdSetViewportWithCount v p u32 p
+vkCmdSetViewportWithCountEXT v p u32 p
+vkCmdSubpassShadingHUAWEI v p
+vkCmdTraceRaysIndirect2KHR v p u64
+vkCmdTraceRaysIndirectKHR v p p p p p u64
+vkCmdTraceRaysKHR v p p p p p u32 u32 u32
+vkCmdTraceRaysNV v p u64 u64 u64 u64 u64 u64 u64 u64 u64 u64 u64 u32 u32 u32
+vkCmdUpdateBuffer v p u64 u64 u64 p
+vkCmdUpdateMemoryKHR v p p u32 u64 p
+vkCmdUpdatePipelineIndirectBufferNV v p i32 u64
+vkCmdWaitEvents v p u32 p u32 u32 u32 p u32 p u32 p
+vkCmdWaitEvents2 v p u32 p p
+vkCmdWaitEvents2KHR v p u32 p p
+vkCmdWriteAccelerationStructuresPropertiesKHR v p u32 p i32 u64 u32
+vkCmdWriteAccelerationStructuresPropertiesNV v p u32 p i32 u64 u32
+vkCmdWriteBufferMarker2AMD v p u64 u64 u64 u32
+vkCmdWriteBufferMarkerAMD v p i32 u64 u64 u32
+vkCmdWriteMarkerToMemoryAMD v p p
+vkCmdWriteMicromapsPropertiesEXT v p u32 p i32 u64 u32
+vkCmdWriteTimestamp v p i32 u64 u32
+vkCmdWriteTimestamp2 v p u64 u64 u32
+vkCmdWriteTimestamp2KHR v p u64 u64 u32
+vkCompileDeferredNV i32 p u64 u32
+vkConvertCooperativeVectorMatrixNV i32 p p
+vkCopyAccelerationStructureKHR i32 p u64 p
+vkCopyAccelerationStructureToMemoryKHR i32 p u64 p
+vkCopyImageToImage i32 p p
+vkCopyImageToImageEXT i32 p p
+vkCopyImageToMemory i32 p p
+vkCopyImageToMemoryEXT i32 p p
+vkCopyMemoryToAccelerationStructureKHR i32 p u64 p
+vkCopyMemoryToImage i32 p p
+vkCopyMemoryToImageEXT i32 p p
+vkCopyMemoryToMicromapEXT i32 p u64 p
+vkCopyMicromapEXT i32 p u64 p
+vkCopyMicromapToMemoryEXT i32 p u64 p
+vkCreateAccelerationStructure2KHR i32 p p A p
+vkCreateAccelerationStructureKHR i32 p p A p
+vkCreateAccelerationStructureNV i32 p p A p
+vkCreateAndroidSurfaceKHR i32 p p A p
+vkCreateBuffer i32 p p A p
+vkCreateBufferCollectionFUCHSIA i32 p p A p
+vkCreateBufferView i32 p p A p
+vkCreateCommandPool i32 p p A p
+vkCreateComputePipelines i32 p u64 u32 p A p
+vkCreateCuFunctionNVX i32 p p A p
+vkCreateCuModuleNVX i32 p p A p
+vkCreateCudaFunctionNV i32 p p A p
+vkCreateCudaModuleNV i32 p p A p
+vkCreateDataGraphPipelineSessionARM i32 p p A p
+vkCreateDataGraphPipelinesARM i32 p u64 u64 u32 p A p
+vkCreateDebugReportCallbackEXT i32 p p A p
+vkCreateDebugUtilsMessengerEXT i32 p p A p
+vkCreateDeferredOperationKHR i32 p A p
+vkCreateDescriptorPool i32 p p A p
+vkCreateDescriptorSetLayout i32 p p A p
+vkCreateDescriptorUpdateTemplate i32 p p A p
+vkCreateDescriptorUpdateTemplateKHR i32 p p A p
+vkCreateDevice i32 p p A p
+vkCreateDirectFBSurfaceEXT i32 p p A p
+vkCreateDisplayModeKHR i32 p u64 p A p
+vkCreateDisplayPlaneSurfaceKHR i32 p p A p
+vkCreateEvent i32 p p A p
+vkCreateExecutionGraphPipelinesAMDX i32 p u64 u32 p A p
+vkCreateExternalComputeQueueNV i32 p p A p
+vkCreateFence i32 p p A p
+vkCreateFramebuffer i32 p p A p
+vkCreateGpaSessionAMD i32 p p A p
+vkCreateGraphicsPipelines i32 p u64 u32 p A p
+vkCreateHeadlessSurfaceEXT i32 p p A p
+vkCreateIOSSurfaceMVK i32 p p A p
+vkCreateImage i32 p p A p
+vkCreateImagePipeSurfaceFUCHSIA i32 p p A p
+vkCreateImageView i32 p p A p
+vkCreateIndirectCommandsLayoutEXT i32 p p A p
+vkCreateIndirectCommandsLayoutNV i32 p p A p
+vkCreateIndirectExecutionSetEXT i32 p p A p
+vkCreateInstance i32 p A p
+vkCreateMacOSSurfaceMVK i32 p p A p
+vkCreateMetalSurfaceEXT i32 p p A p
+vkCreateMicromapEXT i32 p p A p
+vkCreateOpticalFlowSessionNV i32 p p A p
+vkCreatePipelineBinariesKHR i32 p p A p
+vkCreatePipelineCache i32 p p A p
+vkCreatePipelineLayout i32 p p A p
+vkCreatePrivateDataSlot i32 p p A p
+vkCreatePrivateDataSlotEXT i32 p p A p
+vkCreateQueryPool i32 p p A p
+vkCreateRayTracingPipelinesKHR i32 p u64 u64 u32 p A p
+vkCreateRayTracingPipelinesNV i32 p u64 u32 p A p
+vkCreateRenderPass i32 p p A p
+vkCreateRenderPass2 i32 p p A p
+vkCreateRenderPass2KHR i32 p p A p
+vkCreateSampler i32 p p A p
+vkCreateSamplerYcbcrConversion i32 p p A p
+vkCreateSamplerYcbcrConversionKHR i32 p p A p
+vkCreateScreenSurfaceQNX i32 p p A p
+vkCreateSemaphore i32 p p A p
+vkCreateSemaphoreSciSyncPoolNV i32 p p A p
+vkCreateShaderInstrumentationARM i32 p p A p
+vkCreateShaderModule i32 p p A p
+vkCreateShadersEXT i32 p u32 p A p
+vkCreateSharedSwapchainsKHR i32 p u32 p A p
+vkCreateStreamDescriptorSurfaceGGP i32 p p A p
+vkCreateSurfaceOHOS i32 p p A p
+vkCreateSwapchainKHR i32 p p A p
+vkCreateTensorARM i32 p p A p
+vkCreateTensorViewARM i32 p p A p
+vkCreateUbmSurfaceSEC i32 p p A p
+vkCreateValidationCacheEXT i32 p p A p
+vkCreateViSurfaceNN i32 p p A p
+vkCreateVideoSessionKHR i32 p p A p
+vkCreateVideoSessionParametersKHR i32 p p A p
+vkCreateWaylandSurfaceKHR i32 p p A p
+vkCreateWin32SurfaceKHR i32 p p A p
+vkCreateXcbSurfaceKHR i32 p p A p
+vkCreateXlibSurfaceKHR i32 p p A p
+vkDebugMarkerSetObjectNameEXT i32 p p
+vkDebugMarkerSetObjectTagEXT i32 p p
+vkDebugReportMessageEXT v p u32 i32 u64 u64 i32 p p
+vkDeferredOperationJoinKHR i32 p u64
+vkDestroyAccelerationStructureKHR v p u64 A
+vkDestroyAccelerationStructureNV v p u64 A
+vkDestroyBuffer v p u64 A
+vkDestroyBufferCollectionFUCHSIA v p u64 A
+vkDestroyBufferView v p u64 A
+vkDestroyCommandPool v p u64 A
+vkDestroyCuFunctionNVX v p u64 A
+vkDestroyCuModuleNVX v p u64 A
+vkDestroyCudaFunctionNV v p u64 A
+vkDestroyCudaModuleNV v p u64 A
+vkDestroyDataGraphPipelineSessionARM v p u64 A
+vkDestroyDebugReportCallbackEXT v p u64 A
+vkDestroyDebugUtilsMessengerEXT v p u64 A
+vkDestroyDeferredOperationKHR v p u64 A
+vkDestroyDescriptorPool v p u64 A
+vkDestroyDescriptorSetLayout v p u64 A
+vkDestroyDescriptorUpdateTemplate v p u64 A
+vkDestroyDescriptorUpdateTemplateKHR v p u64 A
+vkDestroyDevice v p A
+vkDestroyEvent v p u64 A
+vkDestroyExternalComputeQueueNV v p p A
+vkDestroyFence v p u64 A
+vkDestroyFramebuffer v p u64 A
+vkDestroyGpaSessionAMD v p u64 A
+vkDestroyImage v p u64 A
+vkDestroyImageView v p u64 A
+vkDestroyIndirectCommandsLayoutEXT v p u64 A
+vkDestroyIndirectCommandsLayoutNV v p u64 A
+vkDestroyIndirectExecutionSetEXT v p u64 A
+vkDestroyInstance v p A
+vkDestroyMicromapEXT v p u64 A
+vkDestroyOpticalFlowSessionNV v p u64 A
+vkDestroyPipeline v p u64 A
+vkDestroyPipelineBinaryKHR v p u64 A
+vkDestroyPipelineCache v p u64 A
+vkDestroyPipelineLayout v p u64 A
+vkDestroyPrivateDataSlot v p u64 A
+vkDestroyPrivateDataSlotEXT v p u64 A
+vkDestroyQueryPool v p u64 A
+vkDestroyRenderPass v p u64 A
+vkDestroySampler v p u64 A
+vkDestroySamplerYcbcrConversion v p u64 A
+vkDestroySamplerYcbcrConversionKHR v p u64 A
+vkDestroySemaphore v p u64 A
+vkDestroySemaphoreSciSyncPoolNV v p u64 A
+vkDestroyShaderEXT v p u64 A
+vkDestroyShaderInstrumentationARM v p u64 A
+vkDestroyShaderModule v p u64 A
+vkDestroySurfaceKHR v p u64 A
+vkDestroySwapchainKHR v p u64 A
+vkDestroyTensorARM v p u64 A
+vkDestroyTensorViewARM v p u64 A
+vkDestroyValidationCacheEXT v p u64 A
+vkDestroyVideoSessionKHR v p u64 A
+vkDestroyVideoSessionParametersKHR v p u64 A
+vkDeviceWaitIdle i32 p
+vkDisplayPowerControlEXT i32 p u64 p
+vkEndCommandBuffer i32 p
+vkEnumerateDeviceExtensionProperties i32 p p p p
+vkEnumerateDeviceLayerProperties i32 p p p
+vkEnumerateInstanceExtensionProperties i32 p p p
+vkEnumerateInstanceLayerProperties i32 p p
+vkEnumerateInstanceVersion i32 p
+vkEnumeratePhysicalDeviceGroups i32 p p p
+vkEnumeratePhysicalDeviceGroupsKHR i32 p p p
+vkEnumeratePhysicalDeviceQueueFamilyPerformanceCountersByRegionARM i32 p u32 p p p
+vkEnumeratePhysicalDeviceQueueFamilyPerformanceQueryCountersKHR i32 p u32 p p p
+vkEnumeratePhysicalDeviceShaderInstrumentationMetricsARM i32 p p p
+vkEnumeratePhysicalDevices i32 p p p
+vkExportMetalObjectsEXT v p p
+vkFlushMappedMemoryRanges i32 p u32 p
+vkFreeCommandBuffers v p u64 u32 p
+vkFreeDescriptorSets i32 p u64 u32 p
+vkFreeMemory v p u64 A
+vkGetAccelerationStructureBuildSizesKHR v p i32 p p p
+vkGetAccelerationStructureDeviceAddressKHR u64 p p
+vkGetAccelerationStructureHandleNV i32 p u64 u64 p
+vkGetAccelerationStructureMemoryRequirementsNV v p p p
+vkGetAccelerationStructureOpaqueCaptureDescriptorDataEXT i32 p p p
+vkGetAndroidHardwareBufferPropertiesANDROID i32 p p p
+vkGetBufferCollectionPropertiesFUCHSIA i32 p u64 p
+vkGetBufferDeviceAddress u64 p p
+vkGetBufferDeviceAddressEXT u64 p p
+vkGetBufferDeviceAddressKHR u64 p p
+vkGetBufferMemoryRequirements v p u64 p
+vkGetBufferMemoryRequirements2 v p p p
+vkGetBufferMemoryRequirements2KHR v p p p
+vkGetBufferOpaqueCaptureAddress u64 p p
+vkGetBufferOpaqueCaptureAddressKHR u64 p p
+vkGetBufferOpaqueCaptureDescriptorDataEXT i32 p p p
+vkGetCalibratedTimestampsEXT i32 p u32 p p p
+vkGetCalibratedTimestampsKHR i32 p u32 p p p
+vkGetClusterAccelerationStructureBuildSizesNV v p p p
+vkGetCommandPoolMemoryConsumption v p u64 p p
+vkGetCudaModuleCacheNV i32 p u64 p p
+vkGetDataGraphPipelineAvailablePropertiesARM i32 p p p p
+vkGetDataGraphPipelinePropertiesARM i32 p p u32 p
+vkGetDataGraphPipelineSessionBindPointRequirementsARM i32 p p p p
+vkGetDataGraphPipelineSessionMemoryRequirementsARM v p p p
+vkGetDeferredOperationMaxConcurrencyKHR u32 p u64
+vkGetDeferredOperationResultKHR i32 p u64
+vkGetDescriptorEXT v p p u64 p
+vkGetDescriptorSetHostMappingVALVE v p u64 p
+vkGetDescriptorSetLayoutBindingOffsetEXT v p u64 u32 p
+vkGetDescriptorSetLayoutHostMappingInfoVALVE v p p p
+vkGetDescriptorSetLayoutSizeEXT v p u64 p
+vkGetDescriptorSetLayoutSupport v p p p
+vkGetDescriptorSetLayoutSupportKHR v p p p
+vkGetDeviceAccelerationStructureCompatibilityKHR v p p p
+vkGetDeviceBufferMemoryRequirements v p p p
+vkGetDeviceBufferMemoryRequirementsKHR v p p p
+vkGetDeviceCombinedImageSamplerIndexNVX u64 p u64 u64
+vkGetDeviceFaultDebugInfoKHR i32 p p
+vkGetDeviceFaultInfoEXT i32 p p p
+vkGetDeviceFaultReportsKHR i32 p u64 p p
+vkGetDeviceGroupPeerMemoryFeatures v p u32 u32 u32 p
+vkGetDeviceGroupPeerMemoryFeaturesKHR v p u32 u32 u32 p
+vkGetDeviceGroupPresentCapabilitiesKHR i32 p p
+vkGetDeviceGroupSurfacePresentModes2EXT i32 p p p
+vkGetDeviceGroupSurfacePresentModesKHR i32 p u64 p
+vkGetDeviceImageMemoryRequirements v p p p
+vkGetDeviceImageMemoryRequirementsKHR v p p p
+vkGetDeviceImageSparseMemoryRequirements v p p p p
+vkGetDeviceImageSparseMemoryRequirementsKHR v p p p p
+vkGetDeviceImageSubresourceLayout v p p p
+vkGetDeviceImageSubresourceLayoutKHR v p p p
+vkGetDeviceMemoryCommitment v p u64 p
+vkGetDeviceMemoryOpaqueCaptureAddress u64 p p
+vkGetDeviceMemoryOpaqueCaptureAddressKHR u64 p p
+vkGetDeviceMicromapCompatibilityEXT v p p p
+vkGetDeviceQueue v p u32 u32 p
+vkGetDeviceQueue2 v p p p
+vkGetDeviceSubpassShadingMaxWorkgroupSizeHUAWEI i32 p u64 p
+vkGetDeviceTensorMemoryRequirementsARM v p p p
+vkGetDisplayModeProperties2KHR i32 p u64 p p
+vkGetDisplayModePropertiesKHR i32 p u64 p p
+vkGetDisplayPlaneCapabilities2KHR i32 p p p
+vkGetDisplayPlaneCapabilitiesKHR i32 p u64 u32 p
+vkGetDisplayPlaneSupportedDisplaysKHR i32 p u32 p p
+vkGetDrmDisplayEXT i32 p i32 u32 p
+vkGetDynamicRenderingTilePropertiesQCOM i32 p p p
+vkGetEncodedVideoSessionParametersKHR i32 p p p p p
+vkGetEventStatus i32 p u64
+vkGetExecutionGraphPipelineNodeIndexAMDX i32 p u64 p p
+vkGetExecutionGraphPipelineScratchSizeAMDX i32 p u64 p
+vkGetExternalComputeQueueDataNV v p p p
+vkGetFaultData i32 p i32 p p p
+vkGetFenceFdKHR i32 p p p
+vkGetFenceSciSyncFenceNV i32 p p p
+vkGetFenceSciSyncObjNV i32 p p p
+vkGetFenceStatus i32 p u64
+vkGetFenceWin32HandleKHR i32 p p p
+vkGetFramebufferTilePropertiesQCOM i32 p u64 p p
+vkGetGeneratedCommandsMemoryRequirementsEXT v p p p
+vkGetGeneratedCommandsMemoryRequirementsNV v p p p
+vkGetGpaDeviceClockInfoAMD i32 p p
+vkGetGpaSessionResultsAMD i32 p u64 u32 p p
+vkGetGpaSessionStatusAMD i32 p u64
+vkGetImageDrmFormatModifierPropertiesEXT i32 p u64 p
+vkGetImageMemoryRequirements v p u64 p
+vkGetImageMemoryRequirements2 v p p p
+vkGetImageMemoryRequirements2KHR v p p p
+vkGetImageOpaqueCaptureDataEXT i32 p u32 p p
+vkGetImageOpaqueCaptureDescriptorDataEXT i32 p p p
+vkGetImageSparseMemoryRequirements v p u64 p p
+vkGetImageSparseMemoryRequirements2 v p p p p
+vkGetImageSparseMemoryRequirements2KHR v p p p p
+vkGetImageSubresourceLayout v p u64 p p
+vkGetImageSubresourceLayout2 v p u64 p p
+vkGetImageSubresourceLayout2EXT v p u64 p p
+vkGetImageSubresourceLayout2KHR v p u64 p p
+vkGetImageViewAddressNVX i32 p u64 p
+vkGetImageViewHandle64NVX u64 p p
+vkGetImageViewHandleNVX u32 p p
+vkGetImageViewOpaqueCaptureDescriptorDataEXT i32 p p p
+vkGetLatencyTimingsLegacyNV v p p
+vkGetLatencyTimingsNV v p u64 p
+vkGetMemoryAndroidHardwareBufferANDROID i32 p p p
+vkGetMemoryFdKHR i32 p p p
+vkGetMemoryFdPropertiesKHR i32 p i32 i32 p
+vkGetMemoryHostPointerPropertiesEXT i32 p i32 p p
+vkGetMemoryMetalHandleEXT i32 p p p
+vkGetMemoryMetalHandlePropertiesEXT i32 p i32 p p
+vkGetMemoryNativeBufferOHOS i32 p p p
+vkGetMemoryRemoteAddressNV i32 p p p
+vkGetMemorySciBufNV i32 p p p
+vkGetMemoryWin32HandleKHR i32 p p p
+vkGetMemoryWin32HandleNV i32 p u64 u32 p
+vkGetMemoryWin32HandlePropertiesKHR i32 p i32 p p
+vkGetMemoryZirconHandleFUCHSIA i32 p p p
+vkGetMemoryZirconHandlePropertiesFUCHSIA i32 p i32 u32 p
+vkGetMicromapBuildSizesEXT v p i32 p p
+vkGetNativeBufferPropertiesOHOS i32 p p p
+vkGetPartitionedAccelerationStructuresBuildSizesNV v p p p
+vkGetPastPresentationTimingEXT i32 p p p
+vkGetPastPresentationTimingGOOGLE i32 p u64 p p
+vkGetPerformanceParameterINTEL i32 p i32 p
+vkGetPhysicalDeviceCalibrateableTimeDomainsEXT i32 p p p
+vkGetPhysicalDeviceCalibrateableTimeDomainsKHR i32 p p p
+vkGetPhysicalDeviceCooperativeMatrixFlexibleDimensionsPropertiesNV i32 p p p
+vkGetPhysicalDeviceCooperativeMatrixProperties2EXT i32 p p p p
+vkGetPhysicalDeviceCooperativeMatrixPropertiesKHR i32 p p p
+vkGetPhysicalDeviceCooperativeMatrixPropertiesNV i32 p p p
+vkGetPhysicalDeviceCooperativeVectorPropertiesNV i32 p p p
+vkGetPhysicalDeviceDescriptorSizeEXT u64 p i32
+vkGetPhysicalDeviceDirectFBPresentationSupportEXT u32 p u32 p
+vkGetPhysicalDeviceDisplayPlaneProperties2KHR i32 p p p
+vkGetPhysicalDeviceDisplayPlanePropertiesKHR i32 p p p
+vkGetPhysicalDeviceDisplayProperties2KHR i32 p p p
+vkGetPhysicalDeviceDisplayPropertiesKHR i32 p p p
+vkGetPhysicalDeviceExternalBufferProperties v p p p
+vkGetPhysicalDeviceExternalBufferPropertiesKHR v p p p
+vkGetPhysicalDeviceExternalFenceProperties v p p p
+vkGetPhysicalDeviceExternalFencePropertiesKHR v p p p
+vkGetPhysicalDeviceExternalImageFormatPropertiesNV i32 p i32 i32 i32 u32 u32 u32 p
+vkGetPhysicalDeviceExternalMemorySciBufPropertiesNV i32 p i32 p p
+vkGetPhysicalDeviceExternalSemaphoreProperties v p p p
+vkGetPhysicalDeviceExternalSemaphorePropertiesKHR v p p p
+vkGetPhysicalDeviceExternalTensorPropertiesARM v p p p
+vkGetPhysicalDeviceFeatures v p p
+vkGetPhysicalDeviceFeatures2 v p p
+vkGetPhysicalDeviceFeatures2KHR v p p
+vkGetPhysicalDeviceFormatProperties v p i32 p
+vkGetPhysicalDeviceFormatProperties2 v p i32 p
+vkGetPhysicalDeviceFormatProperties2KHR v p i32 p
+vkGetPhysicalDeviceFragmentShadingRatesKHR i32 p p p
+vkGetPhysicalDeviceImageFormatProperties i32 p i32 i32 i32 u32 u32 p
+vkGetPhysicalDeviceImageFormatProperties2 i32 p p p
+vkGetPhysicalDeviceImageFormatProperties2KHR i32 p p p
+vkGetPhysicalDeviceMemoryProperties v p p
+vkGetPhysicalDeviceMemoryProperties2 v p p
+vkGetPhysicalDeviceMemoryProperties2KHR v p p
+vkGetPhysicalDeviceMultisamplePropertiesEXT v p i32 p
+vkGetPhysicalDeviceOpticalFlowImageFormatsNV i32 p p p p
+vkGetPhysicalDevicePresentRectanglesKHR i32 p u64 p p
+vkGetPhysicalDeviceProperties v p p
+vkGetPhysicalDeviceProperties2 v p p
+vkGetPhysicalDeviceProperties2KHR v p p
+vkGetPhysicalDeviceQueueFamilyDataGraphEngineOperationPropertiesARM i32 p u32 p p
+vkGetPhysicalDeviceQueueFamilyDataGraphOpticalFlowImageFormatsARM i32 p u32 p p p p
+vkGetPhysicalDeviceQueueFamilyDataGraphProcessingEnginePropertiesARM v p p p
+vkGetPhysicalDeviceQueueFamilyDataGraphPropertiesARM i32 p u32 p p
+vkGetPhysicalDeviceQueueFamilyPerformanceQueryPassesKHR v p p p
+vkGetPhysicalDeviceQueueFamilyProperties v p p p
+vkGetPhysicalDeviceQueueFamilyProperties2 v p p p
+vkGetPhysicalDeviceQueueFamilyProperties2KHR v p p p
+vkGetPhysicalDeviceRefreshableObjectTypesKHR i32 p p p
+vkGetPhysicalDeviceSciBufAttributesNV i32 p p
+vkGetPhysicalDeviceSciSyncAttributesNV i32 p p p
+vkGetPhysicalDeviceScreenPresentationSupportQNX u32 p u32 p
+vkGetPhysicalDeviceSparseImageFormatProperties v p i32 i32 i32 u32 i32 p p
+vkGetPhysicalDeviceSparseImageFormatProperties2 v p p p p
+vkGetPhysicalDeviceSparseImageFormatProperties2KHR v p p p p
+vkGetPhysicalDeviceSupportedFramebufferMixedSamplesCombinationsNV i32 p p p
+vkGetPhysicalDeviceSurfaceCapabilities2EXT i32 p u64 p
+vkGetPhysicalDeviceSurfaceCapabilities2KHR i32 p p p
+vkGetPhysicalDeviceSurfaceCapabilitiesKHR i32 p u64 p
+vkGetPhysicalDeviceSurfaceFormats2KHR i32 p p p p
+vkGetPhysicalDeviceSurfaceFormatsKHR i32 p u64 p p
+vkGetPhysicalDeviceSurfacePresentModes2EXT i32 p p p p
+vkGetPhysicalDeviceSurfacePresentModesKHR i32 p u64 p p
+vkGetPhysicalDeviceSurfaceSupportKHR i32 p u32 u64 p
+vkGetPhysicalDeviceToolProperties i32 p p p
+vkGetPhysicalDeviceToolPropertiesEXT i32 p p p
+vkGetPhysicalDeviceUbmPresentationSupportSEC u32 p u32 p
+vkGetPhysicalDeviceVideoCapabilitiesKHR i32 p p p
+vkGetPhysicalDeviceVideoEncodeQualityLevelPropertiesKHR i32 p p p
+vkGetPhysicalDeviceVideoFormatPropertiesKHR i32 p p p p
+vkGetPhysicalDeviceWaylandPresentationSupportKHR u32 p u32 p
+vkGetPhysicalDeviceWin32PresentationSupportKHR u32 p u32
+vkGetPhysicalDeviceXcbPresentationSupportKHR u32 p u32 p u32
+vkGetPhysicalDeviceXlibPresentationSupportKHR u32 p u32 p u64
+vkGetPipelineBinaryDataKHR i32 p p p p p
+vkGetPipelineCacheData i32 p u64 p p
+vkGetPipelineExecutableInternalRepresentationsKHR i32 p p p p
+vkGetPipelineExecutablePropertiesKHR i32 p p p p
+vkGetPipelineExecutableStatisticsKHR i32 p p p p
+vkGetPipelineIndirectDeviceAddressNV u64 p p
+vkGetPipelineIndirectMemoryRequirementsNV v p p p
+vkGetPipelineKeyKHR i32 p p p
+vkGetPipelinePropertiesEXT i32 p p p
+vkGetPrivateData v p i32 u64 u64 p
+vkGetPrivateDataEXT v p i32 u64 u64 p
+vkGetQueryPoolResults i32 p u64 u32 u32 u64 p u64 u32
+vkGetQueueCheckpointData2NV v p p p
+vkGetQueueCheckpointDataNV v p p p
+vkGetRandROutputDisplayEXT i32 p p u64 p
+vkGetRayTracingCaptureReplayShaderGroupHandlesKHR i32 p u64 u32 u32 u64 p
+vkGetRayTracingShaderGroupHandlesKHR i32 p u64 u32 u32 u64 p
+vkGetRayTracingShaderGroupHandlesNV i32 p u64 u32 u32 u64 p
+vkGetRayTracingShaderGroupStackSizeKHR u64 p u64 u32 i32
+vkGetRefreshCycleDurationGOOGLE i32 p u64 p
+vkGetRenderAreaGranularity v p u64 p
+vkGetRenderingAreaGranularity v p p p
+vkGetRenderingAreaGranularityKHR v p p p
+vkGetSamplerOpaqueCaptureDescriptorDataEXT i32 p p p
+vkGetScreenBufferPropertiesQNX i32 p p p
+vkGetSemaphoreCounterValue i32 p u64 p
+vkGetSemaphoreCounterValueKHR i32 p u64 p
+vkGetSemaphoreFdKHR i32 p p p
+vkGetSemaphoreSciSyncObjNV i32 p p p
+vkGetSemaphoreWin32HandleKHR i32 p p p
+vkGetSemaphoreZirconHandleFUCHSIA i32 p p p
+vkGetShaderBinaryDataEXT i32 p u64 p p
+vkGetShaderInfoAMD i32 p u64 i32 i32 p p
+vkGetShaderInstrumentationValuesARM i32 p u64 p p u32
+vkGetShaderModuleCreateInfoIdentifierEXT v p p p
+vkGetShaderModuleIdentifierEXT v p u64 p
+vkGetSleepStatusLegacyNV v p p
+vkGetSwapchainCounterEXT i32 p u64 i32 p
+vkGetSwapchainGrallocUsage2ANDROID i32 p i32 u32 u32 p p
+vkGetSwapchainGrallocUsageANDROID i32 p i32 u32 p
+vkGetSwapchainGrallocUsageOHOS i32 p i32 u32 p
+vkGetSwapchainImagesKHR i32 p u64 p p
+vkGetSwapchainStatusKHR i32 p u64
+vkGetSwapchainTimeDomainPropertiesEXT i32 p u64 p p
+vkGetSwapchainTimingPropertiesEXT i32 p u64 p p
+vkGetTensorMemoryRequirementsARM v p p p
+vkGetTensorOpaqueCaptureDataARM i32 p u32 p p
+vkGetTensorOpaqueCaptureDescriptorDataARM i32 p p p
+vkGetTensorViewOpaqueCaptureDescriptorDataARM i32 p p p
+vkGetValidationCacheDataEXT i32 p u64 p p
+vkGetVideoSessionMemoryRequirementsKHR i32 p u64 p p
+vkGetWinrtDisplayNV i32 p u32 p
+vkImportFenceFdKHR i32 p p
+vkImportFenceSciSyncFenceNV i32 p p
+vkImportFenceSciSyncObjNV i32 p p
+vkImportFenceWin32HandleKHR i32 p p
+vkImportSemaphoreFdKHR i32 p p
+vkImportSemaphoreSciSyncObjNV i32 p p
+vkImportSemaphoreWin32HandleKHR i32 p p
+vkImportSemaphoreZirconHandleFUCHSIA i32 p p
+vkInitializePerformanceApiINTEL i32 p p
+vkInvalidateMappedMemoryRanges i32 p u32 p
+vkLatencySleepLegacyNV v p u64 u64
+vkLatencySleepNV i32 p u64 p
+vkMapMemory i32 p u64 u64 u64 u32 p
+vkMapMemory2 i32 p p p
+vkMapMemory2KHR i32 p p p
+vkMergePipelineCaches i32 p u64 u32 p
+vkMergeValidationCachesEXT i32 p u64 u32 p
+vkQueueBeginDebugUtilsLabelEXT v p p
+vkQueueBindSparse i32 p u32 p u64
+vkQueueEndDebugUtilsLabelEXT v p
+vkQueueInsertDebugUtilsLabelEXT v p p
+vkQueueNotifyOutOfBandLegacyNV v p u32
+vkQueueNotifyOutOfBandNV v p p
+vkQueuePresentKHR i32 p p
+vkQueueSetPerfHintQCOM i32 p p
+vkQueueSetPerformanceConfigurationINTEL i32 p u64
+vkQueueSignalReleaseImageANDROID i32 p u32 p u64 p
+vkQueueSignalReleaseImageOHOS i32 p u32 p u64 p
+vkQueueSubmit i32 p u32 p u64
+vkQueueSubmit2 i32 p u32 p u64
+vkQueueSubmit2KHR i32 p u32 p u64
+vkQueueWaitIdle i32 p
+vkRegisterCustomBorderColorEXT i32 p p u32 p
+vkRegisterDeviceEventEXT i32 p p A p
+vkRegisterDisplayEventEXT i32 p u64 p A p
+vkReleaseCapturedPipelineDataKHR i32 p p A
+vkReleaseDisplayEXT i32 p u64
+vkReleaseFullScreenExclusiveModeEXT i32 p u64
+vkReleasePerformanceConfigurationINTEL i32 p u64
+vkReleaseProfilingLockKHR v p
+vkReleaseSwapchainImagesEXT i32 p p
+vkReleaseSwapchainImagesKHR i32 p p
+vkResetCommandBuffer i32 p u32
+vkResetCommandPool i32 p u64 u32
+vkResetDescriptorPool i32 p u64 u32
+vkResetEvent i32 p u64
+vkResetFences i32 p u32 p
+vkResetGpaSessionAMD i32 p u64
+vkResetQueryPool v p u64 u32 u32
+vkResetQueryPoolEXT v p u64 u32 u32
+vkSetBufferCollectionBufferConstraintsFUCHSIA i32 p u64 p
+vkSetBufferCollectionImageConstraintsFUCHSIA i32 p u64 p
+vkSetDebugUtilsObjectNameEXT i32 p p
+vkSetDebugUtilsObjectTagEXT i32 p p
+vkSetDeviceMemoryPriorityEXT v p u64 f
+vkSetEvent i32 p u64
+vkSetGpaDeviceClockModeAMD i32 p p
+vkSetHdrMetadataEXT v p u32 p p
+vkSetLatencyMarkerLegacyNV v p u64 u32
+vkSetLatencyMarkerNV v p u64 p
+vkSetLatencySleepModeLegacyNV v p u32 u32 u32
+vkSetLatencySleepModeNV i32 p u64 p
+vkSetLocalDimmingAMD v p u64 u32
+vkSetPrivateData i32 p i32 u64 u64 u64
+vkSetPrivateDataEXT i32 p i32 u64 u64 u64
+vkSetSwapchainPresentTimingQueueSizeEXT i32 p u64 u32
+vkShutdownLatencyDeviceLegacyNV v p
+vkSignalSemaphore i32 p p
+vkSignalSemaphoreKHR i32 p p
+vkSubmitDebugUtilsMessageEXT v p i32 u32 p
+vkTransitionImageLayout i32 p u32 p
+vkTransitionImageLayoutEXT i32 p u32 p
+vkTrimCommandPool v p u64 u32
+vkTrimCommandPoolKHR v p u64 u32
+vkUninitializePerformanceApiINTEL v p
+vkUnmapMemory v p u64
+vkUnmapMemory2 i32 p p
+vkUnmapMemory2KHR i32 p p
+vkUnregisterCustomBorderColorEXT v p u32
+vkUpdateDescriptorSetWithTemplate v p u64 u64 p
+vkUpdateDescriptorSetWithTemplateKHR v p u64 u64 p
+vkUpdateDescriptorSets v p u32 p u32 p
+vkUpdateIndirectExecutionSetPipelineEXT v p u64 u32 p
+vkUpdateIndirectExecutionSetShaderEXT v p u64 u32 p
+vkUpdateVideoSessionParametersKHR i32 p u64 p
+vkWaitForFences i32 p u32 p u32 u64
+vkWaitForPresent2KHR i32 p u64 p
+vkWaitForPresentKHR i32 p u64 u64 u64
+vkWaitSemaphores i32 p p u64
+vkWaitSemaphoresKHR i32 p p u64
+vkWriteAccelerationStructuresPropertiesKHR i32 p u32 p i32 u64 p u64
+vkWriteMicromapsPropertiesEXT i32 p u32 p i32 u64 p u64
+vkWriteResourceDescriptorsEXT i32 p u32 p p
+vkWriteSamplerDescriptorsEXT i32 p u32 p p

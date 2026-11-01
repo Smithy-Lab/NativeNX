@@ -1,0 +1,22 @@
+#!/bin/sh
+# SPDX-License-Identifier: GPL-3.0-or-later
+# NativeNX's AppImage: starts NativeNX (or, as "NativeNX.AppImage --nxlinux ...", nxlinux itself) with the libraries the
+# AppImage brings (SDL3) found first. The GPU driver and the Vulkan loader are the system's own.
+HERE="$(dirname "$(readlink -f "$0")")"
+export LD_LIBRARY_PATH="$HERE/usr/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
+have_vulkan() {
+    (ldconfig -p 2>/dev/null || /sbin/ldconfig -p 2>/dev/null) | grep -q 'libvulkan\.so\.1 ' && return 0
+    for d in /usr/lib64 /usr/lib /usr/lib/x86_64-linux-gnu /run/opengl-driver/lib; do [ -e "$d/libvulkan.so.1" ] && return 0; done
+    return 1
+}
+if ! have_vulkan; then
+    msg="Vulkan is not installed. Install your distribution's Vulkan loader and your GPU's Vulkan driver, for example:
+  Fedora:          sudo dnf install vulkan-loader mesa-vulkan-drivers
+  Ubuntu / Debian: sudo apt install libvulkan1 mesa-vulkan-drivers
+  Arch:            sudo pacman -S vulkan-icd-loader vulkan-radeon   (or vulkan-intel, nvidia-utils)
+  openSUSE:        sudo zypper install libvulkan1 libvulkan_radeon"
+    echo "$msg" >&2
+    command -v zenity >/dev/null 2>&1 && zenity --error --title=NativeNX --text="$msg" >/dev/null 2>&1 &
+fi
+if [ "$1" = "--nxlinux" ]; then shift; exec "$HERE/usr/bin/nxlinux" "$@"; fi
+exec "$HERE/usr/bin/nativenx" "$@"
