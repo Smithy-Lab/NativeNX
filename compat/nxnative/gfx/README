@@ -1,0 +1,3 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// An include directory, not a header: nxnative's dm/gfx sources include "../host/hle.h", which resolves from here
+// to compat/nxnative/host/hle.h.
